@@ -1,0 +1,40 @@
+Dart Tutorial #30 - Generic Collections in Dart Programming
+In this video by Programming for Beginners we will see Generic Collections in Dart Programming, using Dart Tutorial videos. We can learn Dart Programming language to make web applications or mobile applications using flutter framework. Also we can make single-page web applications using Dart programming.
+Dart is an optionally typed language. Collections in Dart are heterogeneous by default. In other words, a single Dart collection can host values of various types. However, a Dart collection can be made to hold homogenous values. The concept of Generics can be used to achieve the same.
+
+The use of Generics enforces a restriction on the data type of the values that can be contained by the collection. Such collections are termed as type-safe collections. Type safety is a programming feature which ensures that a memory block can only contain data of a specific data type.
+
+Example:
+void main() { 
+   List <String> logTypes = new List <String>(); 
+   logTypes.add("WARNING"); 
+   logTypes.add("ERROR"); 
+   logTypes.add("INFO");  
+   
+   // iterating across list 
+   for (String type in logTypes) { 
+      print(type); 
+   } 
+}
+
+Dart Tutorial Playlist:
+https://youtube.com/playlist?list=PLhyraTKIsw58r8DGaceGeTZKVcSXPabd0
+
+VS Code Editor:
+https://code.visualstudio.com/download
+Online Dartpad:
+https://dartpad.dartlang.org/
+Dart SDK:
+https://www.dartlang.org/install/archive/
+
+YouTube Gears:
+Microphone: https://amzn.to/3iIk5K3
+Mouse: https://amzn.to/35irmNF
+Laptop: https://amzn.to/3iG0jyD
+
+#Dart #Tutorial #Programming
+
+============================
+LIKE | SHARE | COMMENT | SUBSCRIBE
+
+Thanks for watching :)

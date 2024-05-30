@@ -1,0 +1,1150 @@
+************ PYTHON TUTORIAL FOR BEGINNERS ************
+
+#1 - Python VS Code Set up and Writing First Code
+Steps to Install VS Code Editor and Python Interpreter:
+1. Install VS Code using:
+https://code.visualstudio.com
+
+2. Install "python" extension in VS Code
+
+3. Install Python Interpreter using:
+https://www.python.org/downloads/
+
+4. Select Python Interpreter in VS Code
+
+All Steps:
+https://code.visualstudio.com/docs/python/python-tutorial
+
+Write First Code in Python
+
+
+
+#2 - Python Keywords and Identifiers
+Keywords - reserved words in Python
+Identifiers - names given to variables, functions, etc.
+
+Examples:
+Keywords: True, False, if, else, elif, class, break, etc.
+Identifiers: message, language, number, count, etc.
+
+Rules for Naming an Identifier
+- Identifiers cannot be a keyword.
+- Identifiers are case-sensitive.
+- It can have a sequence of letters and digits. However, it must begin with a letter or _. The first letter of an identifier cannot be a digit.
+- Whitespaces are not allowed.
+- We cannot use special symbols like !, @, #, $, and so on.
+
+
+
+#3 - Python Variables, Constants and Literals
+Python Variables
+In programming, a variable is a container (storage area) to hold data. For example:
+
+number = 10
+
+Note: Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that 10 is an integer and declares the number variable as a integer.
+
+Python Constants
+A constant is a special type of variable whose value cannot be changed.
+
+Example:
+PI = 3.14
+
+Python Literals
+Literals are representations of fixed values in a program. They can be numbers, characters, or strings, etc. For example, 'Hello, World!', 12, 23.0, 'C', true, false, etc
+
+
+
+#4 - Python Data Types - Numeric, String, List, Tuple, Set
+In computer programming, data types specify the type of data that can be stored inside a variable. For example,
+
+number = 24
+
+Example Code:
+num1 = 5
+print(num1, 'is of type', type(num1))
+
+num2 = 2.0
+print(num2, 'is of type', type(num2))
+
+num3 = 1+2j
+print(num3, 'is of type', type(num3))
+
+list = []
+tuple = ()
+set = {}
+
+
+
+#5 - Python Type Conversion - Converting Data Types of variables
+Type conversion is the process of converting data of one type to another. 
+For example: converting string data to integer.
+
+There are two types of type conversion in Python.
+1. Implicit Conversion - automatic type conversion
+2. Explicit Conversion - manual type conversion
+
+Example 1:
+integer_number = 123
+float_number = 1.23
+
+new_number = integer_number + float_number
+
+Example 2:
+num_string = '12'
+num_integer = 23
+
+num_sum = num_integer + num_string
+
+
+
+#6 - Basic Input and Output in Python Programming
+In this tutorial, we will learn simple ways to display output to users and take input from users in Python with the help of examples.
+In Python, we can simply use the print() function to print output.
+
+The actual syntax of the print function accepts 5 parameters:
+print(object= separator= end= file= flush=)
+
+- object - value(s) to be printed
+- sep (optional) - allows us to separate multiple objects inside print().
+- end (optional) - allows us to add specific values like new line "\n", tab "\t"
+- file (optional) - where the values are printed. It's default value is sys.stdout (screen)
+- flush (optional) - boolean specifying if the output is flushed or buffered. Default: False
+
+Python Input
+While programming, we might want to take the input from the user. In Python, we can use the input() function.
+
+num = input("Enter a number: ")
+
+
+
+#7 - Arithmetic Operators in Python Programming
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc. 
+
+Example:
+print (5 + 6)  #11
+
+Operator
++	Addition	5 + 2 = 7
+-	Subtraction	4 - 2 = 2
+*	Multiplication	2 * 3 = 6
+/	Division	4 / 2 = 2
+%	Modulo		5 % 2 = 1
+**	Power		4 ** 2 = 16
+
+
+
+#8 - Assignment Operators in Python Programming
+Assignment operators are used to assign values to variables. 
+
+Example:
+number = 5
+
+Operator
+=	Assignment Operator		a = 7
++=	Addition Assignment		a += 1 # a = a + 1
+-=	Subtraction Assignment		a -= 3 # a = a - 3
+*=	Multiplication Assignment	a *= 4 # a = a * 4
+/=	Division Assignment		a /= 3 # a = a / 3
+%=	Remainder Assignment		a %= 10 # a = a % 10
+**=	Exponent Assignment	a **= 10 # a = a ** 10
+
+
+
+#9 - Comparison Operators in Python Programming
+Comparison operators compare two values/variables and return a boolean result: True or False.
+
+Example:
+a = 3
+b = 5
+
+print (a > b)    # False
+
+Operator
+==	Is Equal To		3 == 5 gives us False
+!=	Not Equal To		3 != 5 gives us True
+>	Greater Than		3 > 5 gives us False
+<	Less Than		3 < 5 gives us True
+>=	Greater Than or Equal To	3 >= 5 give us False
+<=	Less Than or Equal To		3 <= 5 gives us True
+
+
+
+#10 - Logical Operators in Python Programming
+Logical operators are used to check whether an expression is True or False. They are used in decision-making.
+
+Example:
+a = 5
+b = 6
+
+print((a > 2) and (b >= 6))    # True
+
+Operator
+and - a and b - True only if both the operands are True
+or - a or b - True if at least one of the operands is True
+not - not a - True if the operand is False and vice-versa.
+
+
+
+#11 - Bitwise operators in Python Programming
+Bitwise operators act on operands as if they were strings of binary digits. They operate bit by bit, hence the name.
+
+For example:
+0 - 00
+1 - 01
+2 - 10
+3 - 11
+4 - 100
+5 - 101
+6 - 110
+7 - 111
+8 - 1000
+
+Let x = 10 (0000 1010 in binary) and y = 4 (0000 0100 in binary)
+
+Operator
+&	Bitwise AND	x & y = 0 (0000 0000)
+|	Bitwise OR	x | y = 14 (0000 1110)
+~	Bitwise NOT	~x = -11 (1111 0101)
+^	Bitwise XOR	x ^ y = 14 (0000 1110)
+>>	Bitwise right shift	x >> 2 = 2 (0000 0010)
+<<	Bitwise left shift	x << 2 = 40 (0010 1000)
+
+
+
+#12 - Membership operators in Python Programming
+In Python, in and not in are the membership operators. They are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary).
+
+Operator
+in	True if value/variable is found in the sequence
+not in	True if value/variable is not found in the sequence
+
+
+
+#13 - If Else Statement in Python Programming
+In computer programming, we use the if statement to run a block code only when a certain condition is met.
+
+For example, assigning grades (A, B, C) based on marks obtained by a student.
+- if the percentage is above 90, assign grade A
+- if the percentage is above 75, assign grade B
+- if the percentage is above 65, assign grade C
+
+In Python, there are three forms of the if - else statement.
+1. if statement
+2. if - else statement
+3. if - elif - else statement
+
+
+
+#14 - For Loop in Python Programming
+In computer programming, loops are used to repeat a block of code.
+For example, if we want to show a message 10 times, then we can use a loop.
+
+In Python, the for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string, etc.
+
+Syntax:
+for value in sequence:
+    # statement(s)
+
+- Python for Loop with Python range():
+A range is a series of values between two numeric intervals.
+We use Python's built-in function range() to define a range of values. 
+
+For example:
+values = range(4)
+
+- Python for loop with else:
+A for loop can have an optional else block as well. The else part is executed when the loop is finished.
+
+
+
+#15 - While Loop in Python Programming
+Python while loop is used to run a specific code until a certain condition is met.
+
+Syntax:
+while condition:
+    # body of while loop
+
+
+- Python While loop with else:
+A while loop can have an optional else block as well.
+The else part is executed after the condition in the while loop evaluates to False
+
+Python for vs while loops:
+- for loop is usually used when the number of iterations is known
+- while loop is usually used when the number of iterations are unknown
+
+
+
+#16 - Break and Continue keywords in Python Programming
+Python break Statement
+The break statement is used to terminate the loop immediately when it is encountered.
+
+Python continue Statement
+The continue statement is used to skip the current iteration of the loop and the control flow of the program goes to the next iteration.
+
+
+
+#17 - pass Statement in Python Programming
+In Python programming, the pass statement is a null statement which can be used as a placeholder for future code.
+
+Suppose we have a loop or a function that is not implemented yet, but we want to implement it in the future. In such cases, we can use the pass statement.
+
+
+
+#18 - Function in Python Programming
+In this tutorial, we will learn about the Python function and function expressions with the help of examples.
+
+A function is a block of code that performs a specific task.
+
+Suppose, you need to create a program to create a circle and color it. You can create two functions to solve this problem:
+
+- create a circle function
+- create a color function
+Dividing a complex problem into smaller chunks makes our program easy to understand and reuse.
+
+2 Types of Python functions
+- Standard library functions - These are built-in functions in Python that are available to use.
+- User-defined functions - We can create our own functions based on our requirements.
+
+Syntax:
+def function_name(arguments):
+    # function body 
+    return
+
+Example:
+def greet():
+    print('Inside greet function')
+
+# call the function
+greet()
+
+print('Outside function')
+
+Python Function Arguments
+A function can also have arguments. An argument is a value that is accepted by a function.
+
+The return Statement in Python
+A Python function may or may not return a value. If we want our function to return some value to a function call, we use the return statement. 
+
+Benefits of Using Functions:
+1. Code Reusability
+2. Code Readability
+
+
+
+#19 - Function Arguments in Python Programming
+In computer programming, a function argument is a value that is accepted by a function.
+
+Function Argument with Default Values
+In Python, we can provide default values to function arguments.
+We use the = operator to provide default values.
+
+- def add_numbers( a = 7,  b = 8)
+
+Python Keyword Argument
+In keyword arguments, arguments are assigned based on the name of arguments. For example,
+
+- def display_info(first_name, last_name)
+
+Python Function With Arbitrary Arguments
+Sometimes, we do not know in advance the number of arguments that will be passed into a function. 
+To handle this kind of situation, we can use arbitrary arguments in Python.
+
+- def find_sum(*numbers)
+
+
+
+#20 - Recursion Function in Python Programming
+In Python, we know that a function can call other functions. It is even possible for the function to call itself. 
+These types of construct are termed as recursive functions.
+
+Example:
+Factorial of a number is the product of all the integers from 1 to that number. 
+For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720
+
+
+x = 6
+6 * 120
+5 * 24
+4 * 6
+3 * 2
+2 * 1
+
+Advantages of Recursion
+- Recursive functions make the code look clean and elegant.
+- A complex task can be broken down into simpler sub-problems using recursion.
+- Sequence generation is easier with recursion than using some nested iteration.
+
+Disadvantages of Recursion
+- Sometimes the logic behind recursion is hard to follow through.
+- Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
+- Recursive functions are hard to debug.
+
+
+
+#21 - Anonymous or Lambda Function in Python Programming
+In Python, an Anonymous or lambda function is a special type of function without the function name.
+We use the lambda keyword instead of def to create a lambda function.
+
+Syntax:
+lambda argument(s) : expression
+
+Example:
+greet = lambda : print('Hello World')
+
+# call the lambda
+greet()
+
+- Example with argument
+- Multiple arguments?
+
+
+
+#22 - Variable Scope in Python Programming
+In Python, we can declare variables in three different scopes: local scope, global, and nonlocal scope.
+
+1. Local Variables
+When we declare variables inside a function, these variables will have a local scope (within the function). We cannot access them outside the function.
+
+2. Global Variables
+A variable declared outside of the function or in global scope is known as a global variable. This means that a global variable can be accessed inside or outside of the function.
+
+3. Nonlocal Variables
+nonlocal variables are used in nested functions whose local scope is not defined. This means that the variable can be neither in the local nor the global scope.
+
+
+
+#23 - Global Keyword in Python Programming
+In Python, the global keyword allows us to modify the variable outside of the current scope.
+It is used to create a global variable and make changes to the variable in a local context.
+
+- Global in Nested Functions
+def outer_function():
+    num = 20
+
+    def inner_function():
+        global num
+        num = 25
+    
+    print("Before calling inner_function(): ", num)
+    inner_function()
+    print("After calling inner_function(): ", num)
+
+outer_function()
+print("Outside both function: ", num)
+
+
+#24 - Modules in Python Programming
+As our program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, we can use modules to separate codes in separate files as per their functionality. 
+This makes our code organized and easier to maintain.
+
+Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc. 
+
+# Python Module addition
+def add(a, b):
+   result = a + b
+   return result
+
+Notes:
+- Python has tons of standard modules
+- Standard modules can be imported the same way as we import our user-defined modules
+
+- Example with math Library module
+- Python import with Renaming
+- Python from...import statement
+- The dir() built-in function
+
+
+
+#25 - Package in Python Programming
+A package is a container that contains various functions to perform specific tasks. For example, the math package includes the sqrt() function to perform the square root of a number.
+
+While working on big projects, we have to deal with a large amount of code, and writing everything together in the same file will make our code look messy. Instead, we can separate our code into multiple files by keeping the related code together in packages.
+
+- Package Model Structure in Python Programming
+
+
+
+#26 - Numbers, Type Conversion and Mathematics in Python Programming
+In Python, The number data types are used to store the numeric values.
+Python supports integers, floating-point numbers and complex numbers. They are defined as int, float, and complex classes in Python.
+
+int - holds signed integers of non-limited length
+float - holds floating decimal points and it's accurate up to 15 decimal places
+complex - holds complex numbers
+
+Number Systems
+The numbers we deal with every day are of the decimal (base 10) number system.
+But computer programmers need to work with binary (base 2), hexadecimal (base 16) and octal (base 8) number systems.
+
+Binary - 0b or 0B
+Octal - 0o or 0O
+Hexadecimal - 0x or 0X
+
+Type Conversion in Python
+In programming, type conversion is the process of converting one type of number into another.
+Operations like addition, subtraction convert integers to float implicitly (automatically), if one of the operands is float. For example,
+
+print(1 + 2.0) # prints 3.0
+
+Explicit Type Conversion
+We can also use built-in functions like int(), float() and complex() to convert between types explicitly.
+
+Python Mathematics
+Python offers the math module to carry out different mathematics like trigonometry, logarithms, probability and statistics, etc. For example,
+
+import math
+
+print(math.pi)
+print(math.cos(math.pi))
+print(math.exp(10))
+print(math.log10(1000))
+print(math.sinh(1))
+print(math.factorial(6))
+
+
+
+#27 - Random Module in Python Programming
+Python offers the random module to generate random numbers or to pick a random item from an iterator.
+
+Example:
+import random
+print(random.randrange(10, 20))
+list1 = ['a', 'b', 'c', 'd', 'e']
+
+# get random item from list1
+print(random.choice(list1))
+
+# Shuffle list1
+random.shuffle(list1)
+
+# Print the shuffled list1
+print(list1)
+
+# Print random element
+print(random.random())
+
+
+
+#28 - List in Python Programming
+A list is a collection of similar or different types of data. For example,
+Suppose we need to record the age of 5 students. Instead of creating 5 separate variables, we can simply: 
+
+Create a list:
+list = [17, 18, 15, 19, 14]
+
+Access Python List Elements:
+In Python, each item in a list is associated with a number. The number is known as a list index.
+We can access elements of an array using the index number (0, 1, 2 …).
+
+Negative Indexing in Python
+Python allows negative indexing for its sequences. The index of -1 refers to the last item, -2 to the second last item and so on.
+
+Slicing of a Python List
+In Python it is possible to access a section of items from the list using the slicing operator :, not just a single item.
+
+Add Elements to a Python List
+1. Using append()
+2. Using extend()
+
+Change List Items
+Python lists are mutable. Meaning lists are changeable. And, we can change items of a list by assigning new values using = operator.
+
+Remove an Item From a List
+1. Using del()
+2. Using remove()
+
+Iterating through a List
+We can use the for loop to iterate over the elements of a list.
+
+Python List Length
+In Python, we use the len() function to find the number of elements present in a list.
+
+Homework:
+Use list sort() function to sort elements in Python list.
+
+
+
+#29 - Tuple in Python Programming
+A tuple in Python is similar to a list. The difference between the two is that we cannot change the elements of a tuple once it is assigned whereas we can change the elements of a list.
+
+Creating a Tuple
+A tuple is created by placing all the items (elements) inside parentheses (), separated by commas. The parentheses are optional, however, it is a good practice to use them.
+A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).
+
+Example:
+my_tuple = (1, 2, 3)
+
+Create a Python Tuple With one Element:
+var1 = ("Hello") # string
+var2 = ("Hello",) # tuple
+
+Access Python Tuple Elements:
+1. Indexing
+2. Negative Indexing
+3. Slicing
+
+Python Tuple Methods:
+1. count
+2. index
+
+Iterating through a Tuple in Python
+We can use the for loop to iterate over the elements of a tuple.
+
+Advantages of Tuple over List in Python
+- We generally use tuples for heterogeneous (different) data types and lists for homogeneous (similar) data types.
+- Since tuples are immutable, iterating through a tuple is faster than with a list. So there is a slight performance boost.
+- Tuples that contain immutable elements can be used as a key for a dictionary. With lists, this is not possible.
+- If you have data that doesn't change, implementing it as tuple will guarantee that it remains write-protected.
+
+
+
+#30 - String in Python Programming
+In computer programming, a string is a sequence of characters. For example, "hello" is a string containing a sequence of characters 'h', 'e', 'l', 'l', and 'o'.
+We use single quotes or double quotes to represent a string in Python.
+
+Example:
+str = "Programming for Beginners"
+
+Access String Characters in Python
+- Indexing
+- Negative Indexing
+- Slicing
+
+Python Strings are immutable
+In Python, strings are immutable. That means the characters of a string cannot be changed.
+
+Python Multiline String
+We can also create a multiline string in Python. For this, we use triple double quotes """ or triple single quotes '''
+
+Python String Operations
+1. Compare Two Strings (== operator)
+2. Join Two or More Strings (+ operator)
+
+Iterate Through a Python String
+We can iterate through a string using a for loop.
+
+Python String Length
+In Python, we use the len() method to find the length of a string.
+
+String Membership Test
+We can test if a substring exists within a string or not, using the keyword in
+
+Escape Sequences in Python
+The escape sequence is used to escape some of the characters present inside a string.
+
+Python String Formatting (f-Strings)
+Example:
+name = John
+age = 25
+
+print(f'My name is {name} and age is {age}')
+
+
+
+#31 - Sets in Python Programming
+A set is a collection of unique data. That is, elements of a set cannot be duplicate.
+
+Create a Set in Python
+In Python, we create sets by placing all the elements inside curly braces {}, separated by comma.
+
+A set can have any number of items and they may be of different types (integer, float, tuple, string etc.).
+But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+
+Create an Empty Set in Python
+Creating an empty set is a bit tricky. Empty curly braces {} will make an empty dictionary in Python.
+
+Add Set Items in Python
+Sets are mutable. However, since they are unordered, indexing has no meaning.
+We cannot access or change an element of a set using indexing or slicing.
+- we use the add() method to add an item to a set.
+
+Remove an Element from a Set
+We use the discard() method to remove the specified element from a set.
+
+Iterate Over a Set in Python
+- using for loop
+
+Find Number of Set Elements
+We can use the len() method to find the number of elements present in a Set.
+
+Python Set Operations
+- Union of Two Sets = | or union()
+- Set Intersection = & or intersection()
+- Difference between Two Sets = - or difference()
+
+
+
+#32 - Dictionary in Python Programming
+Python dictionary is an ordered collection of items. It stores elements in key/value pairs. 
+Here, keys are unique identifiers that are associated with each value.
+
+Examples:
+Keys	Values
+Nepal	Kathmandu
+Italy	Rome
+England	London
+
+Create a dictionary in Python:
+dictionary = {"Nepal": "Kathmandu", "Italy": "Rome", "England": "London"}
+
+Add Elements to a Python Dictionary
+We can add elements to a dictionary using the name of the dictionary with []
+
+Change Value of Dictionary
+We can also use [] to change the value associated with a particular key
+
+Accessing Elements from Dictionary
+In Python, we use the keys to access their corresponding values.
+
+Removing elements from Dictionary
+We use the del statement to remove an element from the dictionary.
+
+Dictionary Membership Test
+We can test if a key is in a dictionary or not using the keyword in. 
+Note that the membership test is only for the keys and not for the values.
+
+Iterating Through a Dictionary
+We can iterate through each key in a dictionary using a for loop.
+
+
+
+#33 - File Reading in Python Programming
+A file is a container in computer storage devices used for storing data.
+
+When we want to read from a file, we need to open it first. When we are done, it needs to be closed so that the resources that are tied with the file are freed.
+
+Hence, in Python, a file operation takes place in the following order:
+1. Open a file
+2. Read the file
+3. Close the file
+
+1. Opening File in Python
+In Python, we use the open() method to open a file.
+
+Example:
+file1 = open("test.txt") 	# default read mode
+file1 = open("test.txt", "r") 	# read mode
+
+2. Reading Files in Python
+After we open a file, we use the read() method to read its contents.
+
+Example:
+read_content = file1.read()
+
+3. Closing Files in Python
+When we are done with performing operations on the file, we need to properly close the file.
+Closing a file will free up the resources that were tied with the file. It is done using the close() method in Python.
+
+Example:
+file1.close()
+
+
+
+#34 - with open Syntax to Read File in Python Programming
+In Python, we can use the with...open syntax to automatically close the file.
+
+Example:
+with open("test.txt", "r") as file1:
+    read_content = file1.read()
+    print(read_content)
+
+
+
+#35 - File Writing in Python Programming
+In Python, a file operation takes place in the following order:
+1. Open a file
+2. Write in file
+3. Close the file
+
+There are two things we need to remember while writing to a file.
+
+1. If we try to open a file that doesn't exist, a new file is created.
+2. If a file already exists, its content is erased, and new content is added to the file.
+
+1. Opening File in Python
+In Python, we use the open() method to open a file.
+
+Example:
+file1 = open("test.txt", "w") 	# write mode
+
+2. Writing in File in Python
+After we open a file, we use the write() method to write content in file.
+
+Example:
+file1.write("Content goes here")
+
+3. Closing Files in Python
+When we are done with performing operations on the file, we need to properly close the file.
+Closing a file will free up the resources that were tied with the file. It is done using the close() method in Python.
+
+Example:
+file1.close()
+
+- Using with open syntax to write a file?
+
+
+
+#36 - Directory & File Management in Python Programming
+A directory is a collection of files and subdirectories. A directory inside a directory is known as a subdirectory.
+Python has the os module that provides us with many useful methods to work with directories (and files as well).
+
+Get Current Directory in Python
+- getcwd()
+
+Changing Directory in Python
+- chdir(path)
+
+List Directories and Files in Python
+- listdir()
+
+Making a New Directory in Python
+- mkdir(name)
+
+Renaming a Directory or a File
+- rename(old_name, new_name)
+
+Removing Directory or File in Python
+- remove(fileName)
+- rmdir(dirName)
+
+
+
+#37 - Exceptions in Python Programming
+An exception is an unexpected event that occurs during program execution. For example,
+divide_by_zero = 5 / 0
+
+The above code causes an exception as it is not possible to divide a number by 0.
+
+Errors that occur at runtime (after passing the syntax test) are called exceptions or logical errors.
+
+They occur when we:
+- try to open a file(for reading) that does not exist (FileNotFoundError)
+- try to divide a number by zero (ZeroDivisionError)
+- try to import a module that does not exist (ImportError) and so on.
+
+Python Built-in Exceptions
+- print(dir(locals()['__builtins__']))
+
+
+
+#38 - Exception Handling with try except block
+It is important to handle exceptions. 
+In Python, we use the try...except block
+
+Syntax:
+try:
+    # code that may cause exception
+except:
+    # code to run when exception occurs
+
+Catching Specific Exceptions in Python:
+Example:
+
+try:    
+    even_numbers = [2,4,6,8]
+    print(even_numbers[5])
+
+except ZeroDivisionError:
+    print("Denominator cannot be 0.")
+    
+except IndexError:
+    print("Index Out of Bound.")
+
+Python try with else clause
+In some situations, we might want to run a certain block of code if the code block inside try runs without any errors.
+
+For these cases, you can use the optional else keyword with the try statement.
+
+Python try finally
+In Python, the finally block is always executed no matter whether there is an exception or not.
+The finally block is optional. And, for each try block, there can be only one finally block.
+
+
+
+#39 - Custom Exceptions in Python Programming
+In Python, we can define custom exceptions by creating a new class that is derived from the built-in Exception class.
+
+Syntax:
+class CustomError(Exception):
+    ...
+    pass
+
+try:
+   ...
+
+except CustomError:
+    ...
+
+
+
+#40 - Object Oriented Programming in Python (Class)
+Python is a versatile programming language that supports various programming styles, including object-oriented programming (OOP) through the use of objects and classes.
+
+An object is any entity that has attributes and behaviors. 
+For example, a parrot is an object. It has
+attributes - name, age, color, etc.
+behavior - dancing, singing, etc.
+
+Similarly, a class is a blueprint for that object.
+
+Example:
+- Create a class parrot with attributes as name and age
+
+
+
+#41 - Inheritance in Python Programming
+Inheritance is a way of creating a new class for using details of an existing class.
+The newly formed class is a derived class (or child class). Similarly, the existing class is a base class (or parent class).
+
+Example of Python Inheritance with Animal and Dog classes
+
+Uses of Inheritance
+- Since a child class can inherit all the functionalities of the parent's class, this allows code reusability.
+- Once a functionality is developed, you can simply inherit it. No need to reinvent the wheel. This allows for cleaner code and easier to maintain.
+- Since you can also add your own functionalities in the child class, you can inherit only the useful functionalities and define other required features.
+
+
+
+#42 - Constructor in Python Programming
+Python Constructor is a function inside a class that helps us initialize certain attributes of class.
+__init__() is the constructor function that is called whenever a new object of that class is instantiated.
+
+Example
+
+
+
+#43 - Encapsulation in Python Programming
+Encapsulation is one of the key features of object-oriented programming. Encapsulation refers to the bundling of attributes and methods inside a single class.
+
+It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
+
+In Python, we denote private attributes using underscore as the prefix i.e single _ or double __
+
+Example:
+class Computer:
+    def __init__(self):
+        self.__maxprice = 900
+
+    def sell(self):
+        print("Selling Price: {}".format(self.__maxprice))
+
+    def setMaxPrice(self, price):
+        self.__maxprice = price
+
+
+
+#44 - Method Overriding in Python Programming
+Method Overriding in Python is the way of letting method of a subclass override the method of a superclass.
+Let us check this with the help of example:
+
+class Animal:
+    # attributes and method of the parent class
+    name = ""
+    
+    def eat(self):
+        print("I can eat")
+
+# inherit from Animal
+class Dog(Animal):
+
+    # override eat() method
+    def eat(self):
+        print("I like to eat bones")
+
+
+
+#45 - super Method in Python Inheritance
+In Python Inheritance we can use method overriding to call method of subclass. 
+But if we need to access the superclass method from the subclass, we use the super() method.
+
+Example using super() method
+
+
+
+#46 - Multiple Inheritance in Python Programming
+A class can be derived from more than one superclass in Python. This is called multiple inheritance.
+For example, A class Bat is derived from superclasses Mammal and WingedAnimal. It makes sense because bat is a mammal as well as a winged animal.
+
+Example code
+
+Method Resolution Order (MRO) in Python
+If two superclasses have the same method name and the derived class calls that method, Python uses the MRO to search for the right method to call.
+
+
+#47 - Multilevel Inheritance in Python Programming
+In Python, not only can we derive a class from the superclass but you can also derive a class from the derived class. This form of inheritance is known as multilevel inheritance.
+
+Syntax:
+class SuperClass:
+    # Super class code here
+
+class DerivedClass1(SuperClass):
+    # Derived class 1 code here
+
+class DerivedClass2(DerivedClass1):
+    # Derived class 2 code here
+
+
+
+#48 - Operator Overloading in Python Programming
+In Python, we can change the way operators work for user-defined types.
+
+For example, the + operator will perform arithmetic addition on two numbers, merge two lists, or concatenate two strings.
+This feature in Python that allows the same operator to have different meaning according to the context is called operator overloading.
+
+Python Special Functions
+Class functions that begin with double underscore __ are called special functions in Python.
+They are called "double underscore" functions because they have a double underscore prefix and suffix, such as __init__() or __add__().
+
+__init__() - initialize the attributes of the object
+__str__() - returns a string representation of the object
+__len__() - returns the length of the object
+__add__() - adds two objects
+__call__() - call objects of the class like a normal function
+
+Example code
+
+Similarly, we can overload other operators as well:
+Addition - p1 + p2 - p1.__add__(p2)
+Subtraction - p1 - p2 - p1.__sub__(p2)
+Multiplication - p1 * p2 - p1.__mul__(p2)
+Power - p1 ** p2 - p1.__pow__(p2)
+Division - p1 / p2 - p1.__truediv__(p2)
+Floor Division - p1 // p2 - p1.__floordiv__(p2)
+
+
+
+#49 - Overloading Comparison Operators in Python Programming
+Python also allows us to overload comparison operators as well.
+
+Example:
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # overload < operator
+    def __lt__(self, other):
+        return self.age < other.age
+
+p1 = Person("Alice", 20)
+p2 = Person("Bob", 30)
+
+print(p1 < p2)
+print(p2 < p1)
+
+
+
+#50 - Iterator in Python Programming
+Iterators are methods that iterate collections like lists, tuples, etc. Using an iterator method, we can loop through an object and return its elements.
+
+We can use the iter() method to initialize iterator and next() method to go through the iterator.
+
+- Working of for loop for Iterators
+
+Building Custom Iterators
+Building an iterator from scratch is easy in Python.
+We just have to implement the __iter__() and the __next__() methods:
+__iter__() returns the iterator object itself. If required, some initialization can be performed.
+__next__() must return the next item in the sequence. On reaching the end, and in subsequent calls, it must raise StopIteration.
+
+Example code.
+
+
+
+#51 - Generator in Python Programming
+In Python, a generator is a function that returns an iterator that produces a sequence of values when iterated over.
+
+Generators are useful when we want to produce a large sequence of values, but we don't want to store all of them in memory at once.
+
+Similar to defining a normal function, we can define a generator function using the def keyword, but instead of the return statement we use the yield statement.
+
+Syntax
+def generator_name(arg):
+    # statements
+    yield something
+
+The yield keyword is used to produce a value from the generator and pause the generator function's execution until the next value is requested.
+
+Example code.
+
+Python Generator Expression
+In Python, a generator expression is a concise way to create a generator object.
+
+Syntax:
+(expression for item in iterable)
+
+Use of Python Generators
+1. Easy to Implement
+2. Memory Efficient
+3. Represent Infinite Stream of Data
+
+Example:
+def all_even():
+    n = 0
+    while True:
+        yield n
+        n += 2
+
+
+
+#52 - Closures in Python Programming
+Python closure is a nested function that allows us to access variables of the outer function even after the outer function is closed.
+
+def greet():
+    name = "John"
+    return lambda: "Hi " + name
+
+message = greet()
+print(message())
+# Output: Hi John
+
+Example code.
+
+
+
+#53 - Decorators in Python Programming
+A Python decorator is a function that takes in a function and returns it by adding some functionality.
+
+Example:
+def make_pretty(func):
+    def inner():
+        print("I got decorated")
+        func()
+    return inner
+
+
+def ordinary():
+    print("I am ordinary")
+
+decorated_func = make_pretty(ordinary)
+
+decorated_func()
+
+
+@ Symbol With Decorator
+Instead of assigning the function call to a variable, Python provides a much more elegant way to achieve this functionality using the @ symbol.
+
+
+
+#54 - Property Decorator in Python Programming
+Python programming provides us with a built-in @property decorator which makes usage of getter and setters much easier in Object-Oriented Programming.
+
+Example code:
+class Celsius:
+    def __init__(self, temperature = 0):
+        self.temperature = temperature
+
+    def to_fahrenheit(self):
+        return (self.temperature * 1.8) + 32
+
+
+Using Getters and Setters
+Suppose we want to extend the usability of the Celsius class defined above. We know that the temperature of any object cannot reach below -273.15 degrees Celsius.
+
+
+more videos:
+- how to debug python code in VS code
+- lambda function in python check

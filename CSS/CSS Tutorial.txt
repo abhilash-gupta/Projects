@@ -1,0 +1,2016 @@
+************** CSS TUTORIAL FOR BEGINNERS ************
+
+CSS Tutorial #1 - Introduction and Overview of CSS
+- CSS is the language we use to style an HTML document
+- CSS Full form is Cascading Style Sheets
+- It describes how HTML elements should be displayed in a web page
+- CSS saves a lot of work. It can control the layout of multiple web pages all at once
+- 3 locations to write CSS code: inline CSS, internal CSS and external CSS
+
+CSS Syntax:
+- A CSS rule consists of a selector and a declaration block
+
+Example:
+h1 {
+	color: blue;
+	font-size: 22px;
+}
+
+p {
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #2 - Inline vs Internal vs External CSS
+The CSS properties that are read last will be applied to the HTML elements
+Mostly in projects, we should use external CSS to keep the HTML and CSS codes separate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #3 - Types of CSS Selectors
+Below are some of the CSS Selectors:
+- CSS element Selector
+- CSS id Selector
+- CSS class Selector
+- CSS class with HTML element
+- CSS Universal Selector
+- CSS Grouping Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #4 - Color values in CSS
+There are various ways to define colors in CSS
+- Using Color names (red)
+- Using rgb values for color (rgb(255, 99, 71))
+- Using hex values for color (#ff6347)
+- Using alpha component in rgba values of color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #5 - Background Property in CSS
+The CSS background properties are used to add background effects for elements
+Below are some of the background properties in CSS
+
+- background-color
+- opacity (specifies the opacity/transparency of an element, It can take a value from 0.0 - 1.0. The lower value, the more transparent)
+- background-image
+- background-repeat
+- background-position
+- background-attachment
+
+- how to use background - Shorthand property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #6 - Border Property in CSS
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+Below are some of the border properties in CSS
+
+- border-style
+- border-width
+- border-color
+- border for individual sides - border-top-style, border-right-style, etc.
+- border shorthand property
+- border-radius
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #7 - Margin Property in CSS
+Margins are used to create space around elements, outside of any defined borders.
+There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+
+- margin examples
+- margin shorthand property
+- margin auto
+- margin inherit
+- margin negative values allowed
+- what is margin collapse?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #8 - Padding Property in CSS
+Padding is used to create space around an element's content, inside of any defined borders.
+There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+
+- padding examples
+- padding shorthand property
+- box-sizing property while using padding
+- padding negative values are not allowed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #9 - height, width and max-width properties in CSS
+The height and width properties are used to set the height and width of an element.
+The height and width properties do not include padding, borders, or margins. It sets the height/width of the area inside the padding, border, and margin of the element.
+
+The max-width property is used to set the maximum width of an element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #10 - Exercise on border, margin, padding in CSS
+Follow below steps to complete this Exercise:
+
+1. Create a div with 200px height and 50% width with yellow background color
+2. Have a black color border for this div with 5px border width
+3. Set Margin as 70px from top and bottom, 50px from left and right
+4. Set padding as 30px from all sides
+5. Update the margin to get the div in center. Hint: use auto value for margin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #11 - Box Model in CSS
+In CSS, the term "box model" is used when talking about design and layout.
+The CSS box model is essentially a box that wraps around every HTML element. 
+
+It consists of: content, padding, borders and margins. 
+
+- Example
+- width and height attributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #12 - Outline Property in CSS
+An outline is a line drawn outside the element's border.
+
+- outline-style
+- outline-width
+- outline-color
+- outline Shorthand property
+- outline-offset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #13 - Text Color and Alignment Property in CSS
+The color property is used to set the color of the text
+The text-align property is used to set the horizontal alignment of a text
+
+- color
+- text-align
+- text-align-last
+- direction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #14 - Text Decoration Property in CSS
+Text Decoration Property is used to format text using CSS
+
+- text-decoration-line
+- text-decoration-color
+- text-decoration-style
+- text-decoration-thickness
+- text-decoration shorthand property
+
+- Note: All links in HTML are underlined by default. 
+Sometimes you see that links are styled with no underline. 
+The text-decoration: none; is used to remove the underline from links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #15 - Text Transformation Property in CSS
+The text-transform property is used to specify uppercase and lowercase letters in a text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #16 - Text Spacing Property in CSS
+There are multiple text spacing properties in CSS that can be used:
+
+- text-indent (specify the indentation of the first line of a text)
+- letter-spacing (specify the space between the characters in a text)
+- line-height (specify the space between lines)
+- word-spacing (specify the space between the words in a text)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #17 - Text Shadow Property in CSS
+The text-shadow property adds shadow to text
+
+syntax:
+text-shadow: 2px 2px red;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #18 - Fonts in CSS
+There are multiple properties related to fonts in css:
+
+- font-family (specify the font of a text)
+- font-style (specify italic text)
+- font-weight (specifies the weight of a font)
+- font-size (sets the size of the text. units - px, em, )
+  - 1 em = current font size (default text size in browsers is 16px)
+  - Use a Combination of Percent (in body) and Em
+- font shorthand property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #19 - Icons in CSS
+Icons can easily be added to your HTML page, by using an icon library.
+- Font Awesome Icons
+- Bootstrap Icons
+- Google Icons
+
+Add below line of code in head section of HTML page
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+Syntax:
+<i class="material-icons">cloud</i>
+
+List of all icons:
+https://fonts.google.com/icons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #20 - Exercise on text properties, font and icons in CSS
+Follow below steps to complete this Exercise:
+
+1. Create a div with 500 px max width and align it to center of page with some background color
+2. Keep Text color as red and align the text to the center of div element
+3. Provide 5px black border and 2px yellow outline to this div
+4. Provide some line height to create extra space between lines of the text
+5. Make font size as 24px using em unit
+6. Add icons of heart and computer on the last line of this div using google icons css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #21 - Link Styling Properties in CSS
+Links can be styled with any CSS properties such as color, font-family, background, etc.
+
+Links can be styled differently depending on what state they are in:
+- a:link - a normal, unvisited link
+- a:visited - a link the user has visited
+- a:hover - a link when the user mouses over it
+- a:active - a link the moment it is clicked
+
+Notes:
+- a:hover MUST come after a:link and a:visited
+- a:active MUST come after a:hover
+
+- text-decoration example
+- background-color example
+- display link as button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #22 - List Styling Properties in CSS
+We can style the list items in HTML using CSS properties:
+
+- list-style-type
+- list-style-position
+- Remove default settings
+- list-style-image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #23 - Table Styling Properties in CSS
+The look of an HTML table can be greatly improved with CSS
+
+- Create a table with border and padding for readability
+- Provide Green background color for table headers, white text color
+- Provide background color to alternate rows
+- Update the hover color on table rows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #24 - Display Property in CSS
+The display property is used to specify how an element is shown on a web page.
+
+Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.
+The display property is used to change the default display behavior of HTML elements.
+
+1. Block-level Elements
+A block-level element ALWAYS starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+Examples:
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section>
+
+2. Inline Elements
+An inline element DOES NOT start on a new line and only takes up as much width as necessary.
+
+Examples:
+<span>
+<a>
+<img>
+
+3. display none
+4. visibility hidden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #25 - Exercise to Create Navigation Bar in CSS
+Follow below steps to complete practice exercise on creating Navigation Bar in CSS
+
+- Create unordered list and have 4 items as links - Home, Blog, Languages, Contact
+- Remove the bullets and underline from unordered list items
+- Make the items look inline with black background color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #26 - Position Property in CSS
+The position property specifies the type of positioning method used for an element.
+There are five different position values:
+
+1. static - default. Static positioned elements are not affected by the top, bottom, left, and right properties
+
+2. relative - element is positioned relative to its normal position
+
+3. fixed - element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled
+
+4. absolute - element is positioned relative to the nearest positioned ancestor
+if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+5. sticky - element is positioned based on the user's scroll position
+You must also specify at least one of top, right, bottom or left for sticky positioning to work
+
+Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #27 - z index Property in CSS
+The z-index property specifies the stack order of an element.
+
+When elements are positioned, they can overlap other elements.
+The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+
+An element can have a positive or negative stack order:
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display: flex elements).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #28 - Overflow Property in CSS
+The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+1. visible - Default. The overflow is not clipped. The content is displayed outside the element's box
+2. hidden - The overflow is clipped, and the rest of the content will be invisible
+3. scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+4. auto - Similar to scroll, but it adds scrollbars only when necessary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #29 - float and clear Property in CSS
+The float property is used for positioning and formatting content 
+Example: let an image float left to the text in a container.
+
+The float property can have one of the following values:
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float (will be displayed just where it occurs in the text). This is default
+inherit - The element inherits the float value of its parent
+
+In its simplest use, the float property can be used to wrap text around images.
+
+Example - Div Float Next To Each Other
+
+Clear property:
+When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property.
+
+The clear property specifies what should happen with the element that is next to a floating element.
+
+The clear property can have one of the following values:
+none - The element is not pushed below left or right floated elements. This is default
+left - The element is pushed below left floated elements
+right - The element is pushed below right floated elements
+both - The element is pushed below both left and right floated elements
+inherit - The element inherits the clear value from its parent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #30 - Exercise on z-index, overflow, float, clear Properties in CSS
+Follow below steps to complete practice exercise:
+
+- Create 2 divs - div 1 and div 2 with background colors and padding
+- Position the div 2 above div 1 with relative position and applying left and bottom properties
+- Now get div 1 above div 2 using z index property
+- Create div 3 with 40% width and 100px height with random text that will overflow
+- Use overflow property to create scrollbar for div 3
+- Create div 4 and div 5 that should float left and right respectively
+- Create div 6 that should be displayed below div 4 and div 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #31 - Horizontal and Vertical Align in CSS
+To horizontally center a block element, we can use margin property and set the value as auto.
+Note: Center aligning has no effect if the width property is not set (or set to 100%).
+
+- Center align text (text-align: center)
+- Center an Image (margin auto and display block)
+- Center Vertically (using top and bottom padding)
+- Center Vertically (using line height)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #32 - Combinators in CSS
+Combinators are the way to select the html elements using css selectors:
+
+There are four different combinators in CSS:
+
+- descendant selector (space)
+- child selector (>)
+- adjacent sibling selector (+)
+- general sibling selector (~)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #33 - Pseudo classes in CSS
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+- Style an element when a user mouses over it
+- Style visited and unvisited links differently
+- Style an element when it gets focus
+
+Example: display paragraph when mouse over div element
+
+- :first-child Pseudo-class (matches a specified element that is the first child of another element)
+- combine html class with Pseudo-class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #34 - Pseudo elements in CSS
+A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+- Style the first letter, or line, of an element
+- Insert content before, or after, the content of an element
+
+Examples:
+- ::first-line
+- ::first-letter
+- ::before
+- ::after
+- ::marker (for list items)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #35 - Opacity or Transparency in CSS
+The opacity property specifies the opacity/transparency of an element
+The opacity property can take a value from 0.0 - 1.0. The lower the value, the more transparent the element will be.
+
+- Transparent Hover Effect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #36 - Vertical Navigation Bar in CSS
+Having easy-to-use navigation is important for any web site.
+With CSS you can transform boring HTML menus into good-looking navigation bars.
+
+Navigation Bar is basically a List of Links.
+
+So we will use the <ul> and <li> items to create a navigation bar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #37 - Horizontal Navigation Bar in CSS
+Navigation Bar is basically a List of Links.
+Horizontal Navigation Bar can be created by using display = inline property on list items.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #38 - Create Dropdown Options in CSS
+Create a hoverable dropdown with CSS.
+Dropdown options should be displayed when the mouse is hovered over a button.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #39 - Attribute Selectors in CSS
+It is possible to style HTML elements that have specific attributes or attribute values.
+
+Syntax:
+- p[title]
+
+Examples:
+- CSS [attribute="value"] (matches value)
+- CSS [attribute~="value"] (contains value word)
+- CSS [attribute^="value"] (starts with value)
+- CSS [attribute$="value"] (ends with value)
+- CSS [attribute*="value"] (contains value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #40 - Exercise on Align, pseudo classes, combinators, Attribute Selectors
+Complete below tasks to finish this exercise:
+
+- Create a div with sample text, width of 50%, yellow background color and some border
+- Center align above div horizontally using margin
+- Create a paragraph with random text on multiple lines
+- Color the first line of paragraph as green using pseudo class and increase font size to 28px
+- Create another paragraph below, and using sibling combinator, make background color as aqua
+- Create another paragraph with title = para, make font-weight as bold using attribute selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #41 - Styling Forms in CSS
+The look of an HTML form can be greatly improved with CSS
+Example of HTML form with CSS properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #42 - Counters in CSS for Automatic Numbering
+CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules (to track how many times they are used). 
+Counters let you adjust the appearance of content based on its placement in the document.
+
+- Example of Counters in CSS
+- Example of nested Counters in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #43 - Length Units in CSS
+CSS has several different units for expressing a length.
+Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.
+Length is a number followed by a length unit, such as 10px, 2em, etc.
+
+Absolute Lengths:
+The absolute length units are fixed and a length expressed in any of these will appear as exactly that size
+cm	centimeters
+mm	millimeters
+in	inches (1in = 96px = 2.54cm)
+px 	pixels (1px = 1/96th of 1 in)
+pt	points (1pt = 1/72 of 1 in)
+pc	picas (1pc = 12 pt)
+
+
+Relative Lengths:
+Relative length units specify a length relative to another length property. 
+Relative length units scale better between different rendering mediums.
+
+em	Relative to the font-size of the element (2em means 2 times the size of the current font)
+rem	Relative to font-size of the root element
+vw	Relative to 1% of the width of the viewport*	
+vh	Relative to 1% of the height of the viewport*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #44 - Specificity and Priority in CSS
+If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+
+Inline styles
+IDs
+Classes, pseudo-classes, attribute selectors
+Elements and pseudo-elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #45 - !important Rule in CSS
+The !important rule in CSS is used to add more importance to a property/value than normal.
+
+In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+
+- Example
+Note: It is good to know about the !important rule. You might see it in some CSS source code. 
+However, do not use it unless you absolutely have to.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #46 - Math Functions in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #56 - Animations in CSS
+An animation lets an element gradually change from one style to another.
+You can change as many CSS properties you want, as many times as you want.
+
+To use CSS animation, you must first specify some keyframes for the animation.
+Keyframes hold what styles the element will have at certain times.
+
+Examples:
+- @keyframes
+- animation-name
+- animation-duration
+- animation-delay
+- animation-iteration-count
+- animation-direction
+- animation-timing-function
+- animation-fill-mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #57 - Loading Animation in CSS
+Example of Simple Loading Animation using CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #58 - Customized Tooltip Text in CSS
+A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element
+
+Examples:
+- tooltip using title attribute
+- Customized tooltip
+- Transition of tooltip text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #59 - Styling Images in CSS
+We will use various CSS properties to style images
+
+- Rounded Images
+- Thumbnail Images with border and box shadow
+- Responsive Images
+- Center an Image
+- Transparent Image
+- Image Text
+- Image Filters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #60 - Image Hover Overlay in CSS
+We will create an overlay effect on image hover using CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #61 - Image Reflection in CSS
+The box-reflect property is used to create an image reflection.
+
+The value of the box-reflect property can be: below, above, left , or right.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #62 - object-fit Property in CSS
+The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container
+
+- object-fit: fill; the image is resized to fill the given dimension. If necessary, the image will be stretched or squished to fit:
+
+- object-fit: cover; the image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit:
+
+- object-fit: contain; the image keeps its aspect ratio, but is resized to fit within the given dimension
+
+- object-fit: none; the image is not resized
+
+- object-fit: scale-down; the image is scaled down to the smallest version of none or contain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #63 - object-position Property in CSS
+The CSS object-position property is used to specify how an <img> or <video> should be positioned within its container
+
+use object-fit: cover along with object-position Property in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #64 - mask-image Property in CSS
+The CSS mask-image property specifies a mask layer image.
+The mask layer image can be a PNG image, an SVG image, a CSS gradient, or an SVG <mask> element
+
+Note: Most browsers only have partial support for CSS masking. You will need to use the -webkit- prefix in addition to the standard property in most browsers
+
+Examples:
+- linear gradient
+- radial gradient
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #65 - Button Styling in CSS
+We will use CSS properties to style buttons
+
+- default button
+- Button Colors
+- Button Size
+- Rounded Buttons
+- Colored Button Borders
+- Hoverable Buttons
+- Shadow Buttons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #66 - Pagination in CSS
+Pagination helps to display the limited results on web page across various pages in same view.
+Let us check the examples of pagination in CSS
+
+- Simple Pagination
+- Hoverable Pagination
+- Active Page color
+- Hoverable Transition Effect
+- Bordered Pagination
+
+Home work:
+- Rounded Pagination (use border radius)
+- Space between link (use margin property)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #67 - Multiple Columns in CSS
+The CSS multi-column layout allows easy definition of multiple columns of text - just like in newspapers
+Note: some older browser versions might not support the column properties so test on various browsers
+
+Examples:
+- column-count
+- column-gap
+- column-rule-style
+- column-rule-width
+- column-rule-color
+- column-rule shorthand property
+- column-width
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #68 - Resize Property in CSS
+The resize property specifies if and how an html element should be resizable by the user
+Note: overflow property is required to make use of resize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #69 - Variables in CSS using var() function
+The var() function is used to insert the value of a CSS variable.
+
+A good way to use CSS variables is when it comes to the colors of your design. Instead of copy and paste the same colors over and over again, you can place them in variables.
+
+Syntax:
+var(--name, value)
+
+- name is Required. The variable name (must start with two dashes)
+- value is Optional. The fallback value (used if the variable is not found)
+
+Note: local variable value will override global variable if declared for specific selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #70 - box sizing property in CSS
+The CSS box-sizing property allows us to include the padding and border in an element's total width and height
+
+By default, the width and height of an element is calculated like this:
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #71 - Flexbox in CSS
+Before the Flexbox Layout module, there were four layout modes:
+
+- Block, for sections in a webpage
+- Inline, for text
+- Table, for two-dimensional table data
+- Positioned, for explicit position of an element
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+- Example
+
+The flex container properties are:
+
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content - main axis
+- align-items - cross axis
+- align-content
+
+- how to center a div element using display flex
+
+The flex item properties are:
+
+- order
+- flex-grow
+- flex-shrink
+- flex-basis
+- flex
+- align-self
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #72 - Media Queries in CSS
+The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+
+Media Types:
+all	Used for all media type devices
+print	Used for print preview mode
+screen	Used for computer screens, tablets, smart-phones etc.
+
+Commonly used Media Features:
+- orientation
+- max-height
+- min-height	
+- height	
+- max-width
+- min-width
+- width
+
+- Examples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #73 - Flex Responsive in CSS
+Update flex direction to column when screen size reduces to 400px or below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #74 - Creating Navigation Bar using Flexbox in CSS
+Create a Navigation Bar using Flexbox model in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #75 - Simple Responsive Design using Flexbox in CSS
+In this example we will create simple responsive design using flexbox model in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #76 - Grid Layout in CSS
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+Examples:
+- Understanding Rows and Columns in grid
+- display grid
+- grid-template-columns
+- column-gap
+- row-gap
+- Understanding grid lines
+- grid-column-start
+- grid-column-end
+
+Other Properties:
+- justify-content
+- align-content
+- grid-area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #77 - Exercise on Grid Layout in CSS Making Sidebar & Content
+Design a sidebar and content area on left and right sections using grid layout in CSS
+Add header and footer sections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #78 - Center HTML Element inside div Element in CSS
+One of the problems of centering html elements inside div elements can be solved by using flexbox layout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Tutorial #79 - optional & required pseudo class in CSS
+We will see how to style the html form elements using optional and required pseudo class is CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

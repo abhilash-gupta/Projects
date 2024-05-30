@@ -1,0 +1,1029 @@
+********************* PYTHON PROGRAMS *********************
+
+#1 - Python Program to Find Sum of Numbers Entered by User
+Example:
+Numbers entered by user = 10 20
+Sum of numbers entered by user = 30
+
+Enter the count of numbers = 5
+Numbers entered by user = 10 20 30 40 50
+Sum of numbers entered by user = 150
+
+
+
+#2 - Python Program to Find the Square Root
+We find the square root using the ** exponent operator in Python programming language
+
+Example:
+num = 8
+sqrt_root = num ** 0.5
+
+
+
+#3 - Python Program to Swap Two Variables
+2 ways:
+1. Using a temporary variable
+2. Without Using Temporary Variable
+
+
+
+#4 - Python Program to Generate Random Number
+Using random module we can generate random number in python programming language
+
+
+
+#5 - Python Program to Convert Kilometers to Miles
+While converting Kilometers to miles, there is a conversion rate of 0.621371.
+
+So we can simply multiply kilometers with 0.621371, to get the distance in miles.
+
+Similarly, for converting miles to kilometers, conversion rate is 1.60934
+
+
+
+#6 - Python Program to Convert Celsius To Fahrenheit
+In this Python Program, we take a temperature in degree Celsius and convert it into degree Fahrenheit. They are related by the formula:
+
+Celsius To Fahrenheit:
+fahrenheit = celsius * 1.8 + 32
+
+Fahrenheit to Celsius:
+celsius = (fahrenheit - 32) / 1.8
+
+
+
+#7 - Python Program to Check if a Number is Positive, Negative or 0
+In this example, you will learn to check whether a number entered by the user is positive, negative or zero. This problem is solved using if...elif...else statement.
+
+
+
+
+#8 - Python Program to Check if a Number is Odd or Even
+A number is even if it is perfectly divisible by 2. When the number is divided by 2, we use the remainder operator % to compute the remainder. If the remainder is not zero, the number is odd.
+
+
+
+
+#9 - Python Program to Check Leap Year
+A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400.
+
+
+
+#10 - Python Program to Find the Largest Among Three Numbers
+This Python program will help us to find largest number among three numbers entered by user
+
+
+
+#11 - Python Program to Check Prime Number
+A positive integer greater than 1 which has no other factors except 1 and the number itself is called a prime number. 
+
+2, 3, 5, 7 etc. are prime numbers as they do not have any other factors. 
+But 6 is not prime (it is composite) since, 2 x 3 = 6.
+
+
+
+
+#12 - Python Program to Find the Factorial of a Number using For Loop
+The factorial of a number is the product of all the integers from 1 to that number.
+
+For example, the factorial of 6 is 1*2*3*4*5*6 = 720. 
+Factorial is not defined for negative numbers, and the factorial of zero is one, 0! = 1.
+
+
+
+
+#13 - Python Program to Find the Factorial of a Number using Recursion
+The factorial of a number is the product of all the integers from 1 to that number.
+
+For example, the factorial of 6 is 1*2*3*4*5*6 = 720. 
+Factorial is not defined for negative numbers, and the factorial of zero is one, 0! = 1.
+
+
+
+
+#14 - Python Program to Display the multiplication Table
+Python Program that displays the multiplication table of variable num 
+
+Example:
+12 x 1 = 12
+12 x 2 = 24
+12 x 3 = 36
+12 x 4 = 48
+12 x 5 = 60
+12 x 6 = 72
+12 x 7 = 84
+12 x 8 = 96
+12 x 9 = 108
+12 x 10 = 120
+
+
+
+#15 - Python Program to Print the Fibonacci sequence using For loop
+A Fibonacci sequence is the integer sequence of 0, 1, 1, 2, 3, 5, 8....
+
+The first two terms are 0 and 1. All other terms are obtained by adding the preceding two terms. This means to say the nth term is the sum of (n-1)th and (n-2)th term.
+
+
+
+#16 - Python Program to Print the Fibonacci sequence using Recursion
+A Fibonacci sequence is the integer sequence of 0, 1, 1, 2, 3, 5, 8....
+
+The first two terms are 0 and 1. All other terms are obtained by adding the preceding two terms. This means to say the nth term is the sum of (n-1)th and (n-2)th term.
+
+
+
+
+#17 - Python Program to Check Armstrong Number
+A positive integer is called an Armstrong number of order n if
+abcd... = a^n + b^n + c^n + d^n + ...
+
+In case of an Armstrong number of 3 digits, the sum of cubes of each digit is equal to the number itself.
+153 = 1*1*1 + 5*5*5 + 3*3*3 = 1 + 125 + 27 = 153
+
+
+
+
+#18 - Python Program to Display Powers of 2 Using For Loop
+Display the numbers that are power of 2 using for loop
+
+
+
+#19 - Python Program to Display Powers of 2 Using Anonymous Function
+Display the numbers that are power of 2 using Anonymous Function and map function
+
+
+
+
+#20 - Python Program to Add Arrays using Map Function
+Display the sum of arrays using map function
+
+
+
+
+#21 - Python Program to Find Even numbers in List using Filter Function
+Example:
+filter(lambda x : x % 2 == 0, list1)
+
+
+
+
+#22 - Python Program to Find Numbers Divisible by Another Number
+Example:
+my_list = [12, 65, 54, 39, 102, 339, 221]
+
+Output:
+Numbers divisible by 13 are [65, 39, 221]
+
+Hint:
+Use anonymous (lambda) function inside the filter() built-in function to find all the numbers divisible by 13 in the list.
+
+
+
+
+#23 - Python Program to Convert Decimal to Binary, Octal and Hexadecimal
+The decimal system is the most widely used number system. However, computers only understand binary. Binary, octal and hexadecimal number systems are closely related, and we may require to convert decimal into these systems.
+
+The decimal system is base 10 (ten symbols, 0-9, are used to represent a number) and similarly, binary is base 2, octal is base 8 and hexadecimal is base 16.
+
+A number with the prefix 0b is considered binary, 0o is considered octal and 0x as hexadecimal. For example:
+
+60 = 0b111100 = 0o74 = 0x3c
+
+
+
+
+#24 - Python Program to Find ASCII Value of Character
+ASCII stands for American Standard Code for Information Interchange.
+
+It is a numeric value given to different characters and symbols, for computers to store and manipulate. For example, the ASCII value of the letter 'A' is 65.
+
+
+
+
+#25 - Python Program to Find HCF or GCD using Loop
+The highest common factor (H.C.F) or greatest common divisor (G.C.D) of two numbers is the largest positive integer that perfectly divides the two given numbers. For example, the H.C.F of 12 and 14 is 2.
+
+
+
+
+
+#26 - Python Program to Find HCF or GCD using Euclidean algorithm
+Euclidean algorithm is based on the fact that H.C.F. of two numbers divides their difference as well.
+
+In this algorithm, we divide the greater number by smaller number and take the remainder. Now, divide the smaller by this remainder. Repeat until the remainder is 0.
+
+For example, if we want to find the H.C.F. of 54 and 24, we divide 54 by 24. The remainder is 6. Now, we divide 24 by 6 and the remainder is 0. Hence, 6 is the required H.C.F.
+
+x = 54, y = 24
+x = 24, y = 6 - (54 % 24)
+x = 6, y = 0 - (24 % 6)
+
+
+
+
+#27 - Python Program to Find LCM using while loop
+The least common multiple (L.C.M.) of two numbers is the smallest positive integer that is perfectly divisible by the two given numbers.
+
+For example, the L.C.M. of 12 and 14 is 84.
+
+
+
+
+#28 - Python Program to Find LCM using GCD
+Previous program using while loop is slower to run. 
+We can make it more efficient by using the fact that the product of two numbers is equal to the product of the least common multiple and greatest common divisor of those two numbers.
+
+Number1 * Number2 = L.C.M. * G.C.D.
+
+L.C.M. = Number1 * Number2 // G.C.D.
+
+
+
+
+
+
+#29 - Python Program to Find the Factors of a Number
+Factors of a number are numbers that perfectly divides that number, and the remainder is Zero.
+We can use the for loop to find factors of entered number.
+
+
+
+
+#30 - Python Program to Make a Simple Calculator
+In this program, we ask the user to choose an operation for Simple calculator such as add, subtract, multiply and divide.
+Then user enters 2 numbers and result will be displayed based on the operation selected.
+
+
+
+
+#31 - Python Program to Shuffle Deck of Cards
+To shuffle deck of cards in python we will use 2 modules - itertools and random
+Itertools will be used to initialize deck of cards using product function and random module will be used to shuffle this deck of cards.
+
+product function gives us the cartesian product of 2 sequences
+
+spades, clubs, diamonds, hearts
+Ace, 2,3,4,5,6,7,8,9,10,J,Q,K
+
+
+
+
+
+#32 - Python Program to Display Calendar
+In order to display Calendar in python we use the Calendar built in module and month function inside this module.
+month function takes 2 parameters - year and month
+
+
+
+
+
+#33 - Python Program to Add Two Matrices
+In Python, we can implement a matrix as a nested list (list inside a list). We can treat each element as a row of the matrix.
+
+For example X = [[1, 2], [4, 5], [3, 6]] would represent a 3x2 matrix. First row can be selected as X[0] and the element in first row, first column can be selected as X[0][0]
+
+[
+[1, 2], 
+[4, 5], 
+[3, 6]
+]
+
+
+
+
+#34 - Python Program to Transpose a Matrix
+Transpose of a matrix is interchanging of rows and columns.
+
+For example X = [[1, 2], [4, 5], [3, 6]] would represent a 3x2 matrix. The first row can be selected as X[0]. And, the element in the first-row first column can be selected as X[0][0].
+
+Transpose is denoted as X'. The element at ith row and jth column in X will be placed at jth row and ith column in X'. So if X is a 3x2 matrix, X' will be a 2x3 matrix.
+
+
+
+
+#35 - Python Program to Multiply Two Matrices
+Multiplication of two matrices X and Y is defined only if the number of columns in X is equal to the number of rows Y.
+
+If X is a n x m matrix and Y is a m x l matrix then, XY is defined and has the dimension n x l (but YX is not defined).
+
+
+
+
+#36 - Python Program to Check Whether a String is Palindrome or Not
+A palindrome is a string that is the same read forward or backward.
+
+For example, "dad" is the same in forward or reverse direction.
+Another example is "madam".
+
+
+
+
+#37 - Python Program to Sort numbers using Bubble Sort Algorithm
+The bubble sort uses a straightforward logic that works by repeating swapping the adjacent elements if they are not in the right order. It compares one pair at a time and swaps if the first element is greater than the second element; otherwise, move further to the next pair of elements for comparison.
+
+Example:
+list1 = [5, 3, 8, 6, 7, 2]
+
+It compares the first two elements and here 5>3 then swap with each other. Now we get new list is -
+[3, 5, 8, 6, 7, 2]
+
+In second comparison, 5 < 8 then swapping happen
+[3, 5, 8, 6, 7, 2]
+
+In third comparison, 8>6 then swap
+[3, 5, 6, 8, 7, 2]
+
+
+
+
+
+
+#38 - Python Program to Print Right Triangle Star Pattern
+Right Triangle Star Pattern:
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+
+In Python, for loop is used to print the various patterns. Printing the various patterns are most common asked programming questions in the interview. The multiple for loops are used to print the patterns where the first outer loop is used to print the number of rows, and the inner loop is used to print the number of columns.
+
+
+
+
+
+
+#39 - Python Program to Sort Numbers using Insertion Sort Algorithm
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. 
+The array is virtually split into a sorted and an unsorted part. 
+Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+Example:  list1 = [12, 11, 13, 5, 6]
+1st Pass: list1 = [11, 12, 13, 5, 6]
+2nd Pass: list1 = [11, 12, 13, 5, 6]
+3rd Pass: list1 = [11, 12, 5, 13, 6]
+                  [11, 5, 12, 13, 6]
+                  [5, 11, 12, 13, 6]
+4th Pass: list1 = [5, 11, 12, 6, 13]
+		  [5, 11, 6, 12, 13]
+		  [5, 6, 11, 12, 13]
+
+
+
+
+#40 - Python Program to print Pyramid Star Pattern
+Pyramid Star Pattern:
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * *
+
+Algorithm for pattern programs:
+Each pattern program has two or more than two loops. The number of the loop depends on the complexity of pattern or logic. The first for loop works for the row and the second for loop works for the column
+
+
+
+
+
+#41 - Python Program to Sort Numbers using Selection Sort Algorithm
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
+
+The algorithm maintains two subarrays in a given array.
+1. The subarray which already sorted. 
+2. The remaining subarray was unsorted.
+
+In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. 
+
+Example:  arr[] = {64, 25, 12, 22, 11}
+1st Pass: arr[] = {11, 25, 12, 22, 64}
+2nd Pass: arr[] = {11, 12, 25, 22, 64}
+3rd Pass: arr[] = {11, 12, 22, 25, 64}
+
+
+
+
+#42 - Python Program to Print Diamond Shape Star Pattern
+Diamond Shape Star Pattern:
+
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+ * * * * * *
+* * * * * * *
+ * * * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+
+Algorithm for pattern programs:
+Each pattern program has two or more than two loops. The number of the loop depends on the complexity of pattern or logic. The first for loop works for the row and the second for loop works for the column
+
+
+
+
+#43 - Python Program to Remove Punctuations From a String
+We will check each character of the string using for loop. 
+If the character is a punctuation, empty string is assigned to it.
+
+punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+my_str = "Hello!!!, he said ---and went."
+
+
+
+
+
+#44 - Python Program to Sort Words in Alphabetic Order
+In this program, you'll learn to sort the words in alphabetic order using for loop and display it.
+
+my_str = "Hello this Is an Example With cased letters"
+
+
+
+
+
+#45 - Python Program to Illustrate Different Set Operations
+Python offers a datatype called set whose elements must be unique. It can be used to perform different set operations like union, intersection, difference and symmetric difference.
+
+Union: |
+Intersection: &
+Difference: -
+Symmetric difference: ^
+
+
+
+
+
+#46 - Python Program to Count the Number of Vowels in String
+5 Vowels are a e i o u
+We will count the number of vowels in a given string in python
+
+str = "This is a test string or a sentence"
+
+
+
+
+
+
+#47 - Python Program to Merge Mails
+When we want to send the same invitations to many people, the body of the mail does not change. Only the name (and maybe address) needs to be changed.
+
+Mail merge is a process of doing this. Instead of writing each mail separately, we have a template for body of the mail and a list of names that we merge together to form all the mails.
+
+names - file containing names of recipients
+body - file containing body of the mail
+
+
+
+
+
+
+#48 - Python Program to Print Inverted Half Pyramid Pattern
+Inverted half pyramid:
+* * * * *
+* * * *
+* * *
+* *
+*
+
+Algorithm for pattern programs:
+Each pattern program has two or more than two loops. The number of the loop depends on the complexity of pattern or logic. The first for loop works for the row and the second for loop works for the column
+
+
+
+
+
+
+#49 - Python Program to print Floyd's Triangle
+Floyd's Triangle Pattern
+1
+2 3
+4 5 6
+7 8 9 10
+
+Algorithm for pattern programs:
+Each pattern program has two or more than two loops. The number of the loop depends on the complexity of pattern or logic. The first for loop works for the row and the second for loop works for the column
+
+
+
+
+
+#50 - Python Program to Merge Two Dictionaries
+Multiple ways to merge dictionaries:
+
+1: Using the | Operator
+2: Using the ** Operator
+3: Using copy() and update()
+
+
+
+
+
+#51 - Python Program to Slice Lists
+The format for list slicing is [start:stop:step].
+- start is the index of the list where slicing starts.
+- stop is the index of the list where slicing ends.
+- step allows you to select nth item within the range start to stop.
+
+Example:
+my_list = [1, 2, 3, 4, 5]
+print(my_list[2:4])
+
+
+
+
+#52 - Python Program to Flatten a Nested List
+To flatten a list meaning making 1 list out of list of list
+
+Example:
+Input: [[1], [2, 3], [4, 5, 6, 7]]
+Output: [1, 2, 3, 4, 5, 6, 7]
+
+We will use list comprehension to flatten list in one line of code.
+
+
+
+
+
+
+#53 - Python Program to Iterate Over Dictionaries Using for Loop
+There are multiple ways to iterate through dictionary:
+
+1. using items() function
+2. using dictionary variable
+3. using iteritems() function
+4. using keys() and values() functions separately
+
+
+
+
+
+#54 - Python Program to Check If a List is Empty
+There are multiple ways to check if list is Empty
+
+1. Using Boolean operation
+2. Using len()
+3. Comparing with []
+
+
+
+
+
+#55 - Python Program to Copy a File
+This Python program will help you to copy content of one file to another file.
+We will use shutil module and copyfile function
+
+
+
+
+
+
+
+#56 - Python Program to Concatenate Two Lists
+This Python program will help to concatenate or join two lists using below methods:
+
+- Using + operator
+- Using iterable unpacking operator *
+- With unique values
+- Using extend()
+
+
+
+
+
+
+#57 - Python Program to Split a List Into Evenly Sized Chunks
+This Python program will help to split a given list into multiple lists with mentioned number of elements
+
+- Using yield
+- Using numpy
+
+
+
+
+
+
+#58 - Python Program to Convert a String to a Float or Int
+This Python program will help to convert string to integer or float values using int and float methods
+
+1. Converting string to int
+2. Converting string to float
+3. Converting string float numeral to integer
+
+
+
+
+
+
+#59 - Python Program to Get a Substring of a String
+This Python program will help to get substring of a string
+We can use slicing in python to print sub strings
+
+
+
+
+
+
+
+#60 - Python Program to Print Output Without a Newline
+This Python program will help to print statements without newline at the end of print statement
+We will use end parameter in print function to avoid newline
+
+
+
+
+
+
+
+#61 - Python Program Read a File Line by Line Into a List
+We can read file line by line in 2 ways:
+1. Using readlines()
+2. Using for loop and list comprehension
+
+
+
+
+
+
+
+#62 - Python Program to Randomly Select an Element From the List
+We can Randomly Select an Element From the List in 2 ways:
+1. Using random module
+2. Using secrets module
+
+
+
+
+
+
+
+#63 - Python Program to Check If a String Is a Float Number
+We can find if a string is a float number by writing a function to convert the string to float number.
+- If it is successful, then the function returns True.
+- Else, ValueError is raised and returns False
+
+Example: 
+string = 's12'. Output = False
+string = '1.123'. Output = True
+
+
+
+
+
+
+#64 - Python Program to Count the Occurrence of an Item in a List
+We can use the count() method related to list in order to get the number of times a specific element is present in the list.
+
+
+
+
+
+
+
+#65 - Python Program to Append to a File
+In order to append to existing file, Open the file in append 'a' mode, and write to it using write() method.
+
+
+
+
+
+
+
+#66 - Python Program to Delete an Element From a Dictionary
+We will see how to delete a key-value pair from a Dictionary in 2 ways:
+1. Using del keyword
+2. Using pop()
+
+
+
+
+
+
+
+#67 - Python Program to Create a Long Multiline String
+We will see how to create long string that needs multiple lines to be printed using 3 ways:
+1. Using triple quotes
+2. Using parentheses and a single/double quotes
+3. Using \
+
+
+
+
+
+
+#68 - Python Program to Measure the Elapsed Time in Python
+In order to calculate the time elapsed in executing a code, the time module can be used.
+1. Save the timestamp at the beginning of the code "start" using time().
+2. Save the timestamp at the end of the code "end" using time().
+3. Find the difference between the end and start, which gives the execution time.
+
+
+
+
+
+
+#69 - Python Program to Convert Two Lists Into a Dictionary
+We can convert two lists to a dictionary in 2 ways:
+1. Using zip and dict methods
+2. Using list comprehension
+
+
+
+
+
+
+
+#70 - Python Program to Trim Whitespace From a String
+We can use strip() method to remove the leading and trailing whitespaces in a given string.
+
+
+
+
+
+
+
+
+
+
+#71 - Python Program to Get the File Name From the File Path
+We can easily get the file name and extension of the file present in a directory in 2 ways:
+1. Using os module
+2. Using path module
+
+
+
+
+
+
+
+
+
+
+#72 - Python Program to Represent enum
+We can represent enum in python using enum module
+
+
+
+
+
+
+
+
+
+#73 - Python Program to Return Multiple Values From a Function
+There are two ways to return multiple values from a function:
+1. Return values using comma
+2. Using a dictionary
+
+
+
+
+
+
+
+
+#74 - Python Program to Get Line Count of a File
+We can easily get the total number of lines in a file using below steps:
+- Open the file in read-only mode.
+- Using a for loop, iterate through the file
+- After each iteration, return 1.
+- Find the sum of the returned values.
+
+
+
+
+
+
+
+
+#75 - Python Program to Find All File with .txt Extension Present Inside a Directory
+We can get all the .txt extension files by using the os module and listing the directory contents
+
+
+
+
+
+
+
+
+
+#76 - Python Program to Get File Creation and Modification Dates
+We can use modules such as os, pathlib and time to get the creation and modification dates of the files
+
+
+
+
+
+
+
+
+
+#77 - Python Program to Get the Full Path of the Current Working Directory
+We can use 2 ways to get the full path of current working directory:
+1. Using pathlib module (pathlib.Path().absolute())
+2. Using os module (os.path.abspath(os.getcwd()))
+
+
+
+
+
+
+
+
+
+#78 - Python Program to Iterate Through Two Lists in Parallel
+We can iterate through 2 lists in parallel in 2 ways:
+1. Using zip (Python 3+)
+2. Using itertools (Python 2+)
+
+
+
+
+
+
+
+
+
+#79 - Python Program to Check the File Size
+There are 2 ways to find file size in python:
+1. Using os module
+2. Using pathlib module
+
+
+
+
+
+
+
+
+
+
+#80 - Python Program to Reverse a Number
+We can reverse a number using 2 ways:
+1. Using while loop
+2. Using string slicing
+
+
+
+
+
+
+
+
+
+
+#81 - Python Program to Compute the Power of a Number
+We can easily find the power of a number by using multiple ways mentioned below:
+1. Using while loop
+2. Using pow() function
+3. Using for loop
+
+Example:
+base = 3
+exponent = 4
+result = 3^4 = 81
+
+
+
+
+
+
+
+
+
+#82 - Python Program to Count the Number of Digits Present In a Number
+It is very easy to find number of digits in a number entered by user. There are 2 ways:
+1. Using while loop
+2. Using len() function after converting number to string
+
+
+
+
+
+
+
+
+
+
+
+#83 - Python Program to Check If Two Strings are Anagram
+Two strings are said to be anagram if we can form one string by arranging the characters of another string. 
+For example, Race and Care are anagrams as one word can be formed by rearranging the other word
+
+
+
+
+
+
+
+
+
+
+
+
+#84 - Python Program to Capitalize the First Character of a String
+We can capitalize the first character of a string in python by using 2 ways:
+1. Using string slicing
+2. Using capitalize() function
+
+
+
+
+
+
+
+
+
+
+
+
+#85 - Python Program to Compute all the Permutation of the String
+Permutation is the method of selecting elements from a set in different ways.
+
+For example: the number of ways in which characters from yup can be selected are yup, ypu, uyp, upy, puy, pyu, and not selecting any.
+
+Permutations can be found in 2 ways in python:
+1. Using recursion
+2. Using itertools
+
+
+
+
+
+
+
+
+
+#86 - Python Program to Create a Countdown Timer
+We will create a timer that will decrement the number of seconds with time using divmod() and time module
+
+
+
+
+
+
+
+
+
+
+#87 - Python Program to Count the Number of Occurrence of a Character in String
+We can find the number of occurrence of a character in string using 2 ways:
+1. Using for loop
+2. Using count() method
+
+
+
+
+
+
+
+
+
+
+#88 - Python Program to Remove Duplicate Element From a List
+We can easily remove the duplicate elements from a list and keep them only once using set.
+Also for given 2 lists, if the requirement is to eliminate duplicate elements than we can convert them to set and than use symmetric difference (^) to remove the duplicate elements from both sets
+
+
+
+
+
+
+
+
+
+
+
+
+#89 - Python Program to Convert Bytes to a String
+We can easily convert bytes to string using the decode() method.
+
+Example:
+Convert "Yes \xE2\x9C\x85" into string using decode method
+
+
+
+
+
+
+
+
+
+
+
+#90 - Python Program for String Slicing Examples
+1. Print first 5 characters
+2. Print last 5 characters
+3. Reverse the string
+4. Print characters at even positions
+
+
+
+

@@ -1,0 +1,372 @@
+********************* JAVA PROGRAMS *********************
+
+#1 - Java Program to Find Sum of Numbers Entered by User
+Example:
+Numbers entered by user = 10 20
+Sum of numbers entered by user = 30
+
+Enter the count of numbers = 5
+Numbers entered by user = 10 20 30 40 50
+Sum of numbers entered by user = 150
+
+
+#2 - Java Program to Find Average of Numbers Entered by User
+Enter the count of numbers = 5
+Numbers entered by user = 10 20 30 40 50
+Average of numbers entered by user = 30
+
+
+#3 - Java Program to Add Digits in a Number
+Example:
+Number entered by user = 123
+Sum of digits = 6
+
+
+#4 - Java Program to Compute Sum and Average of Array Elements
+Numbers in Array = {1,2,3,4,5}
+Sum of Numbers in Array = 15
+Average of Numbers in Array = 3
+
+
+#5 - Java Program to Find Sum of First n Numbers
+Enter n value = 5
+sum of first n numbers = 1+2+3+4+5 = 15
+Formula = [n*(n+1)] / 2
+
+
+#6 - Java Program to find Prime Numbers
+Prime number is a number that is greater than 1 and divided by 1 or itself only. In other words, prime numbers can't be divided by other numbers.
+Note: 0 and 1 are not prime numbers. 2 is the only even number that is prime number, because all the other even numbers can be divided by 2
+
+
+#7 - Java Program to Reverse a String
+Example:
+string = "abc"
+reverse string = "cba"
+
+
+#8 - Java Program for Fibonacci Series
+The Fibonacci series is a series where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are 0 followed by 1.
+
+Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+
+
+#9 - Java Program for Factorial using Scanner & Recursion
+Factorial of n is the product of all positive descending integers. Factorial of n is denoted by n!. 
+
+Examples:
+4! = 4 * 3 * 2 * 1 = 24
+5! = 5 * 4 * 3 * 2 * 1 = 120  
+
+
+#10 - Java Program for Palindrome Number
+A palindrome number is a number that is same after reverse. 
+For example 545, 151, 34543, 343, 171, 48984 are the palindrome numbers. It can also be a string like LOL, MADAM etc.
+
+
+#11 - Java Program for Armstrong Number
+An Armstrong number is a positive m-digit number that is equal to the sum of the mth powers of their digits.
+
+Examples:
+1: 1^1 = 1
+2: 2^1 = 2
+3: 3^1 = 3
+153: 1^3 + 5^3 + 3^3 = 1 + 125+ 27 = 153
+125: 1^3 + 2^3 + 5^3 = 1 + 8 + 125 = 134 (Not an Armstrong Number)
+1634: 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1643
+
+1741725 is an Armstrong Number
+
+
+#12 - Java Program to Reverse a Number
+Example:
+Enter number = 123
+Reverse number = 321
+
+answer = 321
+number = 0
+lastdigit = 1
+answer = 32 * 10 + 1
+
+Use % and / operators to find reverse of a number
+
+
+#13 - Java Program to Swap Two Numbers
+Example:
+Before Swapping
+First number = 12
+Second number = 25
+
+After Swapping
+First number = 25
+Second number = 12
+
+
+#14 - Java Program to find duplicate characters in a String
+Algorithm
+1. Define a string.
+2. Two loops will be used to find the duplicate characters. Outer loop will be used to select a character and initialize variable count by 1.
+3. Inner loop will compare the selected character with rest of the characters present in the string.
+4. If a match found, it increases the count by 1 and set the duplicates of selected character by '0' to mark them as visited.
+5. After inner loop, if count of character is greater than 1, then it has duplicates in the string.
+
+
+#15 - Java Program to print Right Triangle Star Pattern
+Right Triangle Star Pattern:
+
+*
+* *
+* * *
+* * * *
+
+Algorithm for pattern programs:
+Each pattern program has two or more than two loops. The number of the loop depends on the complexity of pattern or logic. The first for loop works for the row and the second loop works for the column
+
+
+#16 - Java Program to check Leap year
+A leap year is a year with 366 days which is exactly divisible by 4 except for century years (years ending with 00).
+The century year is a leap year only if it is perfectly divisible by 400.
+
+Some conditions to check for leap year:
+year % 4 == 0
+year % 100 == 0
+year % 400 == 0
+
+
+#17 - Java Program to Sort an Array in ascending order
+Elements will be sorted in such a way that the smallest element will appear on extreme left
+
+Example:
+Original Array:
+5 2 8 7 1
+
+Array after sorting:
+1 2 5 7 8
+
+
+#18 - Java Program to print Pyramid Star Pattern
+Pyramid Star Pattern:
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * *
+
+Algorithm for pattern programs:
+Each pattern program has two or more than two loops. The number of the loop depends on the complexity of pattern or logic. The first for loop works for the row and the second loop works for the column
+
+
+#19 - Java Program to Generate Random Numbers
+In Java, there is multiple ways to generate random numbers using the method and classes.
+
+- Using the random() Method
+- Using the Random Class
+- Using the ThreadLocalRandom Class
+- Using the ints() Method (in Java 8)
+
+
+#20 - Java Program to Print Mirrored Right Triangle Star Pattern
+Mirrored Right Triangle Star Pattern:
+
+          *
+        * *
+      * * *
+    * * * *
+  * * * * *
+* * * * * *
+
+row = 6
+space = 10,8,6,4,2,0
+(row-i)*2 = 8
+
+
+#21 - Java Program to Sort Numbers using Bubble Sort Algorithm
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. 
+This algorithm is suitable for small data sets.
+
+Example:
+Input:  arr[] = {5, 1, 4, 2, 8}
+Output: arr[] = {1, 2, 4, 5, 8}
+
+
+#22 - Java Program to Print Diamond Shape Star Pattern
+Diamond Shape Star Pattern:
+
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+ * * * * * *
+* * * * * * *
+ * * * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+
+
+#23 - Java Program to Sort Numbers using Selection Sort Algorithm
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
+
+The algorithm maintains two subarrays in a given array.
+1. The subarray which already sorted. 
+2. The remaining subarray was unsorted.
+
+In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. 
+
+Example:  arr[] = {64, 25, 12, 22, 11}
+1st Pass: arr[] = {11, 25, 12, 22, 64}
+
+
+#24 - Java Program to Print Downward Triangle Star Pattern
+Downward Triangle Star Pattern:
+
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+
+#25 - Java Program to Sort Numbers using Insertion Sort Algorithm
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. 
+The array is virtually split into a sorted and an unsorted part. 
+Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+Example:  arr[] = {12, 11, 13, 5, 6}
+1st Pass: arr[] = {11, 12, 13, 5, 6}
+2nd Pass: arr[] = {11, 12, 13, 5, 6}
+3rd Pass: arr[] = {11, 12, 5, 13, 6}
+                  {11, 5, 12, 13, 6}
+                  {5, 11, 12, 13, 6}
+4th Pass: arr[] = {5, 11, 12, 6, 13}
+		  {5, 11, 6, 12, 13}
+		  {5, 6, 11, 12, 13}
+
+
+
+#26 - Java Program to Print Reverse Pyramid Star Pattern
+Reverse Pyramid Star Pattern:
+
+* * * * * *
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+
+
+#27 - Java Program to Check Whether Entered Number is Even or Odd
+In this program, you'll learn to check if a number entered by a user is even or odd. 
+This will be done using if...else statement. You can also use ternary operator in Java
+
+
+#28 - Java Program to Generate Multiplication Table
+In this program, you'll learn to generate multiplication table of a given number. 
+This can be easily done by using a for or while loop in Java.
+
+Enter Number = 5
+Multiplication table:
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+
+#29 - Java Program to Find GCD of two Numbers
+GCD full form is Greatest Common Divisor also called HCF (Highest Common Factor), which is the highest number that divides 2 numbers entered by user.
+
+Example:
+Numbers entered by user = 81 and 153
+GCD = 9
+Since 9 is the highest number that divides both these numbers
+
+
+#30 - Java Program to Find LCM of Two Numbers
+LCM full form is Least common multiple, which is the smallest number that is divisible by two numbers entered by user
+
+Example:
+Numbers entered by user = 72 and 120
+LCM = 360
+Since 360 is the least number that is the multiple of both these numbers
+
+Another formula to find LCM:
+LCM = (number1 * number2) / GCD
+
+
+#31 - Java Program to Count Number of Digits in an Integer
+In this program, you'll learn to count the number of digits using a loop in Java.
+
+Logic:
+Use / operator until number becomes 0
+
+Example:
+Enter Number : 1234
+Number of digits = 4
+
+
+#32 - Java Program to Calculate the Power of a Number in Java
+In this program, you'll learn to calculate the power of a number with and without using pow() function.
+
+Two ways:
+1. Using loop
+2. Using pow() method
+
+Example:
+base = 3
+exponent = 4
+result = 81
+
+
+#33 - Java Program to Display Factors of a Number in Java
+In this program, you'll learn to display all factors of a given number using a loop in Java.
+Factor is any number that divides the given number perfectly.
+
+Logic:
+Use % operator to check if remainder is 0
+
+Example:
+Enter Number: 60
+Factors of 60 are: 1 2 3 4 5 6 10 12 15 20 30 60
+
+
+#34 - Java Program to Make a Simple Calculator Using Switch Case
+In this program, you'll learn to make a simple calculator using switch case in Java. 
+This calculator would be able to add, subtract, multiply and divide two numbers.
+
+For example:
+1 - Add
+2 - Subtract
+3 - Multiply
+4 - Divide
+Choose Operator: 1
+Enter first number: 10
+Enter second number: 20
+Result is : 30
+
+
+#35 - Java Program to Find the Sum of Natural Numbers using Recursion
+In this program, you'll learn to find the sum of natural number using recursion in Java. 
+This is done with the help of a recursive function.
+
+Example:
+Enter number = 20
+Sum of Natural numbers = 210
+
+5 + 4 + 3 + 2 + 1 + 0 = 15
+
+
+#36 - Java Program to Convert Binary Number to Decimal and vice-versa
+
+

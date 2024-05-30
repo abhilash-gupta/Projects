@@ -1,0 +1,1330 @@
+----- JAVA TUTORIALS FOR BEGINNERS -----
+
+#1 - Java Installation and Writing First Code
+Java is a high-level programming language. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
+Java is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain.
+
+- Java JDK Installation and IDE set up
+JDK:
+https://www.oracle.com/java/technologies/downloads/#java8-linux
+
+IDE:
+https://www.eclipse.org/downloads/
+
+Writing First Code:
+
+public class MyFirstJavaProgram {
+   public static void main(String []args) {
+      System.out.println("Hello World");
+   }
+}
+
+
+#2 - Understanding main method in Java
+main method is the entry gate for program execution
+
+
+#3 - Java Variables & Data Types
+Following are the types of variables in Java −
+1. Local Variables - int, float, String, etc.
+2. Class Variables (Static Variables)
+3. Instance Variables (Non-static Variables)
+
+Comments is Java
+
+
+#4 - Arithmetic Operators - How to Add Two Numbers in Java
++ Add
+- Subtract
+* Multiply
+/ Divide
+% Remainder
+++ increment
+-- decrement
+
+
+#5 - Conditional if else statement program in Java Programming
+if() {
+  execute this
+} 
+else {
+  execute this
+}
+
+
+#6 - Equality and Relational Operators in Java Programming
+>	Greater than (A > B) is False
+<	Lesser than (A < B) is True
+>=	Greater than or equal to (A >= B) is False
+<=	Lesser than or equal to	(A <= B) is True
+==	Equality (A==B) is False
+!=	Not equal (A!=B) is True
+
+
+#7 - Assignment Operators in Java Programming
+= (Simple Assignment)
++= (Add and Assignment)
+─= (Subtract and Assignment)
+*= (Multiply and Assignment)
+/= (Divide and Assignment)
+
+
+#8 - Logical Operators in Java Programming
+&& - And (A > 10 && B > 10) is False
+|| - OR (A > 10 || B > 10) is True
+! - NOT !(A > 10) is True
+
+
+#9 - Conditional Expressions in Java Programming
+condition ? expr1 : expr2
+
+
+#10 - For Loop in Java Programming
+for (int i=0;i<5;i++) {}
+
+
+#11 - While Loop in Java Programming
+while (i < 5) {}
+do {} while (i < 5)
+
+
+#12 - Control Statements in Java Programming - break and continue
+break - breaks the flow of execution in loops
+continue - continues the flow of execution to next iteration
+
+
+#13 - Switch case in Java Programming - Java Switch Program
+switch (expression) {
+
+  case value1:
+    // code
+    break;
+  
+  case value2:
+    // code
+    break;
+  
+  ...
+  ...
+
+  default:
+    // default statements
+  }
+
+
+#14 - Arrays in Java Programming - Java Arrays
+An array is a collection of similar types of data. For example, if we want to store the names of 100 people then we can create an array of the string type that can store 100 names.
+
+//declare array
+String[] array = new String[100];
+
+//declare and initialize and array
+int[] age = {12, 4, 5, 2, 5};
+
+
+#15 - Multidimensional Arrays in Java Programming
+A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself.
+
+Example: 3 * 4 matrix
+int[][] a = new int[3][4];
+
+Another example:
+String[][][] data = new String[3][4][2];
+
+
+#16 - for-each Loop in Java Programming
+In Java, the for-each loop is used to iterate through elements of arrays and collections (like ArrayList). It is also known as the enhanced for loop.
+
+//Syntax:
+for(dataType item : array) {
+    ...
+}
+
+#17 - Java Class and Objects in Java Programming (OOP)
+Java is an object-oriented programming language. The core concept of the object-oriented approach is to break complex problems into smaller objects.
+
+An object is any entity that has a state and behavior. For example, a bicycle is an object. It has
+States: idle, first gear, etc
+Behaviors: braking, accelerating, etc.
+
+class ClassName {
+  // fields
+  // methods
+}
+
+Java Objects
+An object is called an instance of a class.
+
+
+#18 - Functions or Methods in Java Programming
+A method is a block of code that performs a specific task.
+
+Suppose you need to create a program to create a circle and color it. You can create two methods to solve this problem:
+1. a method to draw the circle
+2. a method to color the circle
+
+Dividing a complex problem into smaller chunks makes your program easy to understand and reusable.
+
+Declaring a Java Method:
+modifier static returnType nameOfMethod (parameter1, parameter2, ...) {
+  // method body
+}
+
+
+#19 - Method Overloading in Java Programming
+In Java, two or more methods may have the same name if they differ in parameters (different number of parameters, different types of parameters, or both).
+
+For example:
+void func() { ... }
+void func(int a) { ... }
+float func(double a) { ... }
+float func(int a, float b) { ... }
+
+Why method overloading?
+Suppose, you have to perform the addition of given numbers but there can be any number of arguments (let’s say either 2 or 3 arguments for simplicity).
+
+In order to accomplish the task, you can create two methods sum2num(int, int) and sum2num(int, int, int) for two and three parameters respectively.
+
+
+#20 - Java Constructors for Class Objects
+A constructor in Java is similar to a method that is invoked when an object of the class is created.
+
+Unlike Java methods, a constructor has the same name as that of the class and does not have any return type. For example,
+class Test {
+  Test() {
+    // constructor body
+  }
+}
+
+In Java, constructors can be divided into 3 types:
+
+1. No-Arg Constructor
+private Constructor() {
+   // body of the constructor
+}
+
+2. Parameterized Constructor
+private Constructor(parameter provided) {
+   // body of the constructor
+}
+
+3. Default Constructor
+If we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program.
+
+
+#21 - Strings in Java Programming
+In Java, a string is a sequence of characters. For example, "hello" is a string containing a sequence of characters 'h', 'e', 'l', 'l', and 'o'.
+
+We use double quotes to represent a string in Java. For example,
+
+// create a string
+String type = "Programming for Beginners";
+
+Some important methods:
+1. Get length of a String - string.length();
+2. Join Two Java Strings - string1.concat(string2);
+3. Compare two Strings - first.equals(second);
+
+
+#22 - Access Modifiers in Java Programming
+In Java, access modifiers are used to set the accessibility (visibility) of classes, interfaces, variables, methods, constructors, data members, and the setter methods. For example,
+
+class Animal {
+   public void method1() {...}
+   private void method2() {...}
+}
+
+method1 is public - This means it can be accessed by other classes.
+method2 is private - This means it can not be accessed by other classes.
+
+Protected - declarations are visible within the package or all subclasses
+
+
+#23 - this Keyword in Java Programming
+In Java, this keyword is used to refer to the current object inside a method or a constructor. For example,
+
+- Using this for Ambiguity Variable Names
+class MyClass {
+    // instance variable
+    int age;
+
+    // parameter
+    MyClass(int age){
+        age = age;
+    }
+}
+
+
+#24 - Recursion Example in Java Programming
+In Java, a method that calls itself is known as a recursive method. And, this process is known as recursion.
+
+example - factorial of a number
+
+
+#25 - instanceof Operator in Java Programming
+The instanceof operator in Java is used to check whether an object is an instance of a particular class or not.
+
+example - objectName instanceOf className;
+
+
+#26 - Class Inheritance in Java Programming (extends)
+Inheritance is one of the key features of OOP that allows us to create a new class from an existing class.
+The new class that is created is known as subclass (child or derived class) and the existing class from where the child class is derived is known as superclass (parent or base class).
+The extends keyword is used to perform inheritance in Java. For example,
+
+class Animal {
+  // methods and fields
+}
+
+// use of extends keyword to perform inheritance
+class Dog extends Animal {
+  // methods and fields of Animal
+  // methods and fields of Dog
+}
+
+
+#27 - Method Overriding in Java Programming
+Inheritance is an OOP (Object oriented programming) is a property that allows us to derive a new class (subclass) from an existing class (superclass). The subclass inherits the attributes and methods of the superclass.
+Now, if the same method is defined in both the superclass and the subclass, then the method of the subclass class overrides the method of the superclass.
+
+
+#28 - super Keyword in Java Programming
+The super keyword in Java is used in subclasses to access superclass members (attributes, constructors and methods).
+
+1. Access Overridden Methods of the superclass
+2. Access Attributes of the Superclass
+3. Use of super() to access superclass constructor
+
+
+#29 - Abstract Class and Abstract Methods in Java Programming
+The abstract class in Java cannot be instantiated (we cannot create objects of abstract classes). We use the abstract keyword to declare an abstract class.
+
+Example:
+abstract class Language {
+  // fields and methods
+}
+
+// try to create an object Language
+// throws an error
+Language obj = new Language(); 
+
+An abstract class can have both the regular methods and abstract methods. For example,
+abstract class Language {
+
+  // abstract method
+  abstract void method1();
+
+  // regular method
+  void method2() {
+    System.out.println("This is regular method");
+  }
+}
+
+Java Abstract Method:
+A method that doesn't have its body is known as an abstract method. We use the same abstract keyword to create abstract methods. For example,
+
+abstract void display();
+
+If a class contains an abstract method, then the class should be declared abstract. Otherwise, it will generate an error. For example,
+
+// error
+// class should be abstract
+class Language {
+
+  // abstract method
+  abstract void method1();
+}
+
+
+#30 - Interface in Java Programming
+An interface is a fully abstract class. It includes a group of abstract methods (methods without a body).
+
+Like abstract classes, we cannot create objects of interfaces.
+To use an interface, other classes must implement it. We use the implements keyword to implement an interface.
+
+Example:
+interface Polygon {
+  void getArea(int length, int breadth);
+}
+
+// implement the Polygon interface
+class Rectangle implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int length, int breadth) {
+    System.out.println("The area of the rectangle is " + (length * breadth));
+  }
+}
+
+
+#31 - Polymorphism in Java Programming
+Polymorphism is an important concept of object-oriented programming. It simply means more than one form.
+In other words, Polymorphism in Java allows us to create a single method, that will behave differently for different class objects.
+
+We can achieve polymorphism in Java using the following ways:
+
+1. Method Overriding
+2. Method Overloading
+3. Operator Overloading
+
+Polymorphism allows us to create consistent and clean code.
+
+
+#32 - Multiple Inheritance in Java Programming (Examples)
+In Java, we can achieve multiple inheritance with the help of Interfaces.
+We can inherit multiple interfaces but not multiple classes.
+
+
+#33 - Encapsulation and Data Hiding in Java Programming
+Java Encapsulation is one of the key features of object-oriented programming. Encapsulation refers to the bundling of fields and methods inside a single class.
+
+It can help us prevent outer classes from accessing and changing fields and methods of a class. This also helps to achieve data hiding.
+
+
+#34 - Nested and Inner Class in Java Programming
+In Java, you can define a class within another class. Such class is known as nested class. For example,
+
+class OuterClass {
+    // ...
+    class NestedClass {
+        // ...
+    }
+}
+
+
+#35 - static Fields in Java Class (Examples)
+static fields in Java class are accessed at the class level, as opposed to the normal fields that are accessed at the object level.
+
+
+#36 - Anonymous Class in Java Programming
+In Java, a class can contain another class known as nested class. It's possible to create a nested class without giving any name.
+
+A nested class that doesn't have any name is known as an anonymous class.
+
+An anonymous class must be defined inside another class. Hence, it is also known as an anonymous inner class.
+
+class Polygon {
+   public void display() {
+      System.out.println("Inside the Polygon class");
+   }
+}
+
+class AnonymousDemo {
+   public void createClass() {
+
+      // creation of anonymous class extending class Polygon
+      Polygon p1 = new Polygon() {
+         public void display() {
+            System.out.println("Inside an anonymous class.");
+         }
+      };
+      p1.display();
+   }
+}
+
+class Main {
+   public static void main(String[] args) {
+       AnonymousDemo an = new AnonymousDemo();
+       an.createClass();
+   }
+}
+
+
+#37 - Singleton Design Pattern in Java Programming (Examples)
+In Java, Singleton is a design pattern that ensures that a class can only have one object.
+
+To create a singleton class, a class must implement the following properties:
+1. private constructor
+2. private static attribute of the class type
+3. public static method getInstance()
+
+Singletons can be used while working with databases. They can be used to create a connection pool to access the database while reusing the same connection for all the clients.
+
+
+#38 - Enums in Java Programming (Examples)
+In Java, an enum (short for enumeration) is a type that has a fixed set of constant values.
+
+Example:
+enum Size {
+   SMALL, MEDIUM, LARGE, EXTRALARGE 
+}
+
+- Java Enum with the switch statement
+
+Why Java Enums?
+Answer - enum was introduced to replace the use of int constants.
+
+class Size {
+   public final static int SMALL = 1;
+   public final static int MEDIUM = 2;
+   public final static int LARGE = 3;
+   public final static int EXTRALARGE = 4;
+}
+
+
+#39 - Enum Constructor in Java Programming (Examples)
+In Java, an enum class may include a constructor like a regular class.
+
+These enum constructors are either:
+- private - accessible within the class or
+- package-private - accessible within the package
+
+
+#40 - Enum Strings in Java Programming (Examples)
+In Java, we can get the string representation of enum constants using the toString() method or the name() method. For example,
+
+enum Size {
+   SMALL, MEDIUM, LARGE, EXTRALARGE
+}
+
+class Main {
+   public static void main(String[] args) {
+
+      System.out.println("string value of SMALL is " + Size.SMALL.toString());
+      System.out.println("string value of MEDIUM is " + Size.MEDIUM.name());
+
+   }
+}
+
+
+#41 - Java Reflection with Examples in Java Programming
+In Java, reflection allows us to inspect and manipulate classes, interfaces, constructors, methods, and fields at run time.
+
+In order to reflect a Java class, we first need to create an object of Class.
+
+1. Using .class extension
+2. Using getClass() method
+3. Using forName() method
+
+For Classes:
+- getName() - returns the name of the class
+- getModifiers() - returns the access modifier of the class in integer form
+- getSuperclass() - returns the super class of the class
+
+Use Method class for reflection of methods:
+// create an object of Class
+// using getClass()
+Class obj = d1.getClass();
+
+// using object of Class to
+// get all the declared methods of Dog
+Method[] methods = obj.getDeclaredMethods();
+
+getName() - returns the name of a method
+getModifiers() - returns the access modifier of methods in integer form
+getReturnType() - returns the return type of methods
+
+
+#42 - Java Exceptions and Exception Handling with Examples
+An exception is an unexpected event that occurs during program execution. It affects the flow of the program instructions which can cause the program to terminate abnormally.
+
+An exception can occur for many reasons. Some of them are:
+
+- Invalid user input
+- Device failure
+- Loss of network connection
+- Physical limitations (out of disk memory)
+- Code errors
+- Opening an unavailable file
+
+List of different approaches to handle exceptions in Java.
+
+- try...catch block
+- finally block
+- throw keyword
+
+
+#43 - Java try catch finally blocks for Exception Handling (Examples)
+The try...catch block in Java is used to handle exceptions and prevents the abnormal termination of the program.
+
+- try catch example
+- try finally example
+- try catch finally example
+- Multiple catch blocks example
+- Catching multiple exceptions example
+
+
+#44 - Java throw and throws with Examples
+In Java, exceptions can be categorized into two types:
+
+- Unchecked Exceptions: They are not checked at compile-time but at run-time.For example: ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, exceptions under Error class, etc.
+- Checked Exceptions: They are checked at compile-time. For example, IOException, InterruptedException, etc.
+
+- throws keyword:
+class Main {
+  public static void findFile() throws IOException {
+    // code that may produce IOException
+    File newFile=new File("test.txt");
+    FileInputStream stream=new FileInputStream(newFile);
+  }
+
+  public static void main(String[] args) {
+    try{
+      findFile();
+    } catch(IOException e){
+      System.out.println(e);
+    }
+  }
+}
+
+- throw keyword:
+class Main {
+  public static void divideByZero() {
+    throw new ArithmeticException("Trying to divide by 0");
+  }
+
+  public static void main(String[] args) {
+    divideByZero();
+  }
+}
+
+
+#45 - Java catch Multiple Exceptions (Examples)
+Before Java 7, we had to write multiple exception handling codes for different types of exceptions even if there was code redundancy.
+
+Example:
+class Main {
+  public static void main(String[] args) {
+    try {
+      int array[] = new int[10];
+      array[10] = 30 / 0;
+    } catch (ArithmeticException e) {
+      System.out.println(e.getMessage());
+    } catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println(e.getMessage());
+    } 
+  }
+}
+
+
+In Java SE 7 and later, we can now catch more than one type of exception in a single catch block.
+
+Example:
+class Main {
+  public static void main(String[] args) {
+    try {
+      int array[] = new int[10];
+      array[10] = 30 / 0;
+    } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
+      System.out.println(e.getMessage());
+    }
+  }
+}
+
+
+#46 - Java try with resources (Examples)
+The try-with-resources statement automatically closes all the resources at the end of the statement. A resource is an object to be closed at the end of the program.
+
+Syntax:
+try (resource declaration) {
+  // use of the resource
+} catch (ExceptionType e1) {
+  // catch block
+}
+
+Advantage:
+1. finally block not required to close the resource
+2. try-with-resources with multiple resources
+
+
+#47 - Java List Interface with Examples
+In Java, the List interface is an ordered collection that allows us to store and access elements sequentially. It extends the Collection interface.
+
+Classes that Implement List:
+Since List is an interface, we cannot create objects from it.
+
+In order to use functionalities of the List interface, we can use these classes:
+
+- ArrayList
+- LinkedList
+- Vector
+- Stack
+
+Methods:
+add() - adds an element to a list
+addAll() - adds all elements of one list to another
+get() - helps to randomly access elements from lists
+remove() - removes an element from the list
+removeAll() - removes all the elements from the list
+
+
+#48 - Java ArrayList vs Array with Examples
+In Java, we use the ArrayList class to implement the functionality of resizable-arrays.
+For array, we need to declare the size of an array before we can use it. 
+Once the size of an array is declared, it's hard to change it.
+
+Examples:
+1. Add Elements to an ArrayList
+2. Access ArrayList Elements
+3. Remove ArrayList Elements
+
+
+#49 - Java Stack Class with Examples
+The Java collections framework has a class named Stack that provides the functionality of the stack data structure.
+
+Elements are stored and accessed in Last In First Out manner
+
+Stack Methods:
+1. push() Method - add an element to the top of the stack
+2. pop() Method - remove an element from the top of the stack
+3. peek() Method - returns an object from the top of the stack
+4. search() Method - returns the position of the element from the top of the stack
+5. empty() Method - check whether a stack is empty or not
+
+
+#50 - Java Queue Interface with Examples
+The Queue interface of the Java collections framework provides the functionality of the queue data structure.
+
+Classes that Implement Queue
+1. ArrayDeque
+2. LinkedList
+3. PriorityQueue
+
+Methods:
+add() - Inserts the specified element into the queue
+offer() - Inserts the specified element into the queue
+element() - Returns the head of the queue (throws exception if empty)
+peek() - Returns the head of the queue (returns null if empty)
+remove() - Returns and removes the head of the queue (throws exception if empty)
+poll() - Returns and removes the head of the queue (returns null if empty)
+
+
+#51 - Java PriorityQueue Class with Examples
+The PriorityQueue class provides the functionality of the heap data structure.
+Unlike normal queues, priority queue elements are retrieved in sorted order.
+
+Suppose, we want to retrieve elements in the ascending order. In this case, the head of the priority queue will be the smallest element. Once this element is retrieved, the next smallest element will be the head of the queue.
+
+NOTE: The elements of a priority queue may not be sorted. However, elements are always retrieved in sorted order.
+
+PriorityQueue Methods:
+add() method
+offer() method
+peek() method
+remove() method
+poll() method
+
+Using Iterator for PriorityQueue objects.
+
+
+#52 - Java Deque Interface with Examples
+The Deque interface of the Java collections framework provides the functionality of a double-ended queue. It extends the Queue interface.
+
+In a deque, we can insert and remove elements from both front and rear.
+
+Classes that implement Deque
+In order to use the functionalities of the Deque interface, we need to use classes that implement it:
+- ArrayDeque class
+- LinkedList class
+
+Deque Methods:
+addFirst() method
+addLast() method
+offerFirst() method
+offerLast() method
+getFirst() method
+getLast() method
+peekFirst() method
+peekLast() method
+removeFirst() method
+removeLast() method
+pollFirst() method
+pollLast() method
+
+
+#53 - Java LinkedList with Examples (Collections)
+The LinkedList class of the Java collections framework provides the functionality of the linked list data structure (doubly linkedlist).
+
+Each element in a linked list is known as a node. It consists of 3 fields:
+Prev - stores an address of the previous element in the list. It is null for the first element
+Next - stores an address of the next element in the list. It is null for the last element
+Data - stores the actual data
+
+LinekedList Methods:
+add() method : to add elements in LinkedList
+get() method : to access an element from the LinkedList
+set() method : to change element at position specified
+
+LinkedList class also implements the Queue and the Deque interface, so it can implement methods of these interfaces as well.
+
+
+#54 - Java ArrayDeque with Examples (Collections)
+In Java, we can use the ArrayDeque class to implement queue and deque data structures using arrays.
+
+The ArrayDeque class implements these two interfaces:
+- Java Queue Interface
+- Java Deque Interface
+
+Methods:
+The ArrayDeque class provides implementations for all the methods present in Queue and Deque interface.
+
+ArrayDeque Methods:
+add() method
+addFirst() method
+addLast() method
+getFirst() method
+getLast() method
+peek() method
+peekFirst() method
+peekLast() method
+poll() method
+pollFirst() method
+pollLast() method
+
+
+#55 - Java Map Interface with Examples (Map Data Structure)
+The Map interface of the Java collections framework provides the functionality of the map data structure.
+
+Elements of Map are stored in key/value pairs. Keys are unique values associated with individual Values.
+
+The Map interface maintains 3 different sets:
+- the set of keys
+- the set of values
+- the set of key/value associations (mapping)
+
+Classes that implement Map
+Since Map is an interface, we cannot create objects from it.
+We can use below classes to create Objects:
+
+- HashMap class
+- EnumMap class
+- LinkedHashMap class
+- WeakHashMap class
+- TreeMap class
+
+Map Methods:
+put(K, V) method
+putAll() method
+putIfAbsent(K, V) method
+get(K) method
+keySet() method
+values() method
+entrySet() method
+
+
+#56 - Java HashMap Class with Examples
+The HashMap class of the Java collections framework provides the functionality of the hash table data structure.
+It stores elements in key/value pairs. Here, keys are unique identifiers used to associate each value on a map.
+
+The HashMap class implements the Map interface.
+
+Examples:
+- Create a Hashmap
+- Add elements in Hashmap
+- Access elements of Hashmap
+- Replace elements in Hashmap
+- Remove elements from Hashmap
+
+
+#57 - Java LinkedHashMap Class with Examples
+The LinkedHashMap class of the Java collections framework provides the hash table and linked list implementation of the Map interface.
+
+It extends the HashMap class to store its entries in a hash table. It internally maintains a doubly-linked list among all of its entries to order its entries.
+
+LinkedHashMap preserves the order of elements added.
+But it takes more memory due to double linked list implementation.
+
+Examples:
+- Create a LinkedHashMap
+- Add elements in LinkedHashMap
+- Access elements of LinkedHashMap
+- Replace elements in LinkedHashMap
+- Remove elements from LinkedHashMap
+
+
+#58 - Java WeakHashMap Class with Examples
+The WeakHashMap class of the Java collections framework provides the feature of the hash table data structure..
+It implements the Map interface.
+
+Difference Between HashMap and WeakHashMap
+All functionalities of hashmaps and weak hashmaps are similar except keys of a weak hashmap are of weak reference, whereas keys of a hashmap are of strong reference.
+
+Example:
+	// Creating WeakHashMap of numbers
+        WeakHashMap<String, Integer> numbers = new WeakHashMap<>();
+
+        String two = new String("Two");
+        Integer twoValue = 2;
+        String four = new String("Four");
+        Integer fourValue = 4;
+
+        // Inserting elements
+        numbers.put(two, twoValue);
+        numbers.put(four, fourValue);
+        System.out.println("WeakHashMap: " + numbers);
+
+        // Make the reference null
+        two = null;
+
+        // Perform garbage collection
+        System.gc();
+
+        System.out.println("WeakHashMap after garbage collection: " + numbers);
+
+
+Methods:
+- Create a WeakHashMap
+- Add elements in WeakHashMap
+- Access elements of WeakHashMap
+- Remove elements from WeakHashMap
+
+
+#59 - Java EnumMap Class with Examples
+The EnumMap class of the Java collections framework provides a map implementation for elements of an enum.
+
+In EnumMap, enum elements are used as keys. It implements the Map interface.
+
+Example:
+enum Size {
+    SMALL, MEDIUM, LARGE, EXTRALARGE
+}
+
+EnumMap<Size, Integer> sizes = new EnumMap<>(Size.class);
+
+Methods:
+- Create a EnumMap
+- Add elements in EnumMap
+- Access elements of EnumMap
+- Remove elements from EnumMap
+
+
+#60 - Java SortedMap Interface with Examples
+The SortedMap interface of the Java collections framework provides sorting of keys stored in a map.
+It extends the Map interface.
+
+Since SortedMap is an interface, we cannot create objects from it.
+In order to use the functionalities of the SortedMap interface, we need to use the class TreeMap that implements it.
+
+Methods:
+comparator() - returns a comparator that can be used to order keys in a map
+firstKey() - returns the first key of the sorted map
+lastKey() - returns the last key of the sorted map
+
+
+#61 - Java TreeMap Class with Examples
+The TreeMap class of the Java collections framework provides the tree data structure implementation.
+It implements the NavigableMap interface.
+
+TreeMap<Key, Value> numbers = new TreeMap<>();
+
+Methods:
+- Create a TreeMap
+- Add elements in TreeMap (put, putAll, etc.)
+- Access elements of TreeMap (get and getOrDefault)
+- Remove elements from TreeMap (remove)
+- Replace elements from TreeMap (replace and replaceAll)
+
+
+#62 - Java Set Interface with Examples
+The Set interface of the Java Collections framework provides the features of the mathematical set in Java. It extends the Collection interface.
+Unlike the List interface, sets cannot contain duplicate elements.
+
+Classes that implement Set:
+- HashSet
+- LinkedHashSet
+- EnumSet
+- TreeSet
+
+// Set implementation using HashSet
+Set<String> animals = new HashSet<>();
+
+Set Methods:
+add() method
+addAll() method
+iterator() method
+remove() method
+removeAll() method
+clear() method
+size() method
+toArray() method
+
+
+#63 - Java HashSet Class with Examples
+The HashSet class of the Java Collections framework provides the functionalities of the hash table data structure.
+It implements the Set interface.
+
+Methods:
+- Insert Elements to HashSet - add()
+- Access HashSet Elements - iterator
+- Remove Elements
+
+Set Operations:
+- Union of Sets - addAll()
+- Intersection of Sets - retainAll()
+- Difference of Sets - removeAll()
+
+
+#64 - Java EnumSet Class with Examples
+The EnumSet class of the Java collections framework provides a set implementation of elements of a single enum.
+It implements the Set interface.
+
+Unlike other set implementations, the enum set does not have public constructors. We must use the predefined methods to create an enum set.
+1. Using allOf() method
+2. Using noneOf() method
+3. Using range(e1, e2) Method
+4. Using of() Method
+
+Methods:
+- Insert Elements to EnumSet
+- Access EnumSet Elements
+- Remove EnumSet Elements
+
+
+#65 - Java LinkedHashSet Class with Examples
+The LinkedHashSet class of the Java collections framework provides functionalities of both the hashtable and the linked list data structure.
+It implements the Set interface.
+
+However, linked hash sets maintain a doubly-linked list internally for all of its elements. The linked list defines the order in which elements are inserted in hash tables.
+
+Methods:
+- Insert Elements to LinkedHashSet
+- Access LinkedHashSet Elements
+- Remove Elements from HashSet
+- You can also perform many other set operations
+
+LinkedHashSet vs HashSet
+- LinkedHashSet maintains a linked list internally
+- The LinkedHashSet class requires more storage than HashSet
+- The performance of LinkedHashSet is slower than HashSet. It is because of linked lists present in LinkedHashSet.
+
+
+#66 - Java SortedSet Interface with Examples
+The SortedSet interface of the Java Collections framework is used to store elements with some order in a set.
+It extends the Set interface.
+
+In order to use the functionalities of the SortedSet interface, we need to use the TreeSet class that implements it.
+
+// SortedSet implementation by TreeSet class
+SortedSet<String> animals = new TreeSet<>();
+
+Methods of SortedSet:
+first() - returns the first element of the set
+last() - returns the last element of the set
+headSet(element) - returns all the elements of the set before the specified element
+tailSet(element) - returns all the elements of the set after the specified element including the specified element
+subSet(element1, element2) - returns all the elements between the element1 and element2 including element1
+
+
+#67 - Java TreeSet Class with Examples
+The TreeSet class of the Java collections framework provides the functionality of a tree data structure.
+
+TreeSet<Integer> numbers = new TreeSet<>();
+
+Methods of TreeSet:
+- Insert Elements to TreeSet 
+- Access TreeSet Elements
+- Remove Elements from TreeSet 
+
+More Methods of TreeSet:
+- first() and last() Methods
+- pollfirst() and pollLast() Methods
+- headSet(), tailSet() and subSet() Methods
+
+TreeSet Vs. HashSet
+- Unlike HashSet, elements in TreeSet are stored in some order.
+- TreeSet provides some methods for easy navigation. For example, first(), last(), headSet(), tailSet(), etc.
+- HashSet is faster than the TreeSet for basic operations like add, remove, contains and size.
+
+
+#68 - Java Algorithm to Sort Collections using sort()
+The Java collections framework provides various algorithms that can be used to manipulate elements stored in data structures.
+
+Algorithms in Java are static methods that can be used to perform various operations on collections.
+We will see how to sort arraylist in this video
+
+- Sorting Using sort() method example
+
+
+#69 - Java Algorithm to Shuffle Collections using shuffle( )
+The shuffle() method of the Java collections framework is used to destroy any kind of order present in the data structure. 
+It does just the opposite of the sorting.
+
+We will see how to shuffle arraylist in this video
+
+- Shuffle Using shuffle() method example
+
+
+#70 - Java Algorithm to Search Collections using binarySearch()
+The binarySearch() method of the Java collections framework searches for the specified element. 
+It returns the position of the element in the specified collections.
+
+We will see how to do binary search using arraylist in this video
+
+Note: The collection should be sorted before performing the binarySearch() method.
+
+- Search Using binarySearch() method example
+
+
+#71 - Java Algorithms for Data Manipulation in Collections
+In Java, the collections framework provides different methods that can be used to manipulate data.
+
+reverse() - reverses the order of elements
+swap() - swaps the position of two elements in a collection
+addAll() - adds all the elements of a collection to other collection
+fill() - replace every element in a collection with the specified value
+copy() - creates a copy of elements from the specified source to destination
+
+
+#72 - Frequency, Disjoint, Min, Max Methods in Java Collections
+- frequency() - returns the count of the number of times an element is present in the collection
+- disjoint() - checks if two collections contain some common element
+- min() and max() methods of the Java collections framework are used to find the minimum and the maximum elements, respectively
+
+
+#73 - Java Iterator Interface with Examples
+The Iterator interface of the Java collections framework allows us to access elements of a collection. 
+
+Methods of Iterator
+- hasNext() - returns true if there exists an element in the collection
+- next() - returns the next element of the collection
+- remove() - removes the last element returned by the next()
+- forEachRemaining() - performs the specified action for each remaining element of the collection
+
+
+#74 - Java input output IO Streams
+- Types of Streams
+Depending upon the data a stream holds, it can be classified into:
+
+- Byte Stream (to read and write a single byte (8 bits) of data)
+All byte stream classes are derived from base abstract classes called InputStream and OutputStream.
+
+- Character Stream (to read and write a single character of data.)
+All the character stream classes are derived from base abstract classes Reader and Writer.
+
+
+#75 - Java InputStream Class with Examples
+The InputStream class of the java.io package is an abstract superclass that represents an input stream of bytes.
+
+Since InputStream is an abstract class, it is not useful by itself. However, its subclasses can be used to read data.
+
+Subclasses of InputStream:
+- FileInputStream
+- ByteArrayInputStream
+- ObjectInputStream
+
+Methods of InputStream:
+- read(byte[] array) - reads bytes from the stream and stores in the specified array
+- available() - returns the number of bytes available in the input stream
+- close() - closes the input stream
+
+
+#76 - Java OutputStream Class with Examples
+The OutputStream class of the java.io package is an abstract superclass that represents an output stream of bytes.
+
+Since OutputStream is an abstract class, it is not useful by itself. However, its subclasses can be used to write data.
+
+Subclasses of OutputStream
+- FileOutputStream
+- ByteArrayOutputStream
+- ObjectOutputStream
+
+
+Methods of OutputStream
+- write() - writes the specified byte to the output stream
+- write(byte[] array) - writes the bytes from the specified array to the output stream
+- flush() - forces to write all data present in output stream to the destination
+- close() - closes the output stream
+
+
+#77 - Java BufferedInputStream Class with Examples
+The BufferedInputStream class of the java.io package is used with other input streams to read the data (in bytes) more efficiently.
+
+Working of BufferedInputStream:
+The BufferedInputStream maintains an internal buffer of 8192 bytes.
+
+During the read operation in BufferedInputStream, a chunk of bytes is read from the disk and stored in the internal buffer. And from the internal buffer bytes are read individually.
+Hence, the number of communication to the disk is reduced. This is why reading bytes is faster using the BufferedInputStream.
+
+Methods of BufferedInputStream:
+- read() - reads a single byte from the input stream
+- read(byte[] arr) - reads bytes from the stream and stores in the specified array
+- available() - to get the number of available bytes in the input stream
+- skip() - to discard and skip the specified number of bytes
+- close() - to close the buffered input stream
+
+
+#78 - Java BufferedOutputStream Class with Examples
+The BufferedOutputStream class of the java.io package is used with other output streams to write the data (in bytes) more efficiently.
+
+Working of BufferedOutputStream
+The BufferedOutputStream maintains an internal buffer of 8192 bytes.
+
+During the write operation, the bytes are written to the internal buffer instead of the disk. Once the buffer is filled or the stream is closed, the whole buffer is written to the disk.
+Hence, the number of communication to the disk is reduced. This is why writing bytes is faster using BufferedOutputStream.
+
+Methods of BufferedOutputStream:
+- write() - writes a single byte to the internal buffer of the output stream
+- flush() - to clear the internal buffer
+- close() - to close the buffered output stream
+
+
+#79 - Java PrintStream Class with Examples
+The PrintStream class of the java.io package can be used to write output data in commonly readable form (text) instead of bytes.
+
+Working of PrintStream:
+Unlike other output streams, the PrintStream converts the primitive data (integer, character) into the text format instead of bytes. It then writes that formatted data to the output stream.
+
+And also, the PrintStream class does not throw any input/output exception. Instead, we need to use the checkError() method to find any error in it.
+
+Methods of PrintStream
+- print() - prints the specified data to the output stream
+- println() - prints the data to the output stream along with a new line character at the end
+- printf() - the printf() method can be used to print the formatted string
+- close() - closes the print stream
+
+
+#80 - Java Reader Class with Examples (FileReader)
+The Reader class of the java.io package is an abstract superclass that represents a stream of characters.
+
+Since Reader is an abstract class, it is not useful by itself. However, its subclasses can be used to read data.
+
+Subclasses of Reader:
+- BufferedReader
+- InputStreamReader
+- FileReader
+- StringReader
+
+Methods of Reader:
+- ready() - checks if the reader is ready to be read
+- read(char[] array) - reads the characters from the stream and stores in the specified array
+- skip() - discards the specified number of characters from the stream
+- close() - to close the reader
+
+
+#81 - Java Writer Class with Examples (FileWriter)
+The Writer class of the java.io package is an abstract superclass that represents a stream of characters.
+
+Since Writer is an abstract class, it is not useful by itself. However, its subclasses can be used to write data.
+
+Subclasses of Writer
+- BufferedWriter
+- OutputStreamWriter
+- FileWriter
+- StringWriter
+
+Methods of Writer
+- write(char[] array) - writes the characters from the specified array to the output stream
+- write(String data) - writes the specified string to the writer
+- append(char c) - inserts the specified character to the current writer
+- flush() - forces to write all the data present in the writer to the corresponding destination
+- close() - closes the writer
+
+
+#82 - Java BufferedReader Class with Examples (File Handling)
+The BufferedReader class of the java.io package can be used with other readers to read data (in characters) more efficiently.
+
+Working of BufferedReader
+The BufferedReader maintains an internal buffer of 8192 characters.
+
+During the read operation in BufferedReader, a chunk of characters is read from the disk and stored in the internal buffer. And from the internal buffer characters are read individually.
+
+Hence, the number of communication to the disk is reduced. This is why reading characters is faster using BufferedReader.
+
+
+#83 - Java BufferedWriter Class with Examples (File Handling)
+The BufferedWriter class of the java.io package can be used with other writers to write data (in characters) more efficiently.
+
+Working of BufferedWriter
+The BufferedWriter maintains an internal buffer of 8192 characters.
+
+During the write operation, the characters are written to the internal buffer instead of the disk. Once the buffer is filled or the writer is closed, the whole characters in the buffer are written to the disk.
+
+Hence, the number of communication to the disk is reduced. This is why writing characters is faster using BufferedWriter.
+
+
+#84 - Java StringReader Class with Examples
+The StringReader class of the java.io package can be used to read data (in characters) from strings.
+
+// Creates a StringReader
+StringReader input = new StringReader(String data);
+
+Methods of StringReader
+- read() - reads a single character from the string reader
+- read(char[] array) - reads the characters from the reader and stores in the specified array
+- ready() - checks if the string reader is ready to be read
+- mark() - marks the position in reader up to which data has been read
+- reset() - returns the control to the point in the reader where the mark was set
+
+
+#85 - Java PrintWriter Class with Examples
+The PrintWriter class of the java.io package can be used to write output data in a commonly readable form (text).
+
+Working of PrintWriter
+Unlike other writers, PrintWriter converts the primitive data (int, float, char, etc.) into the text format. It then writes that formatted data to the writer.
+
+Methods of PrintWriter:
+- print() - prints the specified data to the writer
+- println() - prints the data to the writer along with a new line character at the end
+- printf() - can be used to print the formatted string
+
+
+#86 - Java Scanner Class with Examples | Read user Input & Add Two Numbers
+The Scanner class of the java.util package is used to read input data from different sources like input streams, users, files, etc.
+
+Working of Java Scanner
+The Scanner class reads an entire line and divides the line into tokens. Tokens are small elements that have some meaning to the Java compiler.
+Note: By default, whitespace is used to divide tokens.
+
+Scanner Methods Examples:
+- nextInt() - reads an int value from the user
+- nextLine() - reads a line of text from the user
+- next() - reads a word from the user
+
+
+#87 - Java Type Casting to convert Data Types | String to Int Conversion
+The process of converting the value of one data type (int, float, double, etc.) to another data type is known as typecasting.
+
+- int (4 bytes) to double (8 bytes) conversion - Widening Conversion
+- double to int conversion - Narrowing conversion
+- int to String conversion example
+- String to int conversion example
+
+
+#88 - Java Lambda Expressions with Examples
+Lambda expression is an anonymous or unnamed method.
+
+Lambda expression Syntax
+(parameter list) -> lambda body
+
+Working of Lambda Expression:
+A lambda expression is not executed on its own. Rather, it forms the implementation of the abstract method defined by the functional interface.
+
+Examples:
+- Single expression to print data
+- Lambda Expression with functional interface to return value
+- Lambda Expression with functional interface to add two numbers
+
+
+#89 - Java File Class to Create and Delete Files in Directory
+The File class of the java.io package is used to perform various operations on files and directories.
+
+File - location that can be used to store related information
+Directory - collection of files and subdirectories
+
+// creates an object of File using the path 
+File file = new File(String pathName);
+
+Java File Operation Methods:
+To create file - createNewFile() - java.io.File
+To read file - read() - java.io.FileReader
+To write file - write() - java.io.FileWriter
+To delete file - delete() - java.io.File
+
+
+#90 - Passing Command-Line Arguments to Java Program with cmd prompt
+The command-line arguments in Java allow us to pass arguments during the execution of the program.
+
+Example:
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Command-Line arguments are");
+
+    // loop through all arguments
+    for(String str: args) {
+      System.out.println(str);
+    }
+  }
+}
+
+
+

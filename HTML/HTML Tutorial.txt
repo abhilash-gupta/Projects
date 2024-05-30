@@ -1,0 +1,1908 @@
+************** HTML TUTORIAL FOR BEGINNERS ************
+
+HTML Tutorial #1 - Introduction and Overview of HTML
+This HTML Tutorial Series will help you to learn from basics to advanced steps in creating web based applications using HTML.
+
+HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages.
+
+HTML is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain.
+
+Advantages:
+1. Create Web site
+2. Become a web designer
+3. Understand web
+4. Learn other languages
+
+Example:
+Hello World using HTML
+
+
+
+
+
+
+
+
+HTML Tutorial #2 - Basic HTML Tags
+Below are some of the Basic HTML Tags:
+
+1. <!DOCTYPE html>
+This tag defines the document type and HTML version.
+
+2. <html>
+This tag encloses the complete HTML document and mainly comprises of document header which is represented by <head>...</head> and document body which is represented by <body>...</body> tags.
+
+3. <head>
+This tag represents the document's header which can keep other HTML tags like <title>, <link> etc.
+
+4. <title>
+The <title> tag is used inside the <head> tag to mention the document title.
+
+5. <body>
+This tag represents the document's body which keeps other HTML tags like <h1>, <div>, <p> etc.
+
+6. <h1>
+This tag represents the heading.
+
+7. <p>
+This tag represents a paragraph.
+
+
+
+
+
+
+
+HTML Tutorial #3 - Heading, Paragraph and Line Break Tags in HTML
+Heading Tag:
+Any document starts with a heading. You can use different sizes for your headings:
+<h1>, <h2>, <h3>, <h4>, <h5>, and <h6>
+
+Paragraph Tag:
+The <p> tag offers a way to structure your text into different paragraphs. Each paragraph of text should go in between an opening <p> and a closing </p>
+
+Line Break Tag:
+Whenever you use the <br /> element, anything following it starts from the next line. This tag is an example of an empty element, where you do not need opening and closing tags, as there is nothing to go in between them
+
+
+
+
+
+
+
+
+HTML Tutorial #4 - Center Tag for Centering Content in HTML
+You can use <center> tag to put any content in the center of the page or any table cell.
+This tag is deprecated in HTML5, you should instead use CSS property text-align.
+
+
+
+
+
+
+HTML Tutorial #5 - Display Horizontal Lines in HTML
+Horizontal lines are used to visually break-up sections of a document. The <hr> tag creates a line from the current position in the document to the right margin and breaks the line accordingly.
+
+
+
+
+
+
+
+HTML Tutorial #6 - How to Preserve Formatting in HTML
+Sometimes, you want your text to follow the exact format of how it is written in the HTML document. In these cases, we can use the preformatted tag <pre>.
+
+Any text between the opening <pre> tag and the closing </pre> tag will preserve the formatting of the source document.
+
+
+
+
+
+
+
+
+HTML Tutorial #7 - HTML Elements vs Tags
+An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag, where the element name is preceded by a forward slash.
+
+<p>This is paragraph content</p>
+<h1>This is heading content</h1> - HTMl ELEMENT
+<div>This is division content</div>
+<br />
+
+So here <p>....</p> is an HTML element, <h1>...</h1> is another HTML element. There are some HTML elements which don't need to be closed, such as <img.../>, <hr /> and <br /> elements. These are known as void elements.
+
+
+
+
+
+
+
+
+
+HTML Tutorial #8 - Attributes in HTML
+An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. All attributes are made up of two parts − a name and a value
+
+The name is the property you want to set. For example, the paragraph <p> element in the example carries an attribute whose name is title, which you can use to provide hint to the user.
+
+The value is what you want the value of the property to be set and always put within quotations.
+
+
+
+
+
+
+
+
+HTML Tutorial #9 - Making Text Bold in HTML (b Tag)
+You must have used bold formatting feature of the word processor.
+Similarly we can have such formatting in HTML documents as well.
+
+Bold Text:
+Anything that appears within <b>...</b> element
+We can also use the <strong> tag for bold appearance which shows importance
+
+
+
+
+
+
+
+
+
+HTML Tutorial #10 - Making Text Italicized in HTML (i Tag)
+You must have used italicized formatting feature of the word processor.
+Similarly we can have such formatting in HTML documents as well.
+
+Italic Text:
+Anything that appears within <i>...</i> element
+
+
+
+
+
+
+
+
+HTML Tutorial #11 - Making Text Underlined in HTML (u Tag)
+You must have used underline formatting feature of the word processor.
+Similarly we can have such formatting in HTML documents as well.
+
+Underlined Text
+Anything that appears within <u>...</u> element
+
+
+
+
+
+
+
+
+HTML Tutorial #12 - Making Text Strikethrough in HTML (strike Tag)
+Strike Text:
+Anything that appears within <strike>...</strike> element is displayed with strikethrough, which is a thin line through the text
+
+strike tag is deprecated and we must use s tag
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #13 - Monospaced Font in HTML (tt & kbd Tag)
+Monospaced Font
+The content of a <tt>...</tt> element is written in monospaced font. Most of the fonts are known as variable-width fonts because different letters are of different widths (for example, the letter 'm' is wider than the letter 'i'). In a monospaced font, however, each letter has the same width.
+
+tt tag is deprecated and we must use kbd tag
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #14 - Making Text Superscript in HTML (sup Tag)
+The content of a <sup>...</sup> element is written in superscript; the font size used is the same size as the characters surrounding it but is displayed half a character's height above the other characters.
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #15 - Making Text Subscript in HTML (sub Tag)
+The content of a <sub>...</sub> element is written in subscript; the font size used is the same as the characters surrounding it, but is displayed half a character's height beneath the other characters.
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #16 - Inserted Text in HTML (ins Tag)
+Anything that appears within <ins>...</ins> element is displayed as inserted text.
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #17 - Deleted Text in HTML (del Tag)
+Anything that appears within <del>...</del> element, is displayed as deleted text.
+
+
+
+
+
+
+
+
+
+HTML Tutorial #18 - Larger Text in HTML (big Tag)
+The content of the <big>...</big> element is displayed one font size larger than the rest of the text surrounding it
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #19 - Smaller Text in HTML (small Tag)
+The content of the <small>...</small> element is displayed one font size smaller than the rest of the text surrounding it
+
+
+
+
+
+
+
+
+
+HTML Tutorial #20 - Mark Text in HTML (mark Tag)
+The content of the <mark>...</mark> element is displayed as highlighted on browser
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #21 - How to Comment Code in HTML
+The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.
+
+You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.
+
+Example:
+<!--This is a comment. Comments are not displayed in the browser-->
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #22 - Div Tag in HTML to Group Content
+The <div> and <span> elements allow you to group together several elements to create sections or subsections of a page.
+
+For example, you might want to put all of the footnotes on a page within a <div> element to indicate that all of the elements within that <div> element relate to the footnotes. You might then attach a style to this <div> element so that they appear using a special set of style rules.
+
+
+
+
+
+
+
+
+
+HTML Tutorial #23 - Span Tag in HTML to Group inline Elements
+The <span> element can be used to group inline elements. 
+So, if you have a part of a sentence or paragraph which you want to group together, you could use the <span> element.
+
+Also you can use span for using different css properties in same sentence of a paragraph.
+
+
+
+
+
+
+
+
+
+HTML Tutorial #24 - How to Inspect HTML Elements in Browser
+We can easily inspect or see the properties / attributes of any existing HTML code via browser.
+Also it helps us to understand the existing web pages with their structure and styling.
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #25 - Style Attribute in HTML
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+
+Format:
+<tagname style="property:value;">
+
+Examples of style attributes:
+- background-color
+- color
+- font-family
+- font-size
+- text-align
+
+
+
+
+
+
+
+
+HTML Tutorial #26 - Quotation and Citation Elements in HTML
+1. <blockquote> tag:
+The HTML <blockquote> element defines a section that is quoted from another source.
+Browsers usually indent <blockquote> elements.
+
+2. <q> tag:
+The HTML <q> tag defines a short quotation.
+Browsers normally insert quotation marks around the quotation.
+
+3. <abbr> tag:
+The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+4. <address> tag:
+The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+
+5. <cite> tag:
+The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+The text in the <cite> element usually renders in italic.
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #27 - Block vs Inline Elements in HTML (Display Values)
+There are two display values in HTML: block and inline.
+
+Block-level Elements:
+A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+Two commonly used block elements are: <p> and <div> tags
+
+Inline Elements:
+An inline element does not start on a new line.
+An inline element only takes up as much width as necessary.
+Commonly used inline elements are: <span> and <a> tags
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #28 - Colors in HTML (Background, Text and Border Colors)
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+
+1. Background color
+2. Text color
+3. Border color
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #29 - Links in HTML that are clickable (a tag)
+Links allow users to click their way from page to page.
+HTML links are also called hyperlinks.
+
+You can click on a link and jump to another document.
+When you move the mouse over a link, the mouse arrow will turn into a little hand.
+
+Syntax:
+<a href="url">link text</a>
+
+- target attribute can be used to tell browser to open page in same or different tab
+- You can also use image as a link using <img> tag
+- You can also link to an email address in href attribute
+- title attribute can be used to show additional information
+
+Channel link: 
+https://www.youtube.com/channel/UCxuaFyfxi-g8va1AgzvUsBg/
+
+
+
+
+
+
+
+HTML Tutorial #30 - Display Image in HTML (img tag)
+The HTML <img> tag is used to embed an image in a web page.
+
+Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The <img> tag has two required attributes:
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #31 - Display Background Image in HTML
+A background image can be specified for almost any HTML element.
+
+To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:
+
+- background-image
+- background-size
+- background-repeat
+- background-attachment
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #32 - Display Favicon in HTML on Browser Tab
+A favicon is a small image displayed next to the page title in the browser tab.
+
+We can easily add favicon in HTML using link tag under head tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #33 - Table in HTML with Examples
+HTML table allow web developers to arrange data into rows and columns.
+
+<table> - main tag
+<tr> - defines a horizontal row in table (Table row)
+<th> - defined header for the table (Table header)
+<td> - defines content or data in one cell of table (Table data)
+
+Note: A table cell can contain all sorts of HTML elements: text, images, lists, links, other tables, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #34 - Table Border in HTML
+HTML tables can have borders of different styles and shapes.
+
+CSS properties:
+- border
+- border-collapse
+- background-color for table data
+- border-radius
+- border-style
+- border-color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #35 - Table Size in HTML using width and height
+HTML tables can have different sizes for each column, row or the entire table.
+
+- Table width
+- Table header width
+- Table row height
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #36 - Table Headers in HTML (Horizontal and Vertical)
+HTML tables can have headers for each column or row, or for many columns/rows.
+
+- Horizontal Headers
+- Vertical Headers
+- Header alignment
+- colspan to merge headers
+- Table Caption (using caption tag immediately after table opening tag)
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #37 - Table Padding and Spacing in HTML
+HTML tables can adjust the padding inside the cells, and also the space between the cells.
+
+Cell Padding: 
+Cell padding is the space between the cell edges and the cell content.
+By default the padding is set to 0.
+Use padding css property
+
+Cell Spacing:
+Cell spacing is the space between each cell.
+By default the space is set to 2 pixels.
+Use border-spacing css property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #38 - Table Colspan & Rowspan in HTML
+HTML tables can have cells that span over multiple rows and/or columns.
+
+colspan:
+To make a cell span over multiple columns, use the colspan attribute
+
+rowspan:
+To make a cell span over multiple rows, use the rowspan attribute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #39 - Table Styling in HTML using CSS
+We can use CSS in HTML to make tables look better.
+
+- Zebra Stripes, to add background color on every other table row
+- Vertical Zebra Stripes, to add background color on every other table column
+- Combine Vertical and Horizontal Zebra Stripes
+- Horizontal Dividers, using border-bottom css property to all tr elements
+- hoverable table, using hover selector to all tr elements
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #40 - Table Colgroup Tag in HTML
+The <colgroup> element is used to style specific columns of a table.
+
+- The <colgroup> element should be used as a container for the column specifications.
+- Each group is specified with a <col> element.
+- The span attribute specifies how many columns that get the style.
+- The style attribute specifies the style to give the columns.
+
+- We can also have multiple col elements inside colgroup tag
+- Empty col elements to style middle of the table
+- visibility: collapse property can be used to hide the columns
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #41 - Unordered List in HTML
+HTML Unordered list is used to group a set of related items in lists.
+
+An unordered list starts with the <ul> tag.
+Each list item starts with the <li> tag.
+
+The list items will be marked with bullets (small black circles) by default.
+
+Examples with:
+- css list-style-type
+- Nested List
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #42 - Ordered List in HTML
+HTML Ordered list is used to group a set of related items in lists.
+
+An ordered list starts with the <ol> tag.
+Each list item starts with the <li> tag.
+
+The list items will be marked with numbers by default
+
+Examples with:
+- The type attribute of <ol> tag
+- The start attribute of <ol> tag
+- Nested ordered list
+
+
+
+
+
+
+
+
+
+HTML Tutorial #43 - Description List in HTML
+A description list is a list of terms, with a description of each term.
+
+- The <dl> tag defines the description list 
+- The <dt> tag defines the term (name)
+- The <dd> tag describes each term
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #44 - Class Attribute in HTML
+The HTML class attribute is used to specify a class for an HTML element.
+Multiple HTML elements can share the same class.
+
+Syntax for css of class:
+To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}
+
+- Examples with css
+- Different HTML elements can use same class attribute
+- HTML element can also have multiple classes associated with it.
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #45 - ID Attribute in HTML
+The HTML id attribute is used to specify a unique id for an HTML element.
+You cannot have more than one element with the same id in an HTML document.
+
+Syntax for css of id:
+write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}
+
+- Examples with id attribute
+- Different elements cannot have same id
+- Difference between class and id
+- HTML Bookmarks with ID
+Example link: https://developers.google.com/search/blog
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #46 - iframe in HTML
+An HTML iframe is used to display a web page within a web page.
+
+The HTML <iframe> tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.
+
+- example - src attribute is used to refer to another webpage to display in iframe
+- title attribute - used by screen readers to read out what the content of the iframe is
+- height and width attributes (or css properties)
+- remove border
+- iframe target for a link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #47 - Basic JavaScript with HTML
+JavaScript makes HTML pages more dynamic and interactive.
+
+Problem Statement:
+- Create a button
+- Create a paragraph with id "demo"
+- Click button to show current date time in demo paragraph
+
+- script tag in html for javascript
+- setting style properties with javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #48 - Head Element in HTML
+The HTML <head> element is a container for the following elements:
+<title>, <style>, <meta>, <link>, <script>, and <base>.
+
+
+- <title> - defines the title of the document. 
+The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+
+- <style> - is used to define style information for a single HTML page
+
+- <link> - defines the relationship between the current document and an external resource
+
+- <meta> - used to specify the character set, page description, keywords, author of the document, and viewport settings
+
+- <script> - used to define client-side JavaScripts
+
+- <base> - specifies the base URL or target for all relative URLs in a page
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #49 - Responsive Web Design in HTML
+Responsive web design is about creating web pages that look good on all devices!
+A responsive web design will automatically adjust for different screen sizes and viewports.
+
+Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones)
+
+To create a responsive website, add the following <meta> tag to all your web pages:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #50 - HTML Style Guide and Best Practices
+A consistent, clean, and tidy HTML code makes it easier for others to read and understand your code.
+
+Below are some guidelines you must follow:
+1. Always declare the document type as the first line in your document
+2. Use Lowercase Element Names
+3. Close All HTML Elements
+4. Use Lowercase Attribute Names
+5. Always Quote Attribute Values
+6. Always Specify alt, width, and height for Images
+7. Spaces and Equal Signs
+8. Avoid Long Code Lines
+9. Never Skip the <title> Element
+10. Omitting <html> and <body>
+11. Omitting <head>
+12. Setting The Viewport
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #51 - Form in HTML
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+- Form example with text input and submit button along with labels
+
+Other input types:
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #52 - Form Attributes in HTML
+There are different form attributes you can use based on requirements:
+
+- action attribute - defines the action to be performed when the form is submitted
+- target attribute - specifies where to display the response that is received after submitting the form
+- method attribute - specifies the HTTP method to be used when submitting the form data
+- autocomplete attribute - specifies whether a form should have autocomplete on or off
+- novalidate attribute - specifies that the form-data (input) should not be validated when submitted
+
+
+Notes on GET:
+- Appends the form data to the URL, in name/value pairs
+- NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+- The length of a URL is limited (2048 characters)
+- Useful for form submissions where a user wants to bookmark the result
+- GET is good for non-secure data, like query strings in Google
+
+Notes on POST:
+- Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+- POST has no size limitations, and can be used to send large amounts of data.
+- Form submissions with POST cannot be bookmarked
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #53 - Form Elements in HTML
+There are various form elements in HTML:
+- <input> - take input from user
+- <label> - define label for input
+- <select> - drop down list
+- <textarea> - multi line input field
+- <button> - clickable button
+- <fieldset> and <legend> - group form elements and provide name to form
+- <datalist> - list of drop down options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #54 - Input Type Text in HTML Form
+<input type="text"> defines a single-line text input field
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #55 - Input Type Password in HTML Form
+<input type="password"> defines a password field
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #56 - Input Type Submit in HTML Form
+<input type="submit"> defines a button for submitting form data to a form-handler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #57 - Input Type Reset in HTML Form
+<input type="reset"> defines a reset button that will reset all form values to their default values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #58 - Input Type Radio Button in HTML Form
+<input type="radio"> defines a radio button
+Radio buttons let a user select ONLY ONE of a limited number of choices
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #59 - Input Type Checkbox in HTML Form
+<input type="checkbox"> defines a checkbox.
+Checkboxes let a user select ZERO or MORE options of a limited number of choices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #60 - Input Type Button in HTML Form
+<input type="button"> defines a button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #61 - Input Type Color in HTML Form
+<input type="color"> is used to display color picker.
+Depending on browser support, a color picker can show up in the input field
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #62 - Input Type Date in HTML Form
+The <input type="date"> is used for input fields that should contain a date.
+Depending on browser support, a date picker can show up in the input field.
+
+- min and max attributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #63 - Input Type Datetime local in HTML Form
+The <input type="datetime-local"> specifies a date and time input field, with no time zone.
+Depending on browser support, a date picker can show up in the input field.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #64 - Input Type Email in HTML Form
+The <input type="email"> is used for input fields that should contain an e-mail address.
+Depending on browser support, the e-mail address can be automatically validated when submitted.
+
+Some smartphones recognize the email type, and add ".com" to the keyboard to match email input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #65 - Input Type Image in HTML Form
+The <input type="image"> defines an image as a submit button.
+The path to the image is specified in the src attribute.
+
+- Acts as a submit button and sends the coordinates of the user click as x and y coordinates
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #66 - Input Type File in HTML Form
+The <input type="file"> defines a file-select field and a "Browse" button for file uploads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #67 - Input Type Hidden in HTML Form
+The <input type="hidden"> defines a hidden input field (not visible to a user)
+A hidden field lets web developers include data that cannot be seen or modified by users when a form is submitted.
+
+Note: While the value is not displayed to the user in the page's content, it is visible (and can be edited) using any browser's developer tools or "View Source" functionality. Do not use hidden inputs as a form of security!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #68 - Input Type Month in HTML Form
+The <input type="month"> allows the user to select a month and year.
+Depending on browser support, a date picker can show up in the input field
+
+Important Note: type="month" is not supported in Firefox, Safari, or Internet Explorer 11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #69 - Input Type Number in HTML Form
+The <input type="number"> defines a numeric input field.
+You can also set restrictions on what numbers are accepted.
+
+- min and max attributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #70 - Input Type Range in HTML Form
+The <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control). 
+Default range is 0 to 100
+
+- min, max and step attributes
+- Displaying value using JavaScript (nextElementSibling)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #71 - Input Type Tel for Telephone Number in HTML Form
+The <input type="tel"> is used for input field that should contain a telephone number, with a pattern mentioned
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #72 - Input Type Time in HTML Form
+The <input type="time"> allows the user to select a time (no time zone).
+Depending on browser support, a time picker can show up in the input field.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #73 - Input Type URL in HTML Form
+The <input type="url"> is used for input fields that should contain a URL address.
+Depending on browser support, the url field can be automatically validated when submitted.
+
+Some smartphones recognize the url type, and adds ".com" to the keyboard to match url input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #74 - Input Type Week in HTML Form
+The <input type="week"> allows the user to select a week and year.
+Depending on browser support, a date picker can show up in the input field.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #75 - Input Attribute Value in Input Field
+The input value attribute specifies an initial value for an input field
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #76 - Input Attribute readonly in Input Field
+The input readonly attribute specifies that an input field is read-only.
+A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+
+The value of a read-only input field will be sent when submitting the form!
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #77 - Input Attribute disabled in Input Field
+The input disabled attribute specifies that an input field should be disabled.
+A disabled input field is unusable and un-clickable.
+
+The value of a disabled input field will not be sent when submitting the form!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #78 - Input Attribute size in Input Field
+The input size attribute specifies the visible width, in characters, of an input field.
+The default value for size is 20.
+
+Note: The size attribute works with the following input types: text, search, tel, url, email, and password.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #79 - Input Attribute maxlength in Input Field
+The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+
+Note: When a maxlength is set, the input field will not accept more than the specified number of characters. 
+However, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code.
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #80 - Input Attribute min and max in Input Field
+The input min and max attributes specify the minimum and maximum values for an input field.
+The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+
+Tip: Use the max and min attributes together to create a range of legal values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #81 - Input Attribute multiple in Input Field
+The input multiple attribute specifies that the user is allowed to enter more than one value in an input field.
+The multiple attribute works with the input types - email and file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #82 - Input Attribute placeholder in Input Field
+The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).
+The short hint is displayed in the input field before the user enters a value.
+
+The placeholder attribute works with the input types - text, search, url, tel, email, and password.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #83 - Input Attribute required in Input Field
+The input required attribute specifies that an input field must be filled out before submitting the form.
+The required attribute works with the input types - text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #84 - Input Attribute step in Input Field
+The input step attribute specifies the legal number intervals for an input field.
+Example: if step="3", legal numbers could be -3, 0, 3, 6, etc.
+
+Tip: This attribute can be used together with the max and min attributes to create a range of legal values.
+The step attribute works with the input types - number, range, date, datetime-local, month, time and week.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #85 - Input Attribute autofocus in Input Field
+The input autofocus attribute specifies that an input field should automatically get focus when the page loads.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #86 - Input Attribute height and width in Input Field
+The input height and width attributes specify the height and width of an element
+
+Example:
+Define an image as the submit button, with height and width attributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #87 - Input Attribute list in Input Field
+The input list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #88 - Input Attribute autocomplete in Input Field
+The input autocomplete attribute specifies whether a form or an input field should have autocomplete on or off.
+
+Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
+
+The autocomplete attribute works with <form> and the following <input> types: text, search, url, tel, email, password, datepickers, range, and color.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #89 - Input Attribute form in Input Field
+The input form attribute specifies the form the <input> element belongs to.
+
+The value of this attribute must be equal to the id attribute of the <form> element it belongs to.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #90 - Input Attribute formaction in Input Field
+The input formaction attribute specifies the URL of the file that will process the input when the form is submitted.
+Note: This attribute overrides the action attribute of the <form> element.
+
+The formaction attribute works with the following input types: submit and image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #91 - Input Attribute formenctype in Input Field
+The input formenctype attribute specifies how the form-data should be encoded when submitted (only for forms with method="post").
+
+Note: This attribute overrides the enctype attribute of the <form> element.
+The formenctype attribute works with the following input types: submit and image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #92 - Input Attribute formmethod in Input Field
+The input formmethod attribute defines the HTTP method for sending form-data to the action URL.
+
+Note: This attribute overrides the method attribute of the <form> element.
+The formmethod attribute works with the following input types: submit and image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #93 - Input Attribute formtarget in Input Field
+The input formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
+
+Note: This attribute overrides the target attribute of the <form> element.
+The formtarget attribute works with the following input types: submit and image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #94 - Form Attribute novalidate in Form Tag
+The novalidate attribute is a <form> attribute.
+When present, novalidate specifies that all of the form-data should not be validated when submitted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #95 - Input Attribute formnovalidate in Input Field
+The input formnovalidate attribute specifies that an <input> element should not be validated when submitted.
+
+Note: This attribute overrides the novalidate attribute of the <form> element.
+The formnovalidate attribute works with the following input types: submit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #96 - Canvas Graphics using HTML Canvas Tag
+The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+
+- Draw a line in Canvas
+- Draw a Circle in Canvas
+- Write Text in Canvas
+
+Find more examples here:
+https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #97 - Video Tag in HTML to display Video
+The HTML <video> element is used to show a video on a web page.
+
+- The controls attribute adds video controls, like play, pause, and volume.
+- Add muted after autoplay to let your video start playing automatically (but muted)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tutorial #98 - Display YouTube Video in HTML
+The easiest way to play videos in HTML, is to use YouTube.
+
+- Use YouTube Video ID to display video on HTML web page
+
+Example:
+Shareable Link = https://youtu.be/c61r-EqhIFo
+Convert to = https://youtube.com/embed/c61r-EqhIFo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+others:
+- <label> - define label for input
+- <select> - drop down list
+- <textarea> - multi line input field
+- <button> - clickable button
+- <fieldset> and <legend> - group form elements and provide name to form
+- <datalist> - list of drop down options

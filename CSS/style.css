@@ -1,0 +1,18 @@
+.container{
+    background-color: aqua;
+    padding: 20px;
+    width: min-content;
+    margin: auto;
+}
+
+input:required, #submit{
+    padding: 5px;
+    background-color: rgb(207, 255, 207);
+    border-radius: 5px;
+}
+
+input:optional{
+    padding: 5px;
+    background-color: rgb(255, 202, 202);
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+************ PYTHON PROJECTS FOR BEGINNERS ************
+
+Python Project #1 - Number guessing game in Python
+Steps to create a Number guessing game Project in Python:
+
+1. Build a Number guessing game, in which the user selects a range.
+2. Let’s say User selected a range, i.e., from A to B, where A and B belong to Integer.
+3. Some random integer will be selected by the system and the user has to guess that integer in the minimum number of guesses
+
+
+
+
+
+
+
+Python Project #2 - Word Guessing Game in Python
+Steps to create Word Guessing Game in Python
+1. In this game, there is a list of words present, out of which the interpreter will choose 1 random word. 
+2. The user will be asked to guess any alphabet. 
+3. If the random word contains that alphabet, it will be shown as the output(with correct placement) else the program will ask you to guess another alphabet.
+
+Example:
+words = ['rainbow', 'computer', 'science', 'programming',
+         'python', 'mathematics', 'player', 'condition',
+         'reverse', 'water', 'board', 'geeks']
+
+
+
+
+
+more programs:
+https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/

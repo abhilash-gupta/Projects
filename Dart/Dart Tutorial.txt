@@ -1,0 +1,371 @@
+----- DART TUTORIALS FOR BEGINNERS -----
+
+#1 - Introduction to Dart and How to write First Dart Code
+AIM: To learn Dart programming language as a beginner so that we can make apps using Flutter. Flutter is framework developed by Google. Also we can make single-page web applications using Dart.
+
+
+- How to set up Dart Environment?
+1. Executing Script Online with DartPad
+Link: https://dartpad.dartlang.org/
+2. Set up Dart environment locally
+Installing the Dart SDK
+Link: https://www.dartlang.org/install/archive/
+
+
+#2 - Data types in Dart Programming
+Numbers - int, double
+String - "this is a string"
+bool - true, false
+List - []
+Set - {}
+Map = {key: value}
+
+
+#3 - Variables in Dart Programming
+No special characters except $ and _
+
+
+#4 - Difference between final and const keywords in Dart
+const is a compile time constant
+compile time and run time
+
+
+#5 - Arithmetic Operators - How to Add Two Numbers in Dart
++ Add
+- Subtract
+-expr Unary minus
+* Multiply
+/ Divide
+~/ Divide returning an integer result (quotient)
+% Remainder
+++ increment
+-- decrement
+
+
+#6 - Conditional if else statement in Dart Programming
+if() {
+  execute this
+} 
+else {
+  execute this
+}
+
+
+#7 - Equality and Relational Operators in Dart Programming
+>	Greater than (A > B) is False
+<	Lesser than (A < B) is True
+>=	Greater than or equal to (A >= B) is False
+<=	Lesser than or equal to	(A <= B) is True
+==	Equality (A==B) is False
+!=	Not equal (A!=B) is True
+
+
+#8 - Type test Operators in Dart Programming
+is - True if the object has the specified type
+is! - False if the object has the specified type
+
+
+#9 - Assignment Operators in Dart Programming
+= (Simple Assignment)
+??= Assign the value only if the variable is null
++= (Add and Assignment)
+─= (Subtract and Assignment)
+*= (Multiply and Assignment)
+/= (Divide and Assignment)
+
+
+#10 - Logical Operators in Dart Programming
+&& - And (A > 10 && B > 10) is False
+|| - OR (A > 10 || B > 10) is True
+! - NOT !(A > 10) is True
+
+
+#11 - Conditional Expressions in Dart Programming
+condition ? expr1 : expr2
+
+
+#12 - For Loop in Dart Programming
+for (var i=0;i<5;i++) {}
+for (var item in list) {}
+
+
+#13 - While Loop in Dart Programming
+while (i < 5) {}
+do {} while (i < 5)
+
+
+#14 - Control Statements in Dart Programming - break and continue
+break - breaks the flow of execution in loops
+continue - continues the flow of execution to next iteration
+
+
+#15 - Switch case in Dart Programming
+switch (i){
+	case 0: {}
+		break;
+
+	case 1: {}
+		break;
+
+	default: {}
+		break;
+}
+
+
+#16 - Number Methods in Dart Programming
+abs() - Returns the absolute value of the number
+ceil() - Returns the least integer not smaller than the number
+compareTo() - Compares this to other number
+Floor() - Returns the greatest integer not greater than the current number
+remainder() - Returns the truncated remainder after dividing the two numbers
+Round() - Returns the integer closest to the current numbers
+toDouble() - Returns the double equivalent of the number
+toInt() - Returns the integer equivalent of the number
+toString() - Returns the string equivalent representation of the number
+truncate() - Returns an integer after discarding any fractional digits
+
+
+#17 - String variables and Methods in Dart Programming
+String str1 = 'this is a single line string'; 
+String str2 = "this is a single line string"; 
+String str3 = '''this is a multiline line string'''; 
+String str4 = """this is a multiline line string"""; 
+- String concatenation or interpolation
+Methods:
+Length property
+toLowerCase() - Converts all characters in this string to lower case
+toUpperCase() - Converts all characters in this string to upper case
+trim() - Returns the string without any leading and trailing whitespace
+compareTo() - Compares this object to another
+split() - Splits the string at matches of the specified delimiter and returns a list of substrings
+substring() - Returns the substring of this string that extends from startIndex, inclusive, to endIndex, exclusive
+toString() - Returns a string representation of this object
+
+
+#18 - Boolean Variables in Dart Programming
+void main() { 
+   bool test; 
+   test = 12 > 5; 
+   print(test); 
+}
+
+
+#19 - List & Lists Methods in Dart Programming
+void main() { 
+   var num_list = [1,2,3]; 
+   print(num_list); 
+}
+
+- adding elements in list - add(), addAll(), insert()
+- replace elements replaceRange()
+- remove elements - remove(), removeAt(), removeLast(), removeRange()
+
+
+#20 - Map & Maps Methods in Dart Programming
+void main() { 
+   var details = {'Username':'tom','Password':'pass@123'}; 
+   print(details); 
+}
+
+Methods:
+keys, values
+addAll() - Adds all key-value pairs of other to this map.
+clear() - Removes all pairs from the map.
+remove() - Removes key and its associated value, if present, from the map.
+
+
+#21 - Functions in Dart Programming
+Functions are the building blocks of readable, maintainable, and reusable code. A function is a set of statements to perform a specific task.
+- Defining a Function
+- Calling a Function
+- Returning Functions
+- Parameterized Functions
+
+
+#22 - Recursive functions in Dart Programming
+Function calling itself
+
+
+#23 - Class in Dart Programming (Object Oriented Programming)
+Dart is an object-oriented language. It supports object-oriented programming features like classes, interfaces, etc. A class in terms of OOP is a blueprint for creating objects. A class encapsulates data for the object. Dart gives built-in support for this concept called class.
+
+- Declaring a Class
+class class_name {  
+   <fields> 
+   <getters/setters> 
+   <constructors> 
+   <functions> 
+}
+
+- Dart Constructors
+A constructor is a special function of the class that is responsible for initializing the variables of the class. Dart defines a constructor with the same name as that of the class. A constructor is a function and hence can be parameterized.
+Syntax:
+Class_name(parameter_list) { 
+   //constructor body 
+}
+
+- this Keyword
+The this keyword refers to the current instance of the class. Here, the parameter name and the name of the class’s field are the same. Hence to avoid ambiguity, the class’s field is prefixed with the this keyword.
+
+
+#24 - Class Inheritance in Dart Programming
+Dart supports the concept of Inheritance which is the ability of a program to create new classes from an existing class. The class that is extended to create newer classes is called the parent class/super class. The newly created classes are called the child/sub classes.
+
+Syntax:
+class child_class_name extends parent_class_name
+
+Types of Inheritance:
+Single − Every class can at the most extend from one parent class.
+Multiple − A class can inherit from multiple classes. Dart doesn’t support multiple inheritance.
+Multi-level − A class can inherit from another child class.
+
+
+#25 - Class Inheritance & Method Overriding in Dart Programming
+Method Overriding is a mechanism by which the child class redefines a method in its parent class.
+
+Example:
+void main() { 
+   Child c = new Child(); 
+   c.m1(12); 
+} 
+class Parent { 
+   void m1(int a){ print("value of a ${a}");} 
+}  
+class Child extends Parent { 
+   @override 
+   void m1(int b) { 
+      print("value of b ${b}"); 
+   } 
+}
+
+
+#26 - static Keyword in Dart Programming
+The static keyword can be applied to the data members of a class, i.e., fields and methods. A static variable retains its values till the program finishes execution. Static members are referenced by the class name.
+
+Example:
+class StaticMem { 
+   static int num;  
+   static disp() { 
+      print("The value of num is ${StaticMem.num}")  ; 
+   } 
+}  
+void main() { 
+   StaticMem.num = 12;  
+   // initialize the static variable } 
+   StaticMem.disp();   
+   // invoke the static method 
+}
+
+
+#27 - Super Keyword in Dart Programming
+The super keyword is used to refer to the immediate parent of a class. The keyword can be used to refer to the super class version of a variable, property, or method
+
+Example:
+void main() { 
+   Child c = new Child(); 
+   c.m1(12); 
+} 
+class Parent { 
+   String msg = "message variable from the parent class"; 
+   void m1(int a){ print("value of a ${a}");} 
+} 
+class Child extends Parent { 
+   @override 
+   void m1(int b) { 
+      print("value of b ${b}"); 
+      super.m1(13); 
+      print("${super.msg}")   ; 
+   } 
+}
+
+
+#28 - Dart Objects & Cascade operator in Dart Programming
+Object-Oriented Programming defines an object as “any entity that has a defined boundary.” An object has the following −
+
+State − Describes the object. The fields of a class represent the object’s state.
+Behavior − Describes what an object can do.
+Identity − A unique value that distinguishes an object from a set of similar other objects. Two or more objects can share the state and behavior but not the identity.
+
+The period operator (.) is used in conjunction with the object to access a class’ data members.
+
+Example:
+class Student { 
+   void test_method() { 
+      print("This is a  test method"); 
+   } 
+   
+   void test_method1() { 
+      print("This is a  test method1"); 
+   } 
+}  
+void main()    { 
+   Student s1 = new Student(); 
+   s1.test_method(); 
+   s1.test_method1(); 
+}
+
+
+The Cascade operator (..)
+The cascade operator can be used as a shorthand in cases where there is a sequence of invocations.
+
+Example:
+class Student { 
+   void test_method() { 
+      print("This is a  test method"); 
+   } 
+   
+   void test_method1() { 
+      print("This is a  test method1"); 
+   } 
+}  
+void main() { 
+   new Student() 
+   ..test_method() 
+   ..test_method1(); 
+}
+
+
+#29 - Collections and Iterator in Dart Programming
+Dart Collections include:
+1. List
+2. Set
+3. Maps
+4. Queue
+
+Iterating Collections:
+The Iterator class enables easy collection traversal. Every collection has an iterator property. This property returns an iterator that points to the objects in the collection.
+
+Example:
+import 'dart:collection'; 
+void main() { 
+   Queue numQ = new Queue(); 
+   numQ.addAll([100,200,300]);  
+   Iterator i= numQ.iterator; 
+   
+   while(i.moveNext()) { 
+      print(i.current); 
+   } 
+}
+
+
+#30 - Generic Collections in Dart Programming
+Dart is an optionally typed language. Collections in Dart are heterogeneous by default. In other words, a single Dart collection can host values of various types. However, a Dart collection can be made to hold homogenous values. The concept of Generics can be used to achieve the same.
+
+The use of Generics enforces a restriction on the data type of the values that can be contained by the collection. Such collections are termed as type-safe collections. Type safety is a programming feature which ensures that a memory block can only contain data of a specific data type.
+
+Example:
+void main() { 
+   List <String> logTypes = new List <String>(); 
+   logTypes.add("WARNING"); 
+   logTypes.add("ERROR"); 
+   logTypes.add("INFO");  
+   
+   // iterating across list 
+   for (String type in logTypes) { 
+      print(type); 
+   } 
+}
+
+
+#31 - Exceptions in Dart Programming
+

@@ -1,0 +1,240 @@
+
+#26 - Reverse Pyramid Star pattern
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int row = 10;
+		
+		for(int i=0;i<row;i++) {
+			for(int j=0;j<i;j++)
+				System.out.print(" ");
+			for(int j=i;j<row;j++)
+				System.out.print("* ");
+			System.out.println();
+		}
+	}	
+}
+
+
+
+#27 - even or odd number
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number;
+		System.out.print("Enter number : ");
+		Scanner sc = new Scanner(System.in);
+		number = sc.nextInt();
+		
+		String evenOrOdd = (number % 2 == 0) ? "even" : "odd";
+		System.out.println("Entered number is : " + evenOrOdd);
+	}	
+}
+
+
+
+#28 - multiplication table
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number;
+		System.out.print("Enter number for multiplication table: ");
+		Scanner sc = new Scanner(System.in);
+		number = sc.nextInt();
+		
+		for(int i=1;i<=10;i++)
+			System.out.println(number + " * " + i + " = " + (number * i));
+	}	
+}
+
+
+
+#29 - GCD
+
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number1, number2;
+		System.out.print("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		number1 = sc.nextInt();
+		System.out.print("Enter second number : ");
+		number2 = sc.nextInt();
+		
+		int gcd = 1;
+		for(int i=1;i<=number1 && i<=number2;i++) {
+			if(number1 % i == 0 && number2 % i == 0) {
+				gcd = i;
+			}
+		}
+		System.out.println("GCD = " + gcd);
+	}	
+}
+
+
+
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number1, number2;
+		System.out.print("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		number1 = sc.nextInt();
+		System.out.print("Enter second number : ");
+		number2 = sc.nextInt();
+		
+		while(number1 != number2) {
+			if(number1 > number2)
+				number1 = number1 - number2;
+			if(number2 > number1)
+				number2 = number2 - number1;
+		}
+		System.out.println("GCD = " + number1);
+	}	
+}
+
+
+#30 - LCM
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int n1, n2;
+		System.out.print("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		n1 = sc.nextInt();
+		System.out.print("Enter second number : ");
+		n2 = sc.nextInt();
+		
+		int lcm = (n1 > n2) ? n1 : n2;
+		while(true) {
+			if(lcm % n1 == 0 && lcm % n2 == 0) {
+				System.out.println("LCM of entered numbers : " + lcm);
+				break;
+			}
+			++lcm;
+		}
+	}	
+}
+
+
+#31 - number of digits
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number;
+		System.out.println("Enter number : ");
+		Scanner sc = new Scanner(System.in);
+		number = sc.nextInt();
+		
+		String str = String.valueOf(number);
+		System.out.println("Number of digits : " + str.length());
+	}	
+}
+
+
+#32 - power of numbers:
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int base, exponent;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter base number : ");
+		base = sc.nextInt();
+		System.out.print("Enter exponent number : ");
+		exponent = sc.nextInt();
+		
+		
+		System.out.println("The result is : " + Math.pow(base, exponent));
+	}	
+}
+
+
+#33 - factors of number:
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number;
+		System.out.print("Enter number : ");
+		Scanner sc = new Scanner(System.in);
+		number = sc.nextInt();
+		
+		System.out.print("Factors of this number : ");
+		for(int i=1;i<=number;i++) {
+			if(number % i == 0) {
+				System.out.print(i + " ");
+			}
+		}
+	}	
+}
+
+
+#34 - simple calculator
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int operator, n1, n2;
+		System.out.println("1 - Add \n 2 - Subtract \n 3 - Multiply \n 4 - Divide");
+		System.out.print("Choose Operator: ");
+		Scanner sc = new Scanner(System.in);
+		operator = sc.nextInt();
+		System.out.print("Enter first number : ");
+		n1 = sc.nextInt();
+		System.out.print("Enter second number : ");
+		n2 = sc.nextInt();
+		
+		int result = 0;
+		switch(operator) {
+		case 1: 
+			result = n1 + n2;
+			break;
+			
+		case 2:
+			result = n1 - n2;
+			break;
+			
+		case 3:
+			result = n1 * n2;
+			break;
+			
+		case 4:
+			result = n1 / n2;
+			break;
+			
+		default:
+			System.out.println("Entered operator is not valid");
+		}
+		
+		System.out.println("Result is : " + result);
+	}	
+}
+
+
+#35 - sum of natural numbers
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+		int number;
+		System.out.print("Enter number : ");
+		Scanner sc = new Scanner(System.in);
+		number = sc.nextInt();
+		
+		System.out.println("Sum of natural numbers : " + sum(number));
+	}	
+	
+	public static int sum(int value) {
+		if(value == 0)
+			return 0;
+		
+		return value + sum(value - 1);
+	}
+}
