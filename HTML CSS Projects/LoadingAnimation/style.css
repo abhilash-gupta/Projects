@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.loading{
+    width: 200px;
+    height: 200px;
+    /* background-color: grey; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    /* border: 20px solid grey; */
+    border-width: 20px;
+    border-style: solid;
+    border-color: white grey grey grey;
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loading{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

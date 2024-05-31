@@ -1,0 +1,16 @@
+.container{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#search{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#search:focus{
+    outline: none;
+    border: 2px solid rgb(132, 235, 255);
+    box-shadow: 0 0 20px rgb(132, 235, 255);
+}

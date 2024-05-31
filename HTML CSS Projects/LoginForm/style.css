@@ -1,0 +1,28 @@
+.container{
+    background-color: aqua;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black, 0 0 20px darkblue;
+}
+
+#username, #password{
+    padding: 5px;
+}
+
+#submit{
+    background-color: rgb(184, 253, 184);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#submit:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+}
+
+.item{
+    padding: 10px;
+}
+
+.item:hover{
+    background-color: red;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar{
+        flex-direction: column;
+    }
+}
