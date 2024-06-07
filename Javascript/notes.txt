@@ -1,0 +1,23 @@
+*******************************************
+             JavaScript Tutorial
+*******************************************
+JavaScript Tutorial #1 - Introduction, NodeJS Installation & Hello World Example
+- JavaScript is the world's most popular programming language.
+- JavaScript is the programming language of the Web
+- Must learn language to become a Web Developer
+
+Uses:
+HTML - Creating web pages
+CSS - Design web pages
+JavaScript - Interact with web pages
+
+What is Node.js?
+- Node.js is an open source server environment
+- It is free to use
+- Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+- Node.js uses JavaScript on the server
+
+Install Node.js from link:
+https://nodejs.org/en/download/prebuilt-installer
+
+- Example of How JavaScript works

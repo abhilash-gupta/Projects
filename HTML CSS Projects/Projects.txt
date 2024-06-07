@@ -2,15 +2,15 @@
 HTML CSS PROJECTS
 ==============================================
 
-1. HTML CSS Project - Create a Simple Calculator in HTML & CSS
+1. HTML CSS Project 1 - Create a Simple Calculator in HTML & CSS
 
-2. HTML CSS Project - Responsive Navigation Bar in HTML & CSS
+2. HTML CSS Project 2 - Responsive Navigation Bar in HTML & CSS
 
-3. HTML CSS Project - Simple Login Form in HTML & CSS
+3. HTML CSS Project 3 - Simple Login Form in HTML & CSS
 
-4. HTML CSS Project - Create a glowing border around an Input Field
+4. HTML CSS Project 4 - Create a glowing border around an Input Field
 
-5. HTML CSS Project - Loading Animation in HTML & CSS
+5. HTML CSS Project 5 - Loading Animation in HTML & CSS
 
 
 
