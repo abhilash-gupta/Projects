@@ -4,13 +4,42 @@ HTML CSS PROJECTS
 
 1. HTML CSS Project 1 - Create a Simple Calculator in HTML & CSS
 
+
 2. HTML CSS Project 2 - Responsive Navigation Bar in HTML & CSS
+
 
 3. HTML CSS Project 3 - Simple Login Form in HTML & CSS
 
+
 4. HTML CSS Project 4 - Create a glowing border around an Input Field
 
+
 5. HTML CSS Project 5 - Loading Animation in HTML & CSS
+
+
+6. HTML CSS Project 6 - Social Media Icons in HTML & CSS
+
+Icons Link:
+https://boxicons.com
+
+Css:
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+7. HTML CSS Project 7 - Button Hover Animation in HTML & CSS
+
+
+8. HTML CSS Project 8 - Card Hover Animation in HTML & CSS
+
+
+9. HTML CSS Project 9 - Instagram Analytics Data Icons in HTML & CSS
+
+
+10. HTML CSS Project 10 - Simple Registration Form in HTML & CSS
+
+
+
+
 
 
 
