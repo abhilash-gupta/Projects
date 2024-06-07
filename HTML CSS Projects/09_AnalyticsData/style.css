@@ -1,0 +1,23 @@
+.container{
+    background-color: rgb(238, 238, 238);
+    padding: 10px 20px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px darkblue;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link i{
+    transition: all 0.5s;
+}
+
+.link i:hover{
+    transform: scale(1.5);
+}

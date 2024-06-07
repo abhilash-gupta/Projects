@@ -1,0 +1,84 @@
+.container{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(228, 228, 228);
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 205, 255);
+    transform: skew(30deg) translateX(100%);
+    opacity: 0.7;
+    box-shadow: 0 0 10px blue;
+    transition: all 0.5s;
+}
+.card::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 205, 255);
+    transform: skew(-30deg) translateX(100%);
+    opacity: 0.7;
+    box-shadow: 0 0 10px blue;
+    transition: all 0.5s;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 205, 255);
+    transform: skew(30deg) translateX(85%);
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 205, 255);
+    transform: skew(-30deg) translateX(85%);
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.container:hover .card::before{
+    transform: translateX(80%) skew(30deg);
+}
+.container:hover .card::after{
+    transform: translateX(80%) skew(-30deg);
+}
+.container:hover::before{
+    transform: translateX(65%) skew(30deg);
+}
+.container:hover::after{
+    transform: translateX(65%) skew(-30deg);
+}

@@ -33,6 +33,11 @@ Css:
 
 
 9. HTML CSS Project 9 - Instagram Analytics Data Icons in HTML & CSS
+Icons Link:
+https://boxicons.com
+
+Css:
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
 10. HTML CSS Project 10 - Simple Registration Form in HTML & CSS
