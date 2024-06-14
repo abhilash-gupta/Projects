@@ -1,7 +1,7 @@
 *******************************************
              JavaScript Tutorial
 *******************************************
-JavaScript Tutorial #1 - Introduction, NodeJS Installation & Hello World Example
+JavaScript Tutorial 1 - Introduction, NodeJS Installation & Hello World Example
 - JavaScript is the world's most popular programming language.
 - JavaScript is the programming language of the Web
 - Must learn language to become a Web Developer
@@ -20,4 +20,79 @@ What is Node.js?
 Install Node.js from link:
 https://nodejs.org/en/download/prebuilt-installer
 
-- Example of How JavaScript works
+- Editor: VS Code (https://code.visualstudio.com/download)
+
+- Example of How JavaScript works with console.log and script tag
+
+
+
+
+
+
+
+
+JavaScript Tutorial 2 - Change HTML Content using JavaScript
+We can use one of the many JavaScript HTML methods - getElementById(), to get the HTML element.
+Than we can update the content of this HTML element as per our requirements
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 3 - DOM Selectors to find HTML Elements in JavaScript
+We have multiple DOM selectors that can be used based on your choice:
+- getElementById()
+- getElementsByClassName()
+- getElementsByTagName()
+- querySelector()
+- querySelectorAll()
+
+
+
+
+
+
+
+
+JavaScript Tutorial 4 - Output in JavaScript
+There are multiple ways to provide output in JavaScript:
+- innerHTML
+- document.write()
+- alert()
+- console.log()
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 5 - Exercise: Find sum of Numbers Entered by user in JavaScript
+Follow below steps to complete this exercise:
+1. Ask user to enter two numbers using input fields in HTML
+2. Add both these numbers and display the sum in a div tag
+
+
+
+
+
+
+
+JavaScript Tutorial 6 - Variables in Javascript (var vs let vs const)
+
+
+
+
+
+
+
+
+
+
+
