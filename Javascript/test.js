@@ -1,9 +1,10 @@
-const x = document.querySelector('#firstNumber')
-const y = document.querySelector('#secondNumber')
-const btn = document.querySelector('#btnAdd')
-const result = document.querySelector('#result')
+const x = 4
+const y = 7
 
-function add(){
-    const sum = parseInt(x.value) + parseInt(y.value)
-    result.innerHTML = "The sum of numbers is : " + sum
-}
+console.log(`Addition : ${x + y}`);
+console.log(`Subtraction : ${x - y}`);
+console.log(`Multiplication : ${x * y}`);
+console.log(`Division : ${x / y}`);
+console.log(`Remainder : ${x % y}`);
+console.log(`Exponentiation : ${x ** y}`);
+console.log(`x greater than y? : ${x > y}`);

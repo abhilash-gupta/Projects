@@ -85,6 +85,22 @@ Follow below steps to complete this exercise:
 
 
 JavaScript Tutorial 6 - Variables in Javascript (var vs let vs const)
+Variables are Containers for Storing Data
+
+JavaScript Variables can be declared in 4 ways:
+- Automatically - [var is used internally]
+- Using var - global scope
+- Using let [added in 2015] - block scope
+- Using const [added in 2015] - block scope
+
+It is a good practice to always declare variables before use.
+
+When to Use var, let, or const?
+1. Always declare variables
+2. Always use const if the value should not be changed
+3. Always use const if the type should not be changed (Arrays and Objects)
+4. Only use let if you can't use const
+5. Only use var if you MUST support old browsers.
 
 
 
@@ -94,5 +110,142 @@ JavaScript Tutorial 6 - Variables in Javascript (var vs let vs const)
 
 
 
+
+
+
+JavaScript Tutorial 7 - Arithmetic Operators in Javascript
+Arithmetic Operators are used to perform arithmetic on numbers in Javascript:
+
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 8 - Assignment Operators in Javascript
+Below are some of the Assignment Operators in Javascript:
+
+Operator	Example		Same As
+=		x = y		x = y
++=		x += y		x = x + y
+-=		x -= y		x = x - y
+*=		x *= y		x = x * y
+/=		x /= y		x = x / y
+%=		x %= y		x = x % y
+**=		x **= y		x = x ** y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 9 - Comparison Operators in Javascript
+Below are some of the Comparison Operators in Javascript:
+
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 10 - Exercise on Arithmetic Operators in Javascript
+Follow below steps to complete this Javascript practice Exercise:
+
+1. Create 2 variables x and y and assign them values of 10 and 5 respectively
+2. Print the result of addition of x and y
+3. Print the result of subtraction of x and y
+4. Print the result of Multiplication of x and y
+5. Print the result of Division of x and y
+6. Print the result of Remainder of x and y
+7. Print the result of x to the power of y
+8. Print the result of x greater than y
+9. Find results of above operations when x = 5 and y = 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 11 - String in Javascript
+String is text that can be assigned or stored in variable
+
+Example:
+const str = "Programming for Beginners"
+
+- String concatenation using + operator
+- String comparison
+- String functions
+- String letters access
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 12 - if and else Conditional statements in Javascript
+
+
+
+
+
+
+
+
+
+
+ternary operator
 
 
