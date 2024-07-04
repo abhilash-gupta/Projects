@@ -217,8 +217,11 @@ Example:
 const str = "Programming for Beginners"
 
 - String concatenation using + operator
+- Quotes inside quotes in string
+- Template Strings with backticks - `
+- String length property
+- Escape characters in string (", `, \)
 - String comparison
-- String functions
 - String letters access
 
 
@@ -235,7 +238,17 @@ const str = "Programming for Beginners"
 
 
 
-JavaScript Tutorial 12 - if and else Conditional statements in Javascript
+JavaScript Tutorial 12 - Data Types in JavaScript
+JavaScript has 8 Datatypes:
+
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object (array, map, set, date, promises, custom objects and many more)
 
 
 
@@ -246,6 +259,135 @@ JavaScript Tutorial 12 - if and else Conditional statements in Javascript
 
 
 
-ternary operator
+
+
+
+
+
+
+
+JavaScript Tutorial 13 - If and else Conditional Statements in JavaScript
+Very often when you write code, you want to perform different actions for different decisions.
+You can use conditional statements in your code to do this.
+
+In JavaScript we have the following conditional statements:
+
+- Use if to specify a block of code to be executed, if a specified condition is true
+- Use else to specify a block of code to be executed, if the same condition is false
+- Use else if to specify a new condition to test, if the first condition is false
+- Use switch to specify many alternative blocks of code to be executed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 14 - Switch Statement in JavaScript
+The switch statement is used to perform different actions based on different conditions
+
+Syntax:
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 15 - Exercise to Greet Based on time in Javascript
+In this exercise, get the current time using javascript date object and greet the person with good morning or good afternoon message
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 16 - Ternary Operator in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 17 - Functions in Javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

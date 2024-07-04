@@ -1,10 +1,12 @@
-const x = 4
-const y = 7
-
-console.log(`Addition : ${x + y}`);
-console.log(`Subtraction : ${x - y}`);
-console.log(`Multiplication : ${x * y}`);
-console.log(`Division : ${x / y}`);
-console.log(`Remainder : ${x % y}`);
-console.log(`Exponentiation : ${x ** y}`);
-console.log(`x greater than y? : ${x > y}`);
+let date = new Date()
+let hour = date.getHours()
+console.log(`Current hour : ${hour}`);
+if(hour <= 12){
+    console.log(`Good morning!`);
+}
+else if(hour <= 16){
+    console.log(`Good afternoon!`);
+}
+else{
+    console.log(`Good evening!`);
+}
