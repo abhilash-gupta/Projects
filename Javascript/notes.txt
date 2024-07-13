@@ -350,7 +350,11 @@ In this exercise, get the current time using javascript date object and greet th
 
 
 
-JavaScript Tutorial 16 - Ternary Operator in JavaScript
+JavaScript Tutorial 16 - Ternary Operator in JavaScript (Conditional)
+Ternary Operator in JavaScript is used to check for condition similar to if else conditional statement.
+
+Syntax:
+Expression ? (execute if expression true) : (execute if expression false)
 
 
 
@@ -374,7 +378,29 @@ JavaScript Tutorial 16 - Ternary Operator in JavaScript
 
 
 
-JavaScript Tutorial 17 - Functions in Javascript
+
+JavaScript Tutorial 17 - Functions in JavaScript
+A JavaScript function is a block of code designed to perform a particular task.
+This JavaScript function is executed when "something" invokes it (calls it).
+
+Syntax:
+Function definition:
+
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+Function call:
+name()
+
+- Example without function parameters
+- Example with function parameters
+- return statement
+
+Why Functions?
+- With functions you can reuse code
+- You can write code that can be used many times.
+- You can use the same code with different arguments, to produce different results.
 
 
 
@@ -386,6 +412,92 @@ JavaScript Tutorial 17 - Functions in Javascript
 
 
 
+
+
+JavaScript Tutorial 18 - Arrow Function in JavaScript
+These Arrow functions allow us to write shorter function syntax:
+
+Example
+let myFunction = (a, b) => a * b;
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 19 - Recursive Function in JavaScript
+Recursion is the term used when function calls itself from within it's body.
+Recursion can be very useful to complete some mathematical calculations.
+Example: Finding Factorial of a number
+
+Syntax:
+function name(parameters){
+	// some code to be executed
+	name(parameters)
+}
+
+Note: There should be a breaking point to be defined within function to stop recursion
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 20 - Exercise using Functions in JavaScript
+Follow below steps to complete this exercise on functions in JavaScript:
+
+1. Create function with name add taking 2 parameters a and b
+2. Calculate addition of a and b and return the result
+3. Call this function 5 times with different parameter values
+4. Display the results of all calls to function with proper statements to be displayed on console
+5. Convert the function to arrow function
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 21 - break and continue statements in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 22 - while loop in JavaScript
+while Loop can execute a block of code as long as a specified condition is true.
+
+Syntax:
+while (condition) {
+  // code block to be executed
+}
 
 
 
