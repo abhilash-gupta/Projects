@@ -476,28 +476,178 @@ Follow below steps to complete this exercise on functions in JavaScript:
 
 
 
-JavaScript Tutorial 21 - break and continue statements in JavaScript
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-JavaScript Tutorial 22 - while loop in JavaScript
-while Loop can execute a block of code as long as a specified condition is true.
+JavaScript Tutorial 21 - while loop in JavaScript
+while Loop can execute a block of code as long as the specified condition is true.
 
 Syntax:
 while (condition) {
   // code block to be executed
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 22 - break and continue statements in JavaScript
+The break statement "jumps out" of a loop.
+The continue statement "jumps over" one iteration in the loop.
+
+These statements can be used in while and for loops to either go out of the loop or skip an iteration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 23 - Arrays in JavaScript
+An array is a special variable, which can hold more than one value
+
+Example:
+const names = ['John', 'Doe', 'Peter']
+
+- why to use array? - to store similar data in one variable (list)
+- Creating array using new keyword
+- accessing all array elements
+- accessing single array element
+- using length property to get the size of array
+- looping array elements
+- adding array elements using push method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 24 - Important Array Methods in JavaScript
+We will see some of the important array methods that can be used in javascript:
+
+- length property
+- toString()
+- at()
+- join()
+- push()
+- pop()
+- unshift()
+- shift()
+- slice()
+- splice()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 25 - Exercise on Arrays in JavaScript
+Follow below steps to complete the exercise:
+This exercise is about creating multiplication table using arrays 
+
+1. Create an array of elements having numbers 1 to 10
+2. Create a variable with initial value as 5
+3. Loop through the array elements to display the multiplication table of the number in variable
+4. Change the value of variable and display the table only with even numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 26 - for loop in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
