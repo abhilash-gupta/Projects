@@ -796,6 +796,14 @@ Follow below instructions to complete the exercise on Objects:
 
 
 JavaScript Tutorial 31 - For in Loop in JavaScript
+The JavaScript for in statement loops through the properties of an Object
+
+Syntax:
+for (key in object) {
+  // code block to be executed
+}
+
+Note - do not use for in loop for arrays as it might result in inconsistent results without using array index
 
 
 
@@ -808,6 +816,343 @@ JavaScript Tutorial 31 - For in Loop in JavaScript
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 32 - For of Loop in JavaScript
+The JavaScript for of statement loops through the values of an iterable object
+It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more
+
+Syntax:
+for (variable of iterable) {
+  // code block to be executed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 33 - Array forEach Method in JavaScript (Loop)
+The forEach() method calls a function (a callback function) once for each array element
+
+- forEach method takes a callback function, which can have value, index and entire array
+
+Syntax:
+array.forEach(callbackFunction)
+
+function callbackFunction(value, index, array){
+	
+}
+
+Exercise:
+Copy elements of one array to another array using forEach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 34 - Set in JavaScript
+A JavaScript Set is a collection of unique values.
+Each value can only occur once in a Set.
+The values can be of any type, primitive values or objects.
+
+How to Create a Set in JavaScript?
+1. Passing an array to new Set()
+2. Create an empty set and use add() to add values
+
+- checking typeof for set
+- add() method
+- has() method
+- forEach() method
+- values() method
+- keys() method
+- entries() method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 35 - Exercise on Arrays and Set in JavaScript
+Follow below steps to complete this exercise:
+
+1. Create an Array with 5 numbers having atleast 1 duplicate number
+2. Use forEach loop on array and display elements by adding 10 in all elements
+3. Create a set and add all elements to set inside forEach loop
+4. Add two more numbers in set using add() method
+5. Print the numbers in this set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 36 - Map in JavaScript
+A Map holds key-value pairs where the keys can be any datatype.
+A Map remembers the original insertion order of the keys.
+
+How to create map in javascript?
+1. Passing an Array to new Map()
+2. Create a Map and use Map.set()
+
+- using set() method to add map elements
+- using get() method to get map elements
+- typeof map
+- size property
+- using delete() method to remove key-value pair
+- using clear() method to remove all elements
+- using has() method to check if key present
+- forEach method to invoke a callback
+- entries()
+- keys()
+- values()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 37 - Converting String to Number & Number to String in JavaScript
+JavaScript variables can be converted to a new variable and another data type:
+1. By the use of a JavaScript function
+2. Automatically by JavaScript itself
+
+- Number() - Converting Strings to Numbers
+- parseInt()
+- parseFloat()
+- String() - Converting Numbers to Strings
+- toString() number method
+
+Automatic Type Conversion
+When JavaScript tries to operate on a "wrong" data type, it will try to convert the value to a "right" type.
+The result is not always what you expect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 38 - Destructuring in JavaScript
+The destructuring helps to unpack object properties into variables.
+
+Syntax:
+let {property1, property2} = objectName
+
+Note: Destructuring can also be used with string, arrays and other iterables
+
+- Swapping values using Destructuring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 39 - Regular Expressions in JavaScript
+A regular expression is a sequence of characters that forms a search pattern.
+The search pattern can be used for text search and text replace operations.
+
+Syntax:
+/pattern/modifiers
+
+String methods:
+- search()
+- replace()
+
+Modifiers:
+i - Perform case-insensitive matching	
+g - Perform a global match (find all)	
+m - Perform multiline matching	
+d - Perform start and end matching
+
+- test() method - returns boolean
+- exec() method - returns object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 40 - try catch Exception Handling in JavaScript (Errors)
+When executing JavaScript code, different errors can occur.
+Errors can be coding errors made by the programmer, errors due to wrong input, and other unforeseeable things
+
+- try statement defines a code block to run (to try)
+- catch statement defines a code block to handle any error
+- finally statement defines a code block to run regardless of the result
+- throw statement defines a custom error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 41 - Scope in JavaScript
 
 
 
