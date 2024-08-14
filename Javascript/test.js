@@ -1,17 +1,9 @@
-try{
-    let numerator = 10
-    let denominator = 0
-    if(denominator == 0){
-        throw "denominator cannot be zero"
-    }
-    else{
-        console.log(numerator / denominator);
-    }
+const Person = {
+    first: 'John',
+    last: 'Doe',
+    age: 22
 }
-catch(err){
-    console.log('Error occured : ' + err);
-}
-finally{
-    console.log('inside finally block');
-}
+
+console.log(Person);
+console.log(JSON.stringify(Person));
 
