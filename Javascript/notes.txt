@@ -1153,6 +1153,169 @@ Errors can be coding errors made by the programmer, errors due to wrong input, a
 
 
 JavaScript Tutorial 41 - Scope in JavaScript
+Scope determines the accessibility or visibility of variables.
+
+JavaScript variables have 3 types of scope:
+1. Global scope
+2. Function scope
+3. Block scope
+
+Before ES6 (2015), JavaScript variables had only Global Scope and Function Scope.
+ES6 introduced two important new JavaScript keywords: let and const - to help with block scope
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 42 - Hoisting in JavaScript
+Hoisting is JavaScript's default behavior of moving declarations to the top.
+JavaScript only hoists declarations, not initializations
+
+Note: Best practice is to declare all variables at top before using them
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 43 - this keyword in JavaScript
+In JavaScript, this keyword refers to an object, based on the context.
+this keyword refers to different objects depending on how it is used
+
+- In an object method, this refers to the object.
+- Alone, this refers to the global object.
+- In a function, this refers to the global object.
+- In a function, in strict mode, this is undefined.
+- In an event, this refers to the element that received the event.
+- Methods like call(), apply(), and bind() can refer this to any object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 44 - Class in JavaScript
+JavaScript Classes are templates for JavaScript Objects
+ECMAScript 2015, also known as ES6, introduced JavaScript Classes
+
+class ClassName {
+  constructor() { ... }
+}
+
+- Use the keyword class to create a class
+- Always add a method named constructor()
+
+Note:
+The constructor method is a special method:
+- It has to have the exact name "constructor"
+- It is executed automatically when a new object is created
+- It is used to initialize object properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 45 - What is JSON Format in JavaScript
+JSON is a format for storing and transporting data.
+JSON is often used when data is sent from a server to a web page
+
+What is JSON?
+- JSON stands for JavaScript Object Notation
+- JSON is a lightweight data interchange format
+- JSON is language independent
+- JSON is "self-describing" and easy to understand
+
+Example:
+{
+"employees":[
+  {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Peter", "lastName":"Jones"}
+]
+}
+
+- JSON Data - A Name and a Value
+- JSON Objects
+- JSON Arrays
+
+- Converting a JSON Text to a JavaScript Object
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
