@@ -1323,4 +1323,163 @@ Example:
 
 
 
+JavaScript Tutorial 46 - Array Search Methods in JavaScript
+There are multiple ways to search for an element inside JavaScript Array:
+
+- indexOf() - searches an array for an element value and returns its position
+- lastIndexOf() - returns the position of the last occurrence of the specified element
+- includes() - check if an element is present in an array
+- find() - returns the value of the first array element that passes a test function
+- findIndex() - returns the index of the first array element that passes a test function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 47 - Array Sort in JavaScript
+There are multiple methods to sort array in JavaScript:
+
+- sort() - sorts an array alphabetically
+- reverse() - reverses the elements in an array
+- combine sort() and reverse() for descending order
+- toSorted() - returns the new sorted array. Original array not updated
+- toReversed() - returns the new reversed array. Original array not updated
+- Numeric sort - use compare function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 48 - Date Object in JavaScript
+Date objects are static. The "clock" is not "running".
+The computer clock is ticking, date objects are not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 49 - Math Object in JavaScript
+The JavaScript Math object allows you to perform mathematical tasks on numbers.
+Unlike other objects, the Math object has no constructor.
+
+The Math object is static.
+All methods and properties can be used without creating a Math object first
+
+Math.E        // returns Euler's number
+Math.PI       // returns PI
+Math.SQRT2    // returns the square root of 2
+Math.SQRT1_2  // returns the square root of 1/2
+Math.LN2      // returns the natural logarithm of 2
+Math.LN10     // returns the natural logarithm of 10
+Math.LOG2E    // returns base 2 logarithm of E
+
+
+Math.round(x)	Returns x rounded to its nearest integer
+Math.ceil(x)	Returns x rounded up to its nearest integer
+Math.floor(x)	Returns x rounded down to its nearest integer
+Math.trunc(x)	Returns the integer part of x
+
+Math.pow(x, y) returns the value of x to the power of y
+Math.sqrt(x) returns the square root of x
+Math.abs(x) returns the absolute (positive) value of x
+Math.min() and Math.max() can be used to find the lowest or highest value in a list of arguments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 50 - Generate Random Number in JavaScript
+We can use below method from Math object to generate random numbers in Javascript:
+
+- Math.random() - returns a random number between 0 (inclusive),  and 1 (exclusive)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+video ideas:
+- callbacks
+- object prototype
+- array foreach vs array map
+- async calls
+- promise
+- filter
+- map
 
