@@ -1470,6 +1470,144 @@ We can use below method from Math object to generate random numbers in Javascrip
 
 
 
+JavaScript Tutorial 51 - Object Prototype in JavaScript
+Basically, All objects in JavaScript have a prototype.
+The prototype is another object that the original object inherits from.
+
+- Object.getPrototypeOf()
+- Defining properties and methods using prototype of object
+- Prototypal Inheritance
+
+Note:
+Only modify your own prototypes. Never modify the prototypes of standard JavaScript objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 52 - Call Method in JavaScript
+The call() method is a predefined JavaScript method.
+It can be used to invoke (call) a method with an owner object as an argument (parameter)
+
+With call(), an object can use a method belonging to another object
+
+- function call
+- Object method call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 53 - Apply Method in JavaScript
+With the apply() method, you can write a method that can be used on different objects.
+apply() in javascript is similar to call() method
+
+Difference between apply() and call()
+apply() method needs second parameter as array, where as call() method needs list of arguments separated by comma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 54 - Bind Method in JavaScript
+With the bind() method, an object can borrow a method from another object
+
+- example
+- using bind to preserve this keyword value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 55 - apply vs call vs bind methods in JavaScript
+Follow below steps to complete this exercise:
+
+1. Create an object Person with firstname and lastname properties with initial values
+2. Add display function to return firstname and lastname
+3. Create another object player with firstname, lastname and age
+4. Use call() method to call display method and player object
+5. Use apply() method to call display method and player object
+6. Use bind() method to call display method and player object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
