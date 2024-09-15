@@ -1,8 +1,6 @@
 // setTimeout(() => {
-//     console.log(`this statement is printed after 5 seconds`);
-// }, 5000);
-
-
+//     console.log(`this statement is printed after 3 seconds`);
+// }, 3000);
 
 let id = setInterval(() => {
     let date = new Date()
@@ -12,5 +10,5 @@ let id = setInterval(() => {
 
 setTimeout(() => {
     clearInterval(id)
-    console.log(`interval stopped`);
+    console.log('stopped');
 }, 10000);

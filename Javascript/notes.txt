@@ -1610,11 +1610,155 @@ Follow below steps to complete this exercise:
 
 
 
+JavaScript Tutorial 56 - Closures in JavaScript
+JavaScript variables can belong to the local or global scope.
+Global variables can be made local (private) with closures.
+
+Nested functions are required to understand closures.
+A closure is a function having access to the parent scope, even after the parent function has closed.
+
+- Example of Closures in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 57 - Factory Function in JavaScript
+Factory function is one of the applications of closures in javascript
+It helps a function returning another function
+
+- Example of factory function to make adders
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 58 - Callback Function in JavaScript
+A callback is a function passed as an argument to another function
+This technique allows a function to call another function
+
+A callback function can run after another function has finished
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 59 - Asynchronous Calls in JavaScript
+JavaScript follows Asynchronous Programming.
+
+Meaning:
+Functions running in parallel with other functions are called asynchronous (non blocking nature)
+A good example is JavaScript setTimeout()
+
+asynchronus programs are difficult to write and difficult to debug due to responses coming at varied intervals.
+This is solves using Promises in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 60 - setTimeout vs setInterval in JavaScript
+setTimeout - waits for specific time period before calling callback function once
+setInterval - continuously calls the callback function after specified time period
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 61 - Promise in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 video ideas:
 - callbacks
-- object prototype
 - array foreach vs array map
 - async calls
 - promise
