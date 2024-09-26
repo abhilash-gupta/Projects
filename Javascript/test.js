@@ -1,16 +1,14 @@
-// setTimeout(() => {
-//     console.log(`this statement is printed after 5 seconds`);
-// }, 5000);
+function checkNumber(number){
+    if(number === 0)
+        return 'Number is ZERO'
 
+    if(number > 0)
+        return 'Number is POSITIVE'
 
+    if(number < 0)
+        return 'Number is NEGATIVE'
+}
 
-let id = setInterval(() => {
-    let date = new Date()
-    console.log(date.toLocaleTimeString());
-}, 1000);
-
-
-setTimeout(() => {
-    clearInterval(id)
-    console.log(`interval stopped`);
-}, 10000);
+console.log(checkNumber(0));
+console.log(checkNumber(100));
+console.log(checkNumber(-15));

@@ -1740,6 +1740,15 @@ setInterval - continuously calls the callback function after specified time peri
 
 
 JavaScript Tutorial 61 - Promise in JavaScript
+The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+It promises us about the result - whether it is success or failure, to be provided in sometime
+
+let promise = new Promise()
+
+A Promise is in one of these states:
+- pending: initial state, neither fulfilled nor rejected.
+- fulfilled: meaning that the operation was completed successfully.
+- rejected: meaning that the operation failed.
 
 
 
@@ -1757,11 +1766,122 @@ JavaScript Tutorial 61 - Promise in JavaScript
 
 
 
-video ideas:
-- callbacks
-- array foreach vs array map
-- async calls
-- promise
-- filter
-- map
+
+JavaScript Tutorial 62 - async and await in JavaScript
+async and await make promises easier to write
+
+- async makes a function return a Promise
+- await makes a function wait for a Promise
+
+API Example - Random user generator:
+https://randomuser.me/api/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 63 - fetch API in JavaScript
+The Fetch API provides a JavaScript interface for making HTTP requests and processing the responses.
+
+Fetch is the modern replacement for XMLHttpRequest: unlike XMLHttpRequest, which uses callbacks, Fetch is promise-based and is integrated with features of the modern web
+
+API Example - Random user generator:
+https://randomuser.me/api/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 64 - Reading json data using fetch API in JavaScript
+Let us read json data from below API while generating random user:
+https://randomuser.me/api/
+
+Read below fields to be displayed:
+- Full name of user
+- gender
+- Email ID
+- phone number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 65 - filter function in JavaScript
+filter() function helps to return a new array based on certain condition.
+It filters out the array values.
+There is no change in the original array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript Tutorial 66 - map function in JavaScript
+map() function helps to return a new array based on certain condition in JavaScript
+It maps each element of array and returns a new array. Example - square of all numbers in array
+There is no change in the original array
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,25 @@
+***************************************************
+         JavaScript Practice Programs
+***************************************************
+JavaScript Program 1 - How to Add Two Numbers in JavaScript
+
+
+JavaScript Program 2 - Find Square Root of a Number in JavaScript
+
+
+JavaScript Program 3 - Swap Two Numbers in JavaScript
+
+
+JavaScript Program 4 - How to Generate Random Number in JavaScript
+
+
+JavaScript Program 5 - Check if a number is Positive, Negative or Zero in JavaScript
+
+
+JavaScript Program 6 - Check if a Number is Odd or Even in JavaScript
+
+
+
+
+
+
