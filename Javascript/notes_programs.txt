@@ -19,7 +19,45 @@ JavaScript Program 5 - Check if a number is Positive, Negative or Zero in JavaSc
 JavaScript Program 6 - Check if a Number is Odd or Even in JavaScript
 
 
+JavaScript Program 7 - Swap Two numbers without using third variable
 
+
+JavaScript Program 8 - Find Largest number among 3 numbers in JavaScript
+
+
+JavaScript Program 9 - Check Prime Number in JavaScript
+
+
+JavaScript Program 10 - Find Factorial of Number in JavaScript
+
+
+JavaScript Program 11 - Display Multiplication Table in JavaScript
+
+
+JavaScript Program 12 - Print All Prime Numbers in an Interval in JavaScript
+
+
+JavaScript Program 13 - Print the Fibonacci Sequence in JavaScript
+
+
+JavaScript Program 14 - Check Armstrong Number in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- find duplicate characters
+- count characters in string
 
 
 

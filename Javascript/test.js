@@ -1,14 +1,23 @@
-function checkNumber(number){
-    if(number === 0)
-        return 'Number is ZERO'
+function checkArmstrongNumber(number){
 
-    if(number > 0)
-        return 'Number is POSITIVE'
+    let sum = 0, temp = number
+    let length = number.toString().length
+    while(temp > 0){
+        let remainder = temp % 10
+        temp = parseInt(temp / 10)
+        sum += Math.pow(remainder, length)
+        // console.log(sum);
+        
+    }
 
-    if(number < 0)
-        return 'Number is NEGATIVE'
+    // console.log(length + " " + temp + " " + sum);
+    
+
+    if(number === sum)
+        return `Armstrong number`
+
+    return `Not armstrong number`
+
 }
 
-console.log(checkNumber(0));
-console.log(checkNumber(100));
-console.log(checkNumber(-15));
+console.log(checkArmstrongNumber(153));
