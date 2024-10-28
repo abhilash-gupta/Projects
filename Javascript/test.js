@@ -1,23 +1,9 @@
-function checkArmstrongNumber(number){
-
-    let sum = 0, temp = number
-    let length = number.toString().length
-    while(temp > 0){
-        let remainder = temp % 10
-        temp = parseInt(temp / 10)
-        sum += Math.pow(remainder, length)
-        // console.log(sum);
-        
-    }
-
-    // console.log(length + " " + temp + " " + sum);
-    
-
-    if(number === sum)
-        return `Armstrong number`
-
-    return `Not armstrong number`
-
+let number = 1234
+let numberInString = number.toString()
+let length = numberInString.length
+let sum = 0
+for(let i=0;i<length;i++){
+    sum += parseInt(numberInString[i])
 }
 
-console.log(checkArmstrongNumber(153));
+console.log(sum);

@@ -1,3 +1,9 @@
+WATCH JavaScript Tutorial Playlist:
+https://www.youtube.com/playlist?list=PLhyraTKIsw58sm538sUXpYByPScqBj6su
+
+All JavaScript Programs for Practice:
+https://www.youtube.com/playlist?list=PLhyraTKIsw5-LhZjMj_lJ3XrP1s9qekVz
+
 ***************************************************
          JavaScript Practice Programs
 ***************************************************
@@ -31,16 +37,82 @@ JavaScript Program 9 - Check Prime Number in JavaScript
 JavaScript Program 10 - Find Factorial of Number in JavaScript
 
 
-JavaScript Program 11 - Display Multiplication Table in JavaScript
+JavaScript Program 11 - How to Take user input using readline in JavaScript
 
 
-JavaScript Program 12 - Print All Prime Numbers in an Interval in JavaScript
+JavaScript Program 12 - Display Multiplication Table in JavaScript
 
 
-JavaScript Program 13 - Print the Fibonacci Sequence in JavaScript
+JavaScript Program 13 - Print All Prime Numbers in an Interval in JavaScript
 
 
-JavaScript Program 14 - Check Armstrong Number in JavaScript
+JavaScript Program 14 - Print the Fibonacci Sequence in JavaScript
+
+
+JavaScript Program 15 - Check Armstrong Number in JavaScript
+
+
+JavaScript Program 16 - Make a Simple Calculator in JavaScript
+
+
+JavaScript Program 17 - Sum of first n numbers in JavaScript
+
+
+JavaScript Program 18 - Find HCF or GCD of two numbers in JavaScript
+
+
+JavaScript Program 19 - Find LCM of two numbers in JavaScript
+
+
+JavaScript Program 20 - Find Factors of a Number in JavaScript
+
+
+JavaScript Program 21 - Check Whether String is Palindrome in JavaScript
+
+
+JavaScript Program 22 - Sort Words in Alphabetical Order in JavaScript
+
+
+JavaScript Program 23 - Reverse a String in JavaScript
+
+
+JavaScript Program 24 - Add Digits in a Number in JavaScript
+
+
+JavaScript Program 25 - Find Duplicate Characters in a String in JavaScript
+
+
+JavaScript Program 26 - Print Right Triangle Star Pattern in JavaScript
+*
+* *
+* * *
+* * * *
+
+JavaScript Program 27 - Sort an Array in Ascending Order in JavaScript
+
+
+JavaScript Program 28 - Reverse a Number in JavaScript
+
+
+JavaScript Program 29 - Print Pyramid Star Pattern in JavaScript
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+
+
+JavaScript Program 30 - Sort Numbers using Bubble Sort Algorithm in JavaScript
+
+
+JavaScript Program 31 - Print Diamond Shape Star Pattern in JavaScript
+
+
+JavaScript Program 32 - Sort Numbers using Selection Sort Algorithm in JavaScript
+
+
+JavaScript Program 33 - Find Duplicate Characters in a String in JavaScript
 
 
 
