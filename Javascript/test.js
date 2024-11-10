@@ -1,9 +1,13 @@
-let number = 1234
-let numberInString = number.toString()
-let length = numberInString.length
-let sum = 0
-for(let i=0;i<length;i++){
-    sum += parseInt(numberInString[i])
-}
+let rows = 5
 
-console.log(sum);
+for (let i = 0; i < rows; i++) {
+    let str = ''
+    for (let j = 0; j < rows - i - 1; j++) {
+        str += " "
+    }
+    for (let j = 0; j <= i; j++) {
+        str += '* '
+    }
+    console.log(str);
+    
+}

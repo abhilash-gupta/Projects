@@ -112,7 +112,7 @@ JavaScript Program 31 - Print Diamond Shape Star Pattern in JavaScript
 JavaScript Program 32 - Sort Numbers using Selection Sort Algorithm in JavaScript
 
 
-JavaScript Program 33 - Find Duplicate Characters in a String in JavaScript
+
 
 
 
