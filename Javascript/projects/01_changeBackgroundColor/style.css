@@ -1,0 +1,19 @@
+.container{
+    width: 50%;
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+#changeBGColor{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#changeBGColor:hover{
+    transform: scale(0.9);
+}

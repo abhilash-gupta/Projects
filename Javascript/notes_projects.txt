@@ -1,0 +1,15 @@
+WATCH JavaScript Tutorial Playlist:
+https://www.youtube.com/playlist?list=PLhyraTKIsw58sm538sUXpYByPScqBj6su
+
+All JavaScript Programs for Practice:
+https://www.youtube.com/playlist?list=PLhyraTKIsw5-LhZjMj_lJ3XrP1s9qekVz
+
+***************************************************
+         JavaScript Practice Programs
+***************************************************
+JavaScript Project 1 - Change Background Color on Button Click in HTML CSS JavaScript
+JavaScript Project 2 - BMI Calculator in HTML CSS JavaScript
+JavaScript Project 3 - Display Digital Clock in HTML CSS JavaScript
+JavaScript Project 4 - Guess the Number in HTML CSS JavaScript
+JavaScript Project 5 - Stopwatch in HTML CSS JavaScript
+JavaScript Project 6 - Display Random User Details in HTML CSS JavaScript
