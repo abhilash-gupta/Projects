@@ -1,9 +1,9 @@
 let inputBox = document.querySelector('#task')
-let btnAdd= document.querySelector('#add')
+let btnAdd = document.querySelector('#add')
 let listContainer = document.querySelector('#list-container')
 
 btnAdd.addEventListener('click', addTask)
-listContainer.addEventListener('click', handleListItem)
+listContainer.addEventListener('click', handleListClick)
 
 function addTask(){
     if(inputBox.value === ''){
@@ -20,14 +20,13 @@ function addTask(){
     saveData()
 }
 
-function handleListItem(e){
-
-    if(e.target.tagName === 'LI'){
-        let updatedTask = prompt('Enter updated task')
-        e.target.innerHTML = `${updatedTask} <button>Remove</button>`
+function handleListClick(event){
+    if(event.target.tagName === 'LI'){
+        let updatedTask = prompt('Enter updated Task')
+        event.target.innerHTML = `${updatedTask} <button>Remove</button>`
     }
-    else if(e.target.tagName === 'BUTTON'){
-        e.target.parentElement.remove() 
+    else if(event.target.tagName === 'BUTTON'){
+        event.target.parentElement.remove()
     }
     saveData()
 }

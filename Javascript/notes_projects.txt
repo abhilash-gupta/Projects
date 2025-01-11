@@ -14,3 +14,22 @@ JavaScript Project 4 - Guess Random Number Game in HTML CSS JavaScript
 JavaScript Project 5 - Stopwatch in HTML CSS JavaScript
 JavaScript Project 6 - Display Random User Details in HTML CSS JavaScript
 JavaScript Project 7 - Simple Calculator in HTML CSS JavaScript
+JavaScript Project 8 - Number Counter App in HTML CSS JavaScript
+JavaScript Project 9 - Generate Multiplication Table in HTML CSS JavaScript
+JavaScript Project 10 - To Do List in HTML CSS JavaScript
+JavaScript Project 11 - Tip Calculator in HTML CSS JavaScript
+JavaScript Project 12 - Age Calculator in HTML CSS JavaScript
+JavaScript Project 13 - Dice Roll Simulator in HTML CSS JavaScript
+JavaScript Project 14 - Display String Length in HTML CSS JavaScript
+JavaScript Project 15 - Reverse of String in HTML CSS JavaScript
+JavaScript Project 16 - User Feedback Slider in HTML CSS JavaScript
+
+
+
+
+
+
+
+
+
+chatbot in html css javascript

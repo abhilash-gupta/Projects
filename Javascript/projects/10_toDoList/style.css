@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(115, 231, 231), rgb(108, 237, 108));
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px 10px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.row #task{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+    padding: 10px 0px;
+    flex: 1;
+}
+
+.row #add{
+    border: none;
+    outline: none;
+    background-color: rgb(151, 255, 151);
+    border-radius: 10px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#list-container{
+    list-style-type: none;
+    padding-left: 10px;
+    position: relative;
+}
+
+#list-container li{
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+#list-container li button{
+    position: absolute;
+    right: 0;
+    background-color: rgb(249, 159, 159);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#list-container li button:hover{
+    transform: scale(90%);
+}

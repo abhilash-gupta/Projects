@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+.container{
+    width: 200px;
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#count{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
