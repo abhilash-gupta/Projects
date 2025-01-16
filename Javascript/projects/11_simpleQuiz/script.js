@@ -76,6 +76,14 @@ elementAnswerButtons.forEach(button => {
         }
         
     })
+
+    button.addEventListener('mouseover', () => {
+        button.style.backgroundColor = '#909090'
+    })
+
+    button.addEventListener('mouseout', () => {
+        button.style.backgroundColor = '#d0d0d0'
+    })
 })
 
 btnNext.addEventListener('click', () => {

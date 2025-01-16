@@ -17,6 +17,10 @@ JavaScript Project 7 - Simple Calculator in HTML CSS JavaScript
 JavaScript Project 8 - Number Counter App in HTML CSS JavaScript
 JavaScript Project 9 - Generate Multiplication Table in HTML CSS JavaScript
 JavaScript Project 10 - To Do List in HTML CSS JavaScript
+JavaScript Project 11 - Simple Quiz App in HTML CSS JavaScript
+
+
+
 JavaScript Project 11 - Tip Calculator in HTML CSS JavaScript
 JavaScript Project 12 - Age Calculator in HTML CSS JavaScript
 JavaScript Project 13 - Dice Roll Simulator in HTML CSS JavaScript

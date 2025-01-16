@@ -1,6 +1,5 @@
-let btnCreate = document.querySelector('#createNote')
+let btnCreate = document.querySelector('#btnCreate')
 let container = document.querySelector('.container')
-let btnRemove = ""
 
 btnCreate.addEventListener('click', addNote)
 
@@ -9,21 +8,23 @@ function addNote(){
     div.classList.add('content')
 
     let p = document.createElement('p')
-    p.setAttribute('contenteditable', true)
     p.classList.add('inputBox')
+    p.setAttribute('contenteditable', true)
 
     let btn = document.createElement('button')
-    btn.innerHTML = 'Remove'
     btn.classList.add('btnRemove')
+    btn.innerHTML = 'Remove'
 
     div.appendChild(p)
     div.appendChild(btn)
 
     container.appendChild(div)
 
-    btnRemove = document.querySelector('.btnRemove')
-    btnRemove.addEventListener('click', removeNote)
-    
+    let btnRemove = document.querySelectorAll('.btnRemove')
+    // btnRemove.addEventListener('click', removeNote)
+    btnRemove.forEach(button => {
+        button.addEventListener('click', removeNote)
+    })
 }
 
 function removeNote(event){
