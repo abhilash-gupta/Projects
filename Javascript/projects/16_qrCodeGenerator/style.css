@@ -1,18 +1,18 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, darkblue, blue);
     width: 100%;
     height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, rgb(0, 94, 0), rgb(0, 0, 155));
 }
 
 .container{
+    background-color: #fff;
     width: 200px;
     height: 300px;
     margin: 20px auto;
-    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -21,15 +21,14 @@ body{
 }
 
 #generateQR{
-    background-color: rgb(129, 255, 129);
+    background-color: rgb(127, 246, 127);
     width: 100%;
     height: 30px;
+    margin: 10px 0px;
     border: none;
-    margin: 10px 5px;
-    font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 1s
+    transition: transform 0.3s;
 }
 
 #generateQR:hover{

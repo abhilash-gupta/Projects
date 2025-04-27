@@ -19,10 +19,11 @@ JavaScript Project 9 - Generate Multiplication Table in HTML CSS JavaScript
 JavaScript Project 10 - To Do List in HTML CSS JavaScript
 JavaScript Project 11 - Simple Quiz App in HTML CSS JavaScript
 JavaScript Project 12 - Password Generator App in HTML CSS JavaScript
-
+JavaScript Project 13 - Create Notes App in HTML CSS JavaScript
+JavaScript Project 14 - Age Calculator App in HTML CSS JavaScript
+JavaScript Project 15 - Random Quote Generator in HTML CSS JavaScript
 
 JavaScript Project 11 - Tip Calculator in HTML CSS JavaScript
-JavaScript Project 12 - Age Calculator in HTML CSS JavaScript
 JavaScript Project 13 - Dice Roll Simulator in HTML CSS JavaScript
 JavaScript Project 14 - Display String Length in HTML CSS JavaScript
 JavaScript Project 15 - Reverse of String in HTML CSS JavaScript
@@ -34,6 +35,6 @@ JavaScript Project 16 - User Feedback Slider in HTML CSS JavaScript
 
 
 
-
+https://dummyjson.com/quotes
 
 chatbot in html css javascript
