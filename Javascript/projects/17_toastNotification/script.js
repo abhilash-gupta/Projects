@@ -21,4 +21,4 @@ buttons.forEach(button => {
             toast.remove()
         }, 5000);
     })
-});
+})

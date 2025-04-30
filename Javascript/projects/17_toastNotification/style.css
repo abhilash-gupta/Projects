@@ -1,45 +1,61 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(197, 197, 255);
+    background-color: rgb(175, 175, 255);
 }
 
 .container button{
     background-color: black;
     color: white;
-    padding: 5px;
-    border: 0;
-    cursor: pointer;
+    padding: 5px 10px;
     margin: 20px 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #toastBox{
     position: absolute;
-    right: 10px;
     top: 10px;
+    right: 10px;
     display: flex;
     flex-direction: column;
-    /* background-color: yellow;
-    width: 200px;
-    height: 200px; */
 }
 
 .toast{
     position: relative;
-    background-color: rgb(139, 255, 139);
-    padding: 10px;
+    right: 10px;
+    top: 10px;
     width: 150px;
     height: 20px;
     margin: 10px 0;
-    box-shadow: 0 0 10px black;
+    background-color: rgb(172, 255, 172);
+    padding: 10px;
+}
+
+.toast::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: green;
+    bottom: 0;
+    right: 0;
+    animation: anim 5s linear forwards;
+}
+
+@keyframes anim {
+    100%{
+        width: 0;
+    }
 }
 
 .toast.error{
-    background-color: rgb(255, 164, 164);
+    background-color: rgb(255, 152, 152);
 }
 
 .toast.invalid{
-    background-color: rgb(255, 210, 127);
+    background-color: rgb(255, 212, 132);
 }
 
 .toast.error::after{
@@ -48,21 +64,4 @@ body{
 
 .toast.invalid::after{
     background-color: orange;
-}
-
-.toast::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 5px;
-    background-color: green;
-    animation: anim 5s linear forwards;
-}
-
-@keyframes anim {
-    100%{
-        width: 0;
-    }
 }
