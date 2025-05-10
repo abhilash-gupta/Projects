@@ -1,0 +1,109 @@
+=====================================================
+NumPy Tutorial for Beginners
+=====================================================
+1 - What is NumPy and Installation of Python NumPy
+- NumPy(Numerical Python) is a fundamental library for Python numerical computing
+- It provides efficient multi-dimensional array objects and various mathematical functions for handling large datasets making it a critical tool for professionals in fields that require heavy computation
+
+Examples:
+list = [1,2,3,4,5,6]
+
+1D array:
+arr1= np.array([1,2,3,4,5,6])
+
+2D array:
+arr2= np.array[[1,2,3,4], [5,6,7,8]]
+Above array is having 2 rows and 4 columns, shape property helps to get the array dimensions
+
+3D array:
+arr3 = np.array([[[1,2,3],[4,5,6],[7,8,9]]])
+
+Installation:
+pip install numpy
+
+Get list of python packages
+pip list
+
+
+2 - Creating Arrays using NumPy
+You can easily create the arrays using NumPy library:
+
+Example 1:
+arr1 = np.array([1,2,3,4,5,6])
+
+Example 2:
+arr2 = np.array([[1,2,3],[4,5,6]])
+
+Creating array with zeros:
+arr = np.zeros((3,3))
+
+Creating array with ones:
+arr = np.ones((2,2))
+
+Array with step number:
+arr =np.arange(0, 10, 2)
+
+
+3 - Accessing Array Elements in NumPy
+You can access any element using the index of the array
+
+Examples:
+1D Array:
+arr = np.array([1,2,3,4,5])
+arr[3] - will access the number 4 since the index starts from 0
+
+2D array:
+arr = np.array([[1,2,3],[4,5,6]])
+to access 5, you can use - arr[1,1] - since it belongs to 2nd row and 2nd column
+
+3D array:
+arr = np.array([[[1,2,3], [4,5,6]], [7,8,9],[10,11,12]])
+to access 8 - arr[1, 0, 1] - out to in mechanism is used to access the elements
+
+- accessing a row
+- accessing a column
+- accessing row in reverse order
+- advanced accessing - using indices and condition
+
+
+
+
+
+4 - Basic Arithmetic Operations in NumPy
+You can perform operations like addition, subtraction, multiply and divide on array elements without using loops
+
+Examples:
+arr1 = [1,2,3]
+arr2 = [4,5,6]
+sum = arr1 + arr2
+
+Note: operands (or arrays) must have same shape
+
+
+
+
+
+5 - Getting array dimensions
+You can use ndim to get the dimensions of the NumPy array
+Also you can use the shape property to get number of rows and columns
+
+
+6 - Basic Array Operations in NumPy
+- Adding 1 too all array elements
+- Subtracting 2 from all array elements
+- Sum of all array elements - unary operation
+- Absolute of array elements - unary operation
+- Other binary operations include, addition, subtraction, etc. for 2 NumPy arrays 
+
+
+7 - Array Data Types in NumPy
+NumPy tries to predict the data type of the array if not specified
+
+dtype property is used to get the data type of the array
+
+Examples:
+arr1 = np.array([1,2,3]) - int64
+arr2 = np.array([1.0,2.0,3.0]) - float64
+
+setting the datatype:
+arr1 = np.array([1.2.3], dtype='float64')

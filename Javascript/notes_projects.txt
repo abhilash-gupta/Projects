@@ -22,12 +22,15 @@ JavaScript Project 12 - Password Generator App in HTML CSS JavaScript
 JavaScript Project 13 - Create Notes App in HTML CSS JavaScript
 JavaScript Project 14 - Age Calculator App in HTML CSS JavaScript
 JavaScript Project 15 - Random Quote Generator in HTML CSS JavaScript
+JavaScript Project 16 - QR Code Generator in HTML CSS JavaScript
+JavaScript Project 17 - Toast Notification in HTML CSS JavaScript
 
-JavaScript Project 11 - Tip Calculator in HTML CSS JavaScript
-JavaScript Project 13 - Dice Roll Simulator in HTML CSS JavaScript
-JavaScript Project 14 - Display String Length in HTML CSS JavaScript
-JavaScript Project 15 - Reverse of String in HTML CSS JavaScript
-JavaScript Project 16 - User Feedback Slider in HTML CSS JavaScript
+
+JavaScript Project 18 - Display String Length in HTML CSS JavaScript
+JavaScript Project 19 - Reverse of String in HTML CSS JavaScript
+JavaScript Project 20 - Tip Calculator in HTML CSS JavaScript
+JavaScript Project 21 - Loan Calculator in HTML CSS JavaScript
+JavaScript Project 22 - Dice Roll Simulator in HTML CSS JavaScript
 
 
 
