@@ -114,5 +114,38 @@ arr1 = np.array([1.2.3], dtype='float64')
 
 
 
+8 - Copy vs View in NumPy Array
+Copy of an array is another array that does not impact the original array
+View of an array is the view of the original array, and changes made in view are reflected in original array
+
+Examples:
+arr1 = np.array([1,2,3])
+copy = arr1.copy()
+view = arr1.view()
+
+base property is used to know if the array is a copy or a view
+copy owns the data, where as view does not own the data
+So copy returns none when it owns the data for the base property
+The base property returns the original object for the view created
+
+
+
+
+
+9 - NumPy Array vs List Performance Check
+We will now check the performance of the python list and the numpy array.
+This will help us understand why numpy array is faster and has better performance than the list
+
+
+
+
+
+
+10 - Generating NumPy Array with Random Numbers
+random method can be used within numpy library to generate array with random numbers
+Let us check this with examples
+
+
+
 
 
