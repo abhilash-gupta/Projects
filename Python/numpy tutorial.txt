@@ -114,8 +114,13 @@ arr1 = np.array([1.2.3], dtype='float64')
 
 
 8 - Copy vs View in NumPy Array
+<<<<<<< HEAD
 Copy of an array is another array, and changes made in original are NOT reflected in copy array
 View of an array is the view of the original array, and changes made in original are reflected in view array
+=======
+Copy of an array is another array that does not impact the original array
+View of an array is the view of the original array, and changes made in view are reflected in original array
+>>>>>>> ff2b2897e592f1db281f3e4384afbbee20ee01c0
 
 Examples:
 arr1 = np.array([1,2,3])
@@ -146,6 +151,7 @@ Let us check this with examples
 
 
 
+<<<<<<< HEAD
 
 11 - Scaler vs Vector vs Matrix vs Tensor in NumPy
 - Scaler is singular numerical entities - 8.4, 10
@@ -201,5 +207,7 @@ This can provide the true and the false conditions within where method
 
 Integer indexing provides a way to use index array to filter the data in original array
 
+=======
+>>>>>>> ff2b2897e592f1db281f3e4384afbbee20ee01c0
 
 
