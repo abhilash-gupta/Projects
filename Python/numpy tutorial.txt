@@ -101,7 +101,6 @@ Also you can use the shape property to get number of rows and columns
 
 7 - Array Data Types in NumPy
 NumPy tries to predict the data type of the array if not specified
-
 dtype property is used to get the data type of the array
 
 Examples:
@@ -113,6 +112,94 @@ arr1 = np.array([1.2.3], dtype='float64')
 
 
 
+
+8 - Copy vs View in NumPy Array
+Copy of an array is another array, and changes made in original are NOT reflected in copy array
+View of an array is the view of the original array, and changes made in original are reflected in view array
+
+Examples:
+arr1 = np.array([1,2,3])
+copy = arr1.copy()
+view = arr1.view()
+
+base property is used to know if the array is a copy or a view
+copy owns the data, where as view does not own the data
+So copy returns none when it owns the data for the base property
+The base property returns the original object for the view created
+
+
+
+
+
+9 - NumPy Array vs List Performance Check
+We will now check the performance of the python list and the numpy array.
+This will help us understand why numpy array is faster and has better performance than the list
+
+
+
+
+
+
+10 - Generating NumPy Array with Random Numbers
+random method can be used within numpy library to generate array with random numbers
+Let us check this with examples
+
+
+
+
+11 - Scaler vs Vector vs Matrix vs Tensor in NumPy
+- Scaler is singular numerical entities - 8.4, 10
+- Vector is a 1D array
+- Matrix is a 2D array
+- Tensor is a array with 3 dimensions or more
+
+
+
+
+
+
+12 - Reshape vs Flatten vs Ravel vs Transpose in NumPy
+Reshape: This function changes the shape of an array without changing its data. 
+It returns a new array with the specified shape
+reshaped_arr = arr.reshape(2,3)
+
+Flatten: This function returns a one-dimensional copy of the array. 
+It always returns a new array, and modifying the flattened array does not affect the original array.
+flattened_arr = arr.flatten()
+
+Ravel: This function also returns a one-dimensional array, but it returns a view of the original array whenever possible. 
+If it's not possible to return a view, it will return a copy.
+ravel = arr.ravel()
+
+Transpose: This function reverses the dimensions of an array. For a 2D array, it swaps rows and columns.
+transpose = arr.T()
+
+
+
+
+
+13 - Slicing NumPy Array with Examples
+Slicing is a way to find subset of array
+slice1 = arr[1:5]
+slice2 = arr[2:10:2]
+
+
+
+14 - Sorting NumPy Array with Examples
+sort() method in numpy allows us to sort the arrays
+axis parameter can help is sorting along column or rows
+
+- Examples with 1D and 2D arrays
+- Sort in descending order by using [::-1]
+
+
+
+
+15 - where method vs Indexing in NumPy Array
+The np.where() function is used to find the indices of elements that satisfy a given condition
+This can provide the true and the false conditions within where method
+
+Integer indexing provides a way to use index array to filter the data in original array
 
 
 
