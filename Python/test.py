@@ -1,14 +1,12 @@
 import numpy as np
-import random
-import time
 
-start = time.perf_counter()
-arr1 = np.random.random_integers(1, 10, (1000000))
-print(f'random integers time = {(time.perf_counter() - start) * 1000:.2f} milliseconds')
+arr1 = np.arange(1, 11)
+arr2 = np.arange(10, 15)
 
-start = time.perf_counter()
-arr2 = np.random.randint(1, 10, (1000000))
-print(f'randint time = {(time.perf_counter() - start) * 1000:.2f} milliseconds')
+arr1 = arr1.reshape(2, -1)
+arr2 = arr2.reshape(5, -1)
 
+print(f'arr1 = {arr1}')
+print(f'arr2 = {arr2}')
 
-
+print(f'{np.setdiff1d(arr1, arr2)}')

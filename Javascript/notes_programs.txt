@@ -8,80 +8,34 @@ https://www.youtube.com/playlist?list=PLhyraTKIsw5-LhZjMj_lJ3XrP1s9qekVz
          JavaScript Practice Programs
 ***************************************************
 JavaScript Program 1 - How to Add Two Numbers in JavaScript
-
-
 JavaScript Program 2 - Find Square Root of a Number in JavaScript
-
-
 JavaScript Program 3 - Swap Two Numbers in JavaScript
-
-
 JavaScript Program 4 - How to Generate Random Number in JavaScript
-
-
 JavaScript Program 5 - Check if a number is Positive, Negative or Zero in JavaScript
-
-
 JavaScript Program 6 - Check if a Number is Odd or Even in JavaScript
-
-
 JavaScript Program 7 - Swap Two numbers without using third variable
-
-
 JavaScript Program 8 - Find Largest number among 3 numbers in JavaScript
-
-
 JavaScript Program 9 - Check Prime Number in JavaScript
-
-
 JavaScript Program 10 - Find Factorial of Number in JavaScript
 
 
 JavaScript Program 11 - How to Take user input using readline in JavaScript
-
-
 JavaScript Program 12 - Display Multiplication Table in JavaScript
-
-
 JavaScript Program 13 - Print All Prime Numbers in an Interval in JavaScript
-
-
 JavaScript Program 14 - Print the Fibonacci Sequence in JavaScript
-
-
 JavaScript Program 15 - Check Armstrong Number in JavaScript
-
-
 JavaScript Program 16 - Make a Simple Calculator in JavaScript
-
-
 JavaScript Program 17 - Sum of first n numbers in JavaScript
-
-
 JavaScript Program 18 - Find HCF or GCD of two numbers in JavaScript
-
-
 JavaScript Program 19 - Find LCM of two numbers in JavaScript
-
-
 JavaScript Program 20 - Find Factors of a Number in JavaScript
 
 
 JavaScript Program 21 - Check Whether String is Palindrome in JavaScript
-
-
 JavaScript Program 22 - Sort Words in Alphabetical Order in JavaScript
-
-
 JavaScript Program 23 - Reverse a String in JavaScript
-
-
 JavaScript Program 24 - Add Digits in a Number in JavaScript
-
-
 JavaScript Program 25 - Find Duplicate Characters in a String in JavaScript
-
-
 JavaScript Program 26 - Print Right Triangle Star Pattern in JavaScript
 *
 * *

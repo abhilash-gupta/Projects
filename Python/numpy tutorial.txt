@@ -114,13 +114,11 @@ arr1 = np.array([1.2.3], dtype='float64')
 
 
 8 - Copy vs View in NumPy Array
-<<<<<<< HEAD
 Copy of an array is another array, and changes made in original are NOT reflected in copy array
 View of an array is the view of the original array, and changes made in original are reflected in view array
-=======
+
 Copy of an array is another array that does not impact the original array
 View of an array is the view of the original array, and changes made in view are reflected in original array
->>>>>>> ff2b2897e592f1db281f3e4384afbbee20ee01c0
 
 Examples:
 arr1 = np.array([1,2,3])
@@ -150,8 +148,6 @@ random method can be used within numpy library to generate array with random num
 Let us check this with examples
 
 
-
-<<<<<<< HEAD
 
 11 - Scaler vs Vector vs Matrix vs Tensor in NumPy
 - Scaler is singular numerical entities - 8.4, 10
@@ -207,7 +203,52 @@ This can provide the true and the false conditions within where method
 
 Integer indexing provides a way to use index array to filter the data in original array
 
-=======
->>>>>>> ff2b2897e592f1db281f3e4384afbbee20ee01c0
+
+
+
+
+16 - Join or concatenate arrays using vstack & hstack functions
+You can join the arrays using concatenate function along with axis parameter.
+Also you can join the arrays using:
+- vstack() = joins arrays vertically
+- hstack() = joins arrays horizontally
+
+
+
+
+17 - NumPy Functions for Statistics
+np.mean(), np.median(), np.std(), np.var(): Calculate mean, median, standard deviation, and variance.
+np.max(), np.min(): Find the maximum and minimum values. 
+
+
+
+
+
+
+
+18 - repeat and tile functions in NumPy
+- repeat function helps to repeat elements in array based on repeat factor
+- tile function helps to repeat the entire array based on the repeating factor
+
+
+
+
+
+
+19 - intersect function to find common elements in 2 NumPy Arrays
+- intersect() function helps you to find common elements in the 2 numpy arrays
+
+
+
+
+
+
+20 - setdiff function to find elements present only in 1 NumPy Array
+- setdiff() function helps you to finc the elements present in 1 array but not present in another array
+
+
+
+
+
 
 
